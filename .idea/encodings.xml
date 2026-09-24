@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/CommonUtil/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ConfigObject/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ElasticsearchUtil/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FeignUtil/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GatewayUtil/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/KafkaUtil/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Langchain4jUtil/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MongoDBUtil/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MybatisPlusUtil/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/NacosUtil/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RabbitMQUtil/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RedisUtil/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RocketMQUtil/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SentinelUtil/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SkyWalkingUtil/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringAiUtil/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

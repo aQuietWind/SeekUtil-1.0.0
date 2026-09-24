@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Langchain4jUtil" />
+        <module name="CommonUtil" />
+        <module name="MybatisPlusUtil" />
+        <module name="RocketMQUtil" />
+        <module name="RedisUtil" />
+        <module name="SentinelUtil" />
+        <module name="FeignUtil" />
+        <module name="KafkaUtil" />
+        <module name="NacosUtil" />
+        <module name="RabbitMQUtil" />
+        <module name="GatewayUtil" />
+        <module name="ElasticsearchUtil" />
+        <module name="SkyWalkingUtil" />
+        <module name="ConfigObject" />
+        <module name="SpringAiUtil" />
+        <module name="MongoDBUtil" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="21" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CommonUtil" options="-parameters" />
+      <module name="ConfigObject" options="-parameters" />
+      <module name="ElasticsearchUtil" options="-parameters" />
+      <module name="FeignUtil" options="-parameters" />
+      <module name="GatewayUtil" options="-parameters" />
+      <module name="KafkaUtil" options="-parameters" />
+      <module name="Langchain4jUtil" options="-parameters" />
+      <module name="MongoDBUtil" options="-parameters" />
+      <module name="MybatisPlusUtil" options="-parameters" />
+      <module name="NacosUtil" options="-parameters" />
+      <module name="RabbitMQUtil" options="-parameters" />
+      <module name="RedisUtil" options="-parameters" />
+      <module name="RocketMQUtil" options="-parameters" />
+      <module name="SentinelUtil" options="-parameters" />
+      <module name="SkyWalkingUtil" options="-parameters" />
+      <module name="SpringAiUtil" options="-parameters" />
+    </option>
+  </component>
+</project>

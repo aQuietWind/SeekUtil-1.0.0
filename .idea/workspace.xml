@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab44ae5e-63af-4ba7-9f5f-c6ce1ebe77c8" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\Tools\apache-maven-3.9.12-bin\apache-maven-3.9.12" />
+        <option name="localRepository" value="D:\Tools\apache-maven-3.9.12-bin\apache-maven-3.9.12\mvn_repo" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\Tools\apache-maven-3.9.12-bin\apache-maven-3.9.12\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000000000666" />
+      <entry key="MS500" value="1.0027301123682724" />
+      <entry key="S2" value="1.535206773846785" />
+      <entry key="S5" value="3.117482883720818" />
+      <entry key="S10" value="5.1345908623904135" />
+      <entry key="S30" value="11.686330452813376" />
+      <entry key="S60" value="17.161566824064963" />
+      <entry key="M2" value="21.71041844375963" />
+      <entry key="M5" value="26.906634789694856" />
+      <entry key="M10" value="33.03385724824254" />
+      <entry key="M15" value="37.354744443505886" />
+      <entry key="M30" value="44.13148997876215" />
+      <entry key="H1" value="48.914816456332964" />
+      <entry key="H2" value="51.77292012271974" />
+      <entry key="H4" value="53.33728962515764" />
+      <entry key="D1" value="54.71577664808643" />
+      <entry key="W1" value="54.95921894899001" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="2.0586914632653095E-174" />
+      <entry key="S5" value="3.603094059514875E-70" />
+      <entry key="S10" value="2.332914742378792E-35" />
+      <entry key="S30" value="4.4759156316710296E-12" />
+      <entry key="S60" value="3.3018732546065313E-6" />
+      <entry key="M2" value="0.003171934441258287" />
+      <entry key="M5" value="0.23290781591099438" />
+      <entry key="M10" value="1.0497822655140732" />
+      <entry key="M15" value="1.7546384134777397" />
+      <entry key="M30" value="2.951908197474341" />
+      <entry key="H1" value="3.838493703488965" />
+      <entry key="H2" value="4.379966742203958" />
+      <entry key="H4" value="4.679470099001588" />
+      <entry key="D1" value="4.945055237245651" />
+      <entry key="W1" value="4.992112597628281" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9592641193253253" />
+      <entry key="MS500" value="0.9944016689830446" />
+      <entry key="S2" value="1.5314136644484635" />
+      <entry key="S5" value="3.1142129200630846" />
+      <entry key="S10" value="5.131902330886401" />
+      <entry key="S30" value="11.684261869044317" />
+      <entry key="S60" value="17.16003112066218" />
+      <entry key="M2" value="21.7125554953046" />
+      <entry key="M5" value="27.137407392981157" />
+      <entry key="M10" value="34.07957259828108" />
+      <entry key="M15" value="39.10494077389124" />
+      <entry key="M30" value="47.079703650553334" />
+      <entry key="H1" value="52.75091636866879" />
+      <entry key="H2" value="56.15152292283026" />
+      <entry key="H4" value="58.016031532578836" />
+      <entry key="D1" value="59.66070368707245" />
+      <entry key="W1" value="59.95131305959818" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3JWm9xMpUqOmXLoH0RkHI00b8Ir" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.SeekUtil [deploy].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Projects/SeekUtil",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Projects/SeekUtil/CommonUtil/src/main/java/com/seek/util/Main.java",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\SeekUtil" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="ab44ae5e-63af-4ba7-9f5f-c6ce1ebe77c8" name="更改" comment="" />
+      <created>1789785050492</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1789785050492</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/seek/util/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ElasticsearchUtil/src/main/java/com/seek/util/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MybatisPlusUtil/src/main/java/com/seek/util/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Langchain4jUtil/src/main/java/com/seek/util/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringAiUtil/src/main/java/com/seek/util/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MongoDBUtil/src/main/java/com/seek/util/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SentinelUtil/src/main/java/com/seek/util/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FeignUtil/src/main/java/com/seek/util/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GatewayUtil/src/main/java/com/seek/util/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/RabbitMQUtil/src/main/java/com/seek/util/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/RocketMQUtil/src/main/java/com/seek/util/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/KafkaUtil/src/main/java/com/seek/util/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/NacosUtil/src/main/java/com/seek/util/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SkyWalkingUtil/src/main/java/com/seek/util/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CommonUtil/src/main/java/com/seek/util/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
