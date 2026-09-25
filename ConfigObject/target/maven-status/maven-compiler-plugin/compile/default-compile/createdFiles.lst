@@ -1,6 +1,8 @@
 com\seek\util\configobject\CommonData\JWTGlobalData.class
 com\seek\util\configobject\UtilObject\Function\RunWithParam.class
 com\seek\util\configobject\RabbitMQData\QueueData.class
+com\seek\util\configobject\UtilObject\DTO\Result.class
+com\seek\util\configobject\UtilObject\DTO\SimplePoint.class
 com\seek\util\configobject\UtilObject\Exception\BizException.class
 com\seek\util\configobject\RocketMQData\ConsumerData.class
 com\seek\util\configobject\CaffeineData\CaffeineData.class
@@ -9,6 +11,9 @@ com\seek\util\configobject\UtilObject\Function\RunWithTwoParams.class
 com\seek\util\configobject\RedisData\RedisKeyData.class
 com\seek\util\configobject\CommonData\JWTRoleData.class
 com\seek\util\configobject\UtilObject\Function\RunFunction.class
+com\seek\util\configobject\UtilObject\DTO\SyncStateDTO.class
 com\seek\util\configobject\UtilObject\Exception\ErrorCodeEnum.class
 com\seek\util\configobject\RabbitMQData\ExchangeData.class
+com\seek\util\configobject\UtilObject\DTO\EsSearchResult.class
 com\seek\util\configobject\RedisData\RedisStreamData.class
+com\seek\util\configobject\UtilObject\DTO\ChangeAmountDTO.class

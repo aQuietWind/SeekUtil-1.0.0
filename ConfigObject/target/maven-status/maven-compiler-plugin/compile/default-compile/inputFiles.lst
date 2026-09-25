@@ -7,6 +7,11 @@ D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject\Redis
 D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject\RedisData\RedisKeyData.java
 D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject\RedisData\RedisStreamData.java
 D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject\RocketMQData\ConsumerData.java
+D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject\UtilObject\DTO\ChangeAmountDTO.java
+D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject\UtilObject\DTO\EsSearchResult.java
+D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject\UtilObject\DTO\Result.java
+D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject\UtilObject\DTO\SimplePoint.java
+D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject\UtilObject\DTO\SyncStateDTO.java
 D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject\UtilObject\Exception\BizException.java
 D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject\UtilObject\Exception\ErrorCodeEnum.java
 D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject\UtilObject\Function\RunFunction.java

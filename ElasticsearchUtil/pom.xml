@@ -17,4 +17,17 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <!--        ConfigObject依赖-->
+        <dependency>
+            <groupId>com.seek.util</groupId>
+            <artifactId>ConfigObject</artifactId>
+        </dependency>
+        <!--        es核心客户端依赖 -->
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-elasticsearch</artifactId>
+        </dependency>
+    </dependencies>
+
 </project>

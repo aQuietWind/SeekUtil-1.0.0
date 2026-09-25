@@ -2,10 +2,12 @@ package com.seek.util.rabbitmqutil;
 
 import com.seek.util.configobject.RabbitMQData.QueueData;
 import org.springframework.amqp.core.Queue;
+import org.springframework.context.annotation.Lazy;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@Lazy
 public class QueueUtil {
 
     //生成一个仲裁队列
