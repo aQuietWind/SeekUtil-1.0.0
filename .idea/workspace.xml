@@ -5,12 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab44ae5e-63af-4ba7-9f5f-c6ce1ebe77c8" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/FeignUtil/target/FeignUtil-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/FeignUtil/target/FeignUtil-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NacosUtil/target/NacosUtil-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/NacosUtil/target/NacosUtil-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NacosUtil/target/classes/com/seek/util/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NacosUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/NacosUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NacosUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/NacosUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUtil/target/WebUtil-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/WebUtil/target/WebUtil-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigObject/src/main/java/com/seek/util/configobject/KafkaData/TopicData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KafkaUtil/src/main/java/com/seek/util/kafkautil/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KafkaUtil/src/main/java/com/seek/util/kafkautil/KafkaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KafkaUtil/src/main/java/com/seek/util/kafkautil/TopicUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KafkaUtil/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Langchain4jUtil/src/main/java/com/seek/util/langchain4jutil/ChatUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Langchain4jUtil/src/main/java/com/seek/util/langchain4jutil/RedisMemory/AiMemoryConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Langchain4jUtil/src/main/java/com/seek/util/langchain4jutil/RedisMemory/RedisChatMemoryStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Langchain4jUtil/src/main/java/com/seek/util/langchain4jutil/RedisMemory/RedisMemoryImport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Langchain4jUtil/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaUtil/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaUtil/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaUtil/src/main/java/com/seek/util/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaUtil/src/main/java/com/seek/util/kafkautil/AutoConfig/UtilAutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaUtil/src/main/java/com/seek/util/kafkautil/AutoConfig/UtilAutoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Langchain4jUtil/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain4jUtil/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Langchain4jUtil/src/main/java/com/seek/util/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,61 +51,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="3.331115098564316E-139" />
-      <entry key="S2" value="2.4264000012160317E-35" />
-      <entry key="S5" value="1.6448098240893764E-14" />
-      <entry key="S10" value="1.6658396904406398E-7" />
-      <entry key="S30" value="0.008594750178961183" />
-      <entry key="S60" value="0.14978767625511402" />
-      <entry key="M2" value="0.9044746539831904" />
-      <entry key="M5" value="4.682486182097457" />
-      <entry key="M10" value="11.650954923031657" />
-      <entry key="M15" value="18.45844071021356" />
-      <entry key="M30" value="40.07650544113251" />
-      <entry key="H1" value="86.00113231547482" />
-      <entry key="H2" value="155.9513310849739" />
-      <entry key="H4" value="225.72334143862352" />
-      <entry key="D1" value="319.5251044981722" />
-      <entry key="W1" value="340.36240358745846" />
+      <entry key="MS100" value="1.00000243103147" />
+      <entry key="MS500" value="1.0753629892306726" />
+      <entry key="S2" value="1.5240272492664007" />
+      <entry key="S5" value="1.800767012117583" />
+      <entry key="S10" value="2.127870904122184" />
+      <entry key="S30" value="3.3481672064139896" />
+      <entry key="S60" value="5.010355374063434" />
+      <entry key="M2" value="7.832673985616554" />
+      <entry key="M5" value="13.457386228502433" />
+      <entry key="M10" value="22.559970327092547" />
+      <entry key="M15" value="32.51158795970413" />
+      <entry key="M30" value="63.20748763000822" />
+      <entry key="H1" value="121.29104577055472" />
+      <entry key="H2" value="218.58649099230584" />
+      <entry key="H4" value="344.56555254295745" />
+      <entry key="D1" value="572.5082391340886" />
+      <entry key="W1" value="633.0497023149132" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.000000291177053" />
-      <entry key="S10" value="1.0005396082402456" />
-      <entry key="S30" value="1.0814270112226516" />
-      <entry key="S60" value="1.2912670377623905" />
-      <entry key="M2" value="1.6746274272615995" />
-      <entry key="M5" value="3.0767771295263704" />
-      <entry key="M10" value="5.815693529338532" />
-      <entry key="M15" value="9.023881928992457" />
-      <entry key="M30" value="21.93502049464503" />
-      <entry key="H1" value="53.268650298634846" />
-      <entry key="H2" value="101.34762649277693" />
-      <entry key="H4" value="148.13806428626964" />
-      <entry key="D1" value="209.3164078816219" />
-      <entry key="W1" value="222.67565344730158" />
+      <entry key="MS100" value="1.7809895132728714E-74" />
+      <entry key="MS500" value="1.7801527348370914E-15" />
+      <entry key="S2" value="2.455873447840298E-4" />
+      <entry key="S5" value="0.06463714860456324" />
+      <entry key="S10" value="0.5683292191030391" />
+      <entry key="S30" value="3.242695766610876" />
+      <entry key="S60" value="5.356607909762804" />
+      <entry key="M2" value="7.56823651304868" />
+      <entry key="M5" value="14.79565690592093" />
+      <entry key="M10" value="29.55548965694109" />
+      <entry key="M15" value="44.943979787117975" />
+      <entry key="M30" value="89.30295988810816" />
+      <entry key="H1" value="161.8003628025632" />
+      <entry key="H2" value="260.56395384404516" />
+      <entry key="H4" value="369.8013142018086" />
+      <entry key="D1" value="547.8084957626901" />
+      <entry key="W1" value="592.9098596538237" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0068011762757509715" />
-      <entry key="MS500" value="0.3685673043227753" />
-      <entry key="S2" value="0.7791645796604998" />
-      <entry key="S5" value="0.905006736450379" />
-      <entry key="S10" value="0.9518414366585954" />
-      <entry key="S30" value="1.0719579144180496" />
-      <entry key="S60" value="1.4257210856042906" />
-      <entry key="M2" value="2.5617080166251034" />
-      <entry key="M5" value="7.741858803363918" />
-      <entry key="M10" value="17.449172431909858" />
-      <entry key="M15" value="27.464070531645422" />
-      <entry key="M30" value="61.988742257264704" />
-      <entry key="H1" value="139.24185293397116" />
-      <entry key="H2" value="257.2728194078892" />
-      <entry key="H4" value="373.8425913968852" />
-      <entry key="D1" value="528.8371500136093" />
-      <entry key="W1" value="563.0373959589186" />
+      <entry key="MS100" value="0.9592664192211758" />
+      <entry key="MS500" value="1.0662485352589592" />
+      <entry key="S2" value="1.5207249866871198" />
+      <entry key="S5" value="1.8605571627211435" />
+      <entry key="S10" value="2.6740558774414644" />
+      <entry key="S30" value="6.529788478682139" />
+      <entry key="S60" value="10.309881971208743" />
+      <entry key="M2" value="15.355739442418507" />
+      <entry key="M5" value="28.211261521916" />
+      <entry key="M10" value="52.06679380510336" />
+      <entry key="M15" value="77.40150650903684" />
+      <entry key="M30" value="152.4495111417291" />
+      <entry key="H1" value="283.03143999503493" />
+      <entry key="H2" value="479.09918099266315" />
+      <entry key="H4" value="714.3289582142772" />
+      <entry key="D1" value="1120.3070055893977" />
+      <entry key="W1" value="1225.9580476423134" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -117,6 +129,7 @@
     "Maven.RabbitMQUtil [clean].executor": "Run",
     "Maven.RabbitMQUtil [deploy].executor": "Run",
     "Maven.RedisUtil [deploy].executor": "Run",
+    "Maven.SeekUtil [clean].executor": "Run",
     "Maven.SeekUtil [deploy].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -126,13 +139,13 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/SeekUtil/SkyWalkingUtil/src/main/resources",
+    "last_opened_file_path": "D:/Projects/SeekUtil/KafkaUtil/src/main/java/com/seek/util/kafkautil",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Projects/SeekUtil/WebBeanUtil/src/main/java/com/seek/util/Main.java",
+    "onboarding.tips.debug.path": "D:/Projects/SeekUtil/CaffeineUtil/src/main/java/com/seek/util/Main.java",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -141,20 +154,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\SeekUtil\JWTUtil\src\main\resources\lua" />
+      <recent name="D:\Projects\SeekUtil\GatewayUtil\src\main\resources\META-INF" />
+      <recent name="D:\Projects\SeekUtil\JWTUtil\src\main\java\com\seek\util\jwtutil" />
       <recent name="D:\Projects\SeekUtil\SkyWalkingUtil\src\main\resources" />
       <recent name="D:\Projects\SeekUtil\SentinelUtil\src\main\java\com\seek\util\sentinelutil" />
-      <recent name="D:\Projects\SeekUtil\FeignUtil\src\main\resources\META-INF" />
-      <recent name="D:\Projects\SeekUtil\ElasticsearchUtil\src\main\resources\META-INF" />
-      <recent name="D:\Projects\SeekUtil\ElasticsearchUtil\src\main\java\com\seek\util\elasticsearchutil" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\SeekUtil\RabbitMQUtil\src\main\resources\META-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.seek.util.commonutil" />
+      <recent name="com.seek.util.caffeineutil" />
       <recent name="com.seek.util.feignutil" />
       <recent name="com.seek.util.elasticsearchutil.Config" />
       <recent name="com.seek.food.configobject.RabbitMQData" />
-      <recent name="com.seek.util.rabbitmqutil" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -192,34 +206,14 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Langchain4jUtil/src/main/java/com/seek/util/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SpringAiUtil/src/main/java/com/seek/util/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/GatewayUtil/src/main/java/com/seek/util/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/RocketMQUtil/src/main/java/com/seek/util/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/KafkaUtil/src/main/java/com/seek/util/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/JWTUtil/src/main/java/com/seek/util/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/WebUtil/src/main/java/com/seek/util/Main.java</url>

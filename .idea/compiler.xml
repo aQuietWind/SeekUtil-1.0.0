@@ -11,6 +11,7 @@
         <module name="MybatisPlusUtil" />
         <module name="JWTUtil" />
         <module name="RocketMQUtil" />
+        <module name="CaffeineUtil" />
         <module name="RedisUtil" />
         <module name="SentinelUtil" />
         <module name="FeignUtil" />
@@ -30,6 +31,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CaffeineUtil" options="-parameters" />
       <module name="CommonUtil" options="-parameters" />
       <module name="ConfigObject" options="-parameters" />
       <module name="ElasticsearchUtil" options="-parameters" />
