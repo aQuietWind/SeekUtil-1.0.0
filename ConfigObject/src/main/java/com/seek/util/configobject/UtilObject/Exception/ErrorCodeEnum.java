@@ -13,6 +13,7 @@ public enum ErrorCodeEnum {
     DATA_NOT_RIGHT(14107,HttpStatus.BAD_REQUEST,"目标数据不正常"),
     REQUEST_NOT_QUALIFIED(14108,HttpStatus.BAD_REQUEST,"该请求没有资格"),
     DATA_IS_EXPIRE(14109,HttpStatus.BAD_REQUEST,"请求数据已过期"),
+    DATA_IS_EMPTY(14110,HttpStatus.NOT_FOUND,"目标数据不存在"),
     //验证码异常,
     OPT_SURVIVE(14201,HttpStatus.LOCKED,"验证码已存在"),
     OPT_NOT_SURVIVE(14202,HttpStatus.NOT_FOUND,"验证码不存在"),

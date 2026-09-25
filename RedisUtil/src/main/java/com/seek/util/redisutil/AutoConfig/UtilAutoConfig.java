@@ -1,9 +1,6 @@
 package com.seek.util.redisutil.AutoConfig;
 
-import com.seek.util.redisutil.RedisBitMapUtil;
-import com.seek.util.redisutil.RedisIdUtil;
-import com.seek.util.redisutil.RedisStreamUtil;
-import com.seek.util.redisutil.RedisUtil;
+import com.seek.util.redisutil.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Lazy;
