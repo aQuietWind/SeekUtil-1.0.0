@@ -9,6 +9,7 @@
         <module name="Langchain4jUtil" />
         <module name="CommonUtil" />
         <module name="MybatisPlusUtil" />
+        <module name="JWTUtil" />
         <module name="RocketMQUtil" />
         <module name="RedisUtil" />
         <module name="SentinelUtil" />
@@ -33,6 +34,7 @@
       <module name="ElasticsearchUtil" options="-parameters" />
       <module name="FeignUtil" options="-parameters" />
       <module name="GatewayUtil" options="-parameters" />
+      <module name="JWTUtil" options="-parameters" />
       <module name="KafkaUtil" options="-parameters" />
       <module name="Langchain4jUtil" options="-parameters" />
       <module name="MongoDBUtil" options="-parameters" />

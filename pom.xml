@@ -185,6 +185,8 @@
         <module>NacosUtil</module>
         <module>SkyWalkingUtil</module>
         <module>CommonUtil</module>
+        <module>JWTUtil</module>
+        <module>WebUtil</module>
     </modules>
 
 

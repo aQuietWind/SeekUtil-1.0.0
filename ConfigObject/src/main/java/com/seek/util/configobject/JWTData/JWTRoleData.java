@@ -1,4 +1,4 @@
-package com.seek.util.configobject.CommonData;
+package com.seek.util.configobject.JWTData;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

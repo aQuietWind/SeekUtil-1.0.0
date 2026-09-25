@@ -1,6 +1,6 @@
 D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject\CaffeineData\CaffeineData.java
-D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject\CommonData\JWTGlobalData.java
-D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject\CommonData\JWTRoleData.java
+D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject\JWTData\JWTGlobalData.java
+D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject\JWTData\JWTRoleData.java
 D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject\RabbitMQData\ExchangeData.java
 D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject\RabbitMQData\QueueData.java
 D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject\RedisData\RedisConsumerData.java
