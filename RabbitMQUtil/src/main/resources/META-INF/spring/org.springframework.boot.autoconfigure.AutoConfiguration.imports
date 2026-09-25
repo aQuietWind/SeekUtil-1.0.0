@@ -1,0 +1,8 @@
+# 基础通用配置（引入依赖自动加载）
+# 全类名即可
+# 如: com.seek.food.config.NacosConfig.Common.JWTConfig
+
+com.seek.util.rabbitmqutil.AutoConfig.UtilAutoConfig
+com.seek.util.rabbitmqutil.Config.ErrorExchangeConfig
+com.seek.util.rabbitmqutil.Config.MessageReturnCallBackConfig
+com.seek.util.rabbitmqutil.Config.ConverterConfig

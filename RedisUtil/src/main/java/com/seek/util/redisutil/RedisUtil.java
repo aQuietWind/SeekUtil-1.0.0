@@ -1,8 +1,8 @@
 package com.seek.util.redisutil;
 
-import com.seek.food.configobject.RedisData.RedisKeyData;
-import com.seek.food.configobject.UtilObject.Exception.BizException;
-import com.seek.food.configobject.UtilObject.Exception.ErrorCodeEnum;
+import com.seek.util.configobject.RedisData.RedisKeyData;
+import com.seek.util.configobject.UtilObject.Exception.BizException;
+import com.seek.util.configobject.UtilObject.Exception.ErrorCodeEnum;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;

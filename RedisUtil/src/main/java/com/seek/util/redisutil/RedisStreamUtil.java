@@ -1,8 +1,8 @@
 package com.seek.util.redisutil;
 
 
-import com.seek.food.configobject.RedisData.RedisStreamData;
-import com.seek.food.configobject.UtilObject.Function.RunWithParam;
+import com.seek.util.configobject.RedisData.RedisStreamData;
+import com.seek.util.configobject.UtilObject.Function.RunWithParam;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;

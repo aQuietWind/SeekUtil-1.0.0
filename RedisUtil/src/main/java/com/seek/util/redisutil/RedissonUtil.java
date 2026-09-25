@@ -1,9 +1,9 @@
 package com.seek.util.redisutil;
 
-import com.seek.food.configobject.RedisData.RedisKeyData;
-import com.seek.food.configobject.UtilObject.Exception.BizException;
-import com.seek.food.configobject.UtilObject.Exception.ErrorCodeEnum;
-import com.seek.food.configobject.UtilObject.Function.RunFunction;
+import com.seek.util.configobject.RedisData.RedisKeyData;
+import com.seek.util.configobject.UtilObject.Exception.BizException;
+import com.seek.util.configobject.UtilObject.Exception.ErrorCodeEnum;
+import com.seek.util.configobject.UtilObject.Function.RunFunction;
 import org.redisson.api.RLock;
 import org.redisson.api.RedissonClient;
 

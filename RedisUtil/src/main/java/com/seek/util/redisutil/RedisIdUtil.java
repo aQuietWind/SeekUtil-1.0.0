@@ -1,6 +1,6 @@
 package com.seek.util.redisutil;
 
-import com.seek.food.configobject.RedisData.RedisKeyData;
+import com.seek.util.configobject.RedisData.RedisKeyData;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Random;
