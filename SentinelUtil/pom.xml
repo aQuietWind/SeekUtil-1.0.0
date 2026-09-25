@@ -17,4 +17,27 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.seek.util</groupId>
+            <artifactId>ConfigObject</artifactId>
+        </dependency>
+        <!--        sentinel连接依赖-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+        </dependency>
+        <!--        sentinel连接nacos依赖 -->
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-datasource-nacos</artifactId>
+        </dependency>
+        <!-- SpringBoot Starter 基础注解、@Configuration、@Bean -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <!-- 使该依赖仅仅提供特殊类,而不自动启动springBoot           -->
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 </project>

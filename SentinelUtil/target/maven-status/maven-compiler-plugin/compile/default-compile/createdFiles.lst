@@ -1,1 +1,3 @@
-com\seek\util\Main.class
+com\seek\util\sentinelutil\SentinelGlobalApiConfig.class
+com\seek\util\sentinelutil\SentinelBlockHandler.class
+com\seek\util\sentinelutil\HeaderOriginParser.class
