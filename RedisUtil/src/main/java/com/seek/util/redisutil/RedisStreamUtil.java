@@ -13,7 +13,6 @@ import java.time.Duration;
 import java.util.List;
 
 @Slf4j
-@Lazy
 public class RedisStreamUtil {
 
 

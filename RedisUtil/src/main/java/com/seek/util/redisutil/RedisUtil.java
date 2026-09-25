@@ -16,7 +16,6 @@ import java.util.concurrent.TimeUnit;
 
 
 @Slf4j
-@Lazy
 public class RedisUtil {
     public static final String cooldownValue="true";
 
