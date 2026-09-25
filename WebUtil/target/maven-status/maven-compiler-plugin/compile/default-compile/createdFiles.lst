@@ -2,4 +2,3 @@ com\seek\util\webutil\File\FileSave.class
 com\seek\util\webutil\Handler\GlobalRequestExceptionHandler.class
 com\seek\util\webutil\Interceptor\TokenInterceptor.class
 com\seek\util\webutil\Config\WebConfig.class
-com\seek\util\webutil\Context\TokenIdContext.class

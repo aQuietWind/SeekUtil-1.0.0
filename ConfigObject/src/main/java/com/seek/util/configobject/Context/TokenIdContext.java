@@ -1,4 +1,4 @@
-package com.seek.util.webutil.Context;
+package com.seek.util.configobject.Context;
 
 import com.seek.util.configobject.UtilObject.Exception.BizException;
 import com.seek.util.configobject.UtilObject.Exception.ErrorCodeEnum;
