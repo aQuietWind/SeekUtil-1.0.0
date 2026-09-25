@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab44ae5e-63af-4ba7-9f5f-c6ce1ebe77c8" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/JWTUtil/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonUtil/target/CommonUtil-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonUtil/target/classes/com/seek/util/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonUtil/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonUtil/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonUtil/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigObject/src/main/java/com/seek/util/configobject/CommonData/JWTGlobalData.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigObject/src/main/java/com/seek/util/configobject/JWTData/JWTGlobalData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigObject/src/main/java/com/seek/util/configobject/CommonData/JWTRoleData.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigObject/src/main/java/com/seek/util/configobject/JWTData/JWTRoleData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeignUtil/target/FeignUtil-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/FeignUtil/target/FeignUtil-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NacosUtil/target/NacosUtil-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/NacosUtil/target/NacosUtil-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NacosUtil/target/classes/com/seek/util/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NacosUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/NacosUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NacosUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/NacosUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebUtil/target/WebUtil-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/WebUtil/target/WebUtil-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,60 +40,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.5674203074822748E-79" />
-      <entry key="S2" value="2.2509935107585882E-20" />
-      <entry key="S5" value="1.383406134638503E-8" />
-      <entry key="S10" value="1.1761849830552755E-4" />
-      <entry key="S30" value="0.050189190646683556" />
-      <entry key="S60" value="0.2911726896060331" />
-      <entry key="M2" value="1.1420383700026984" />
-      <entry key="M5" value="4.3345256548715865" />
-      <entry key="M10" value="10.865645531854659" />
-      <entry key="M15" value="19.00417698916072" />
-      <entry key="M30" value="46.61151271781504" />
-      <entry key="H1" value="94.34109425595435" />
-      <entry key="H2" value="149.6328261109292" />
-      <entry key="H4" value="194.88591293165882" />
-      <entry key="D1" value="247.38330519138313" />
-      <entry key="W1" value="258.1481802023003" />
+      <entry key="MS500" value="3.331115098564316E-139" />
+      <entry key="S2" value="2.4264000012160317E-35" />
+      <entry key="S5" value="1.6448098240893764E-14" />
+      <entry key="S10" value="1.6658396904406398E-7" />
+      <entry key="S30" value="0.008594750178961183" />
+      <entry key="S60" value="0.14978767625511402" />
+      <entry key="M2" value="0.9044746539831904" />
+      <entry key="M5" value="4.682486182097457" />
+      <entry key="M10" value="11.650954923031657" />
+      <entry key="M15" value="18.45844071021356" />
+      <entry key="M30" value="40.07650544113251" />
+      <entry key="H1" value="86.00113231547482" />
+      <entry key="H2" value="155.9513310849739" />
+      <entry key="H4" value="225.72334143862352" />
+      <entry key="D1" value="319.5251044981722" />
+      <entry key="W1" value="340.36240358745846" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
       <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0000000007249528" />
-      <entry key="S30" value="1.0016255288714946" />
-      <entry key="S60" value="1.0772281780689272" />
-      <entry key="M2" value="1.6879282186148705" />
-      <entry key="M5" value="4.497110044559379" />
-      <entry key="M10" value="10.0786442248527" />
-      <entry key="M15" value="16.4464619396201" />
-      <entry key="M30" value="36.740979437484086" />
-      <entry key="H1" value="70.64030297761687" />
-      <entry key="H2" value="107.88298544311716" />
-      <entry key="H4" value="136.94542113271922" />
-      <entry key="D1" value="169.38012313597284" />
-      <entry key="W1" value="175.88549183796601" />
+      <entry key="S5" value="1.000000291177053" />
+      <entry key="S10" value="1.0005396082402456" />
+      <entry key="S30" value="1.0814270112226516" />
+      <entry key="S60" value="1.2912670377623905" />
+      <entry key="M2" value="1.6746274272615995" />
+      <entry key="M5" value="3.0767771295263704" />
+      <entry key="M10" value="5.815693529338532" />
+      <entry key="M15" value="9.023881928992457" />
+      <entry key="M30" value="21.93502049464503" />
+      <entry key="H1" value="53.268650298634846" />
+      <entry key="H2" value="101.34762649277693" />
+      <entry key="H4" value="148.13806428626964" />
+      <entry key="D1" value="209.3164078816219" />
+      <entry key="W1" value="222.67565344730158" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.624325123606077E-4" />
-      <entry key="MS500" value="0.20504322779918155" />
-      <entry key="S2" value="0.6729167790365399" />
-      <entry key="S5" value="0.853462709215201" />
-      <entry key="S10" value="0.9239479198243757" />
-      <entry key="S30" value="1.0256707160128018" />
-      <entry key="S60" value="1.3535058409333267" />
-      <entry key="M2" value="2.8131463695020966" />
-      <entry key="M5" value="8.803410247375583" />
-      <entry key="M10" value="20.90652448512787" />
-      <entry key="M15" value="35.40809018154972" />
-      <entry key="M30" value="83.30705521352066" />
-      <entry key="H1" value="164.94132887368826" />
-      <entry key="H2" value="257.4869430234589" />
-      <entry key="H4" value="331.8135589502951" />
-      <entry key="D1" value="416.759854166576" />
-      <entry key="W1" value="434.03314404329984" />
+      <entry key="MS100" value="0.0068011762757509715" />
+      <entry key="MS500" value="0.3685673043227753" />
+      <entry key="S2" value="0.7791645796604998" />
+      <entry key="S5" value="0.905006736450379" />
+      <entry key="S10" value="0.9518414366585954" />
+      <entry key="S30" value="1.0719579144180496" />
+      <entry key="S60" value="1.4257210856042906" />
+      <entry key="M2" value="2.5617080166251034" />
+      <entry key="M5" value="7.741858803363918" />
+      <entry key="M10" value="17.449172431909858" />
+      <entry key="M15" value="27.464070531645422" />
+      <entry key="M30" value="61.988742257264704" />
+      <entry key="H1" value="139.24185293397116" />
+      <entry key="H2" value="257.2728194078892" />
+      <entry key="H4" value="373.8425913968852" />
+      <entry key="D1" value="528.8371500136093" />
+      <entry key="W1" value="563.0373959589186" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -134,13 +126,13 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/SeekUtil/ConfigObject/src/main/java/com/seek/util/configobject",
+    "last_opened_file_path": "D:/Projects/SeekUtil/SkyWalkingUtil/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Projects/SeekUtil/JWTUtil/src/main/java/com/seek/util/Main.java",
+    "onboarding.tips.debug.path": "D:/Projects/SeekUtil/WebBeanUtil/src/main/java/com/seek/util/Main.java",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -149,16 +141,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject" />
-      <recent name="D:\Projects\SeekUtil\ConfigObject\src\main\java\com\seek\util\configobject\UtilObject\DTO" />
-      <recent name="D:\Projects\SeekUtil\CommonUtil\src\main\java\com\seek\util\commonutil" />
-      <recent name="D:\Projects\SeekUtil\RabbitMQUtil\src\main\java\com\seek\util\rabbitmqutil\Config" />
-      <recent name="D:\Projects\SeekUtil\RabbitMQUtil\src\main\resources" />
+      <recent name="D:\Projects\SeekUtil\SkyWalkingUtil\src\main\resources" />
+      <recent name="D:\Projects\SeekUtil\SentinelUtil\src\main\java\com\seek\util\sentinelutil" />
+      <recent name="D:\Projects\SeekUtil\FeignUtil\src\main\resources\META-INF" />
+      <recent name="D:\Projects\SeekUtil\ElasticsearchUtil\src\main\resources\META-INF" />
+      <recent name="D:\Projects\SeekUtil\ElasticsearchUtil\src\main\java\com\seek\util\elasticsearchutil" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\SeekUtil\RabbitMQUtil\src\main\resources\META-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.seek.util.feignutil" />
+      <recent name="com.seek.util.elasticsearchutil.Config" />
       <recent name="com.seek.food.configobject.RabbitMQData" />
       <recent name="com.seek.util.rabbitmqutil" />
     </key>
@@ -208,21 +202,6 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MongoDBUtil/src/main/java/com/seek/util/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SentinelUtil/src/main/java/com/seek/util/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/FeignUtil/src/main/java/com/seek/util/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/GatewayUtil/src/main/java/com/seek/util/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="9" />
@@ -238,19 +217,14 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/NacosUtil/src/main/java/com/seek/util/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SkyWalkingUtil/src/main/java/com/seek/util/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/JWTUtil/src/main/java/com/seek/util/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/WebUtil/src/main/java/com/seek/util/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

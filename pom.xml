@@ -150,6 +150,12 @@
                 <artifactId>ConfigObject</artifactId>
                 <version>${self.version}</version>
             </dependency>
+            <!--该项目的ConfigObject模块        -->
+            <dependency>
+                <groupId>${groupId}</groupId>
+                <artifactId>RedisUtil</artifactId>
+                <version>${self.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -187,6 +193,7 @@
         <module>CommonUtil</module>
         <module>JWTUtil</module>
         <module>WebUtil</module>
+        <module>CaffeineUtil</module>
     </modules>
 
 
