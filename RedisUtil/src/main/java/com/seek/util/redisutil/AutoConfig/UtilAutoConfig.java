@@ -1,9 +1,9 @@
-package com.seek.food.redisutil.Redis.AutoConfig;
+package com.seek.util.redisutil.AutoConfig;
 
-import com.seek.food.redisutil.Redis.RedisBitMapUtil;
-import com.seek.food.redisutil.Redis.RedisIdUtil;
-import com.seek.food.redisutil.Redis.RedisStreamUtil;
-import com.seek.food.redisutil.Redis.RedisUtil;
+import com.seek.util.redisutil.RedisBitMapUtil;
+import com.seek.util.redisutil.RedisIdUtil;
+import com.seek.util.redisutil.RedisStreamUtil;
+import com.seek.util.redisutil.RedisUtil;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Lazy;

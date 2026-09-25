@@ -1,8 +1,7 @@
-com\seek\food\redisutil\Redis\DurationUtil.class
-com\seek\food\redisutil\Redis\RedisStreamUtil.class
-com\seek\food\redisutil\Redis\Config\RedissonConfig.class
-com\seek\food\redisutil\Redis\AutoConfig\UtilAutoConfig.class
-com\seek\food\redisutil\Redis\RedisBitMapUtil.class
-com\seek\food\redisutil\Redis\RedissonUtil.class
-com\seek\food\redisutil\Redis\RedisUtil.class
-com\seek\food\redisutil\Redis\RedisIdUtil.class
+com\seek\util\redisutil\AutoConfig\UtilAutoConfig.class
+com\seek\util\redisutil\Config\RedissonConfig.class
+com\seek\util\redisutil\RedisUtil.class
+com\seek\util\redisutil\RedissonUtil.class
+com\seek\util\redisutil\RedisIdUtil.class
+com\seek\util\redisutil\RedisBitMapUtil.class
+com\seek\util\redisutil\RedisStreamUtil.class

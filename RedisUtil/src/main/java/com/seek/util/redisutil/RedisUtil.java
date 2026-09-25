@@ -1,4 +1,4 @@
-package com.seek.food.redisutil.Redis;
+package com.seek.util.redisutil;
 
 import com.seek.food.configobject.RedisData.RedisKeyData;
 import com.seek.food.configobject.UtilObject.Exception.BizException;
@@ -12,6 +12,7 @@ import org.springframework.data.redis.core.script.DefaultRedisScript;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 
 @Slf4j
@@ -43,12 +44,12 @@ public class RedisUtil {
         if (Boolean.FALSE.equals(stringRedisTemplate.opsForValue().setIfAbsent(
                 key.getRedisKey(id)
                 , cooldownValue,
-                DurationUtil.getMillisDuration(key.getDurationMillis()) ))) throw new BizException(ErrorCodeEnum.REQUEST_IN_COOLDOWN);
+                key.getDurationMillis(), TimeUnit.MICROSECONDS ))) throw new BizException(ErrorCodeEnum.REQUEST_IN_COOLDOWN);
     }
 
     //快速设置
     public boolean trySetStringWithExpire(RedisKeyData key,Object id,String value){
-        return Boolean.TRUE.equals(stringRedisTemplate.opsForValue().setIfAbsent(key.getRedisKey(id), value, DurationUtil.getMillisDuration(key.getDurationMillis())));
+        return Boolean.TRUE.equals(stringRedisTemplate.opsForValue().setIfAbsent(key.getRedisKey(id), value, key.getDurationMillis(), TimeUnit.MICROSECONDS));
     }
 
     //快速设置
@@ -58,7 +59,7 @@ public class RedisUtil {
 
     //快速设置
     public void justSetStringWithExpire(RedisKeyData key,Object id,String value){
-        stringRedisTemplate.opsForValue().set(key.getRedisKey(id), value,DurationUtil.getMillisDuration(key.getDurationMillis()));
+        stringRedisTemplate.opsForValue().set(key.getRedisKey(id), value,key.getDurationMillis(), TimeUnit.MICROSECONDS);
     }
 
 
@@ -79,7 +80,7 @@ public class RedisUtil {
 
     //快速设置过期
     public boolean expire(RedisKeyData key,Object id){
-        return Boolean.TRUE.equals(stringRedisTemplate.expire(key.getRedisKey(id),DurationUtil.getMillisDuration(key.getDurationMillis())));
+        return stringRedisTemplate.expire(key.getRedisKey(id), key.getDurationMillis(), TimeUnit.MICROSECONDS);
     }
 
     //快速检查zset中某个value值是否存在

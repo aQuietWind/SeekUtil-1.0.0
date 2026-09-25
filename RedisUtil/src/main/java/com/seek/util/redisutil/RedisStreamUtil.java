@@ -1,4 +1,4 @@
-package com.seek.food.redisutil.Redis;
+package com.seek.util.redisutil;
 
 
 import com.seek.food.configobject.RedisData.RedisStreamData;

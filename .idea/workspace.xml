@@ -4,11 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab44ae5e-63af-4ba7-9f5f-c6ce1ebe77c8" name="更改" comment="" />
+    <list default="true" id="ab44ae5e-63af-4ba7-9f5f-c6ce1ebe77c8" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisUtil/src/main/java/com/seek/food/redisutil/Redis/AutoConfig/UtilAutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/RedisUtil/src/main/java/com/seek/util/redisutil/AutoConfig/UtilAutoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisUtil/src/main/java/com/seek/food/redisutil/Redis/Config/RedissonConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/RedisUtil/src/main/java/com/seek/util/redisutil/Config/RedissonConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisUtil/src/main/java/com/seek/food/redisutil/Redis/DurationUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisUtil/src/main/java/com/seek/food/redisutil/Redis/RedisBitMapUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/RedisUtil/src/main/java/com/seek/util/redisutil/RedisBitMapUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisUtil/src/main/java/com/seek/food/redisutil/Redis/RedisIdUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/RedisUtil/src/main/java/com/seek/util/redisutil/RedisIdUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisUtil/src/main/java/com/seek/food/redisutil/Redis/RedisStreamUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/RedisUtil/src/main/java/com/seek/util/redisutil/RedisStreamUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisUtil/src/main/java/com/seek/food/redisutil/Redis/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/RedisUtil/src/main/java/com/seek/util/redisutil/RedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisUtil/src/main/java/com/seek/food/redisutil/Redis/RedissonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/RedisUtil/src/main/java/com/seek/util/redisutil/RedissonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisUtil/target/RedisUtil-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/RedisUtil/target/RedisUtil-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisUtil/target/classes/com/seek/food/redisutil/Redis/AutoConfig/UtilAutoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisUtil/target/classes/com/seek/food/redisutil/Redis/Config/RedissonConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisUtil/target/classes/com/seek/food/redisutil/Redis/DurationUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisUtil/target/classes/com/seek/food/redisutil/Redis/RedisBitMapUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisUtil/target/classes/com/seek/food/redisutil/Redis/RedisIdUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisUtil/target/classes/com/seek/food/redisutil/Redis/RedisStreamUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisUtil/target/classes/com/seek/food/redisutil/Redis/RedisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisUtil/target/classes/com/seek/food/redisutil/Redis/RedissonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/RedisUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RedisUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/RedisUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -22,61 +47,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000000666" />
-      <entry key="MS500" value="1.0027301123682724" />
-      <entry key="S2" value="1.535206773846785" />
-      <entry key="S5" value="3.117482883720818" />
-      <entry key="S10" value="5.1345908623904135" />
-      <entry key="S30" value="11.686330452813376" />
-      <entry key="S60" value="17.161566824064963" />
-      <entry key="M2" value="21.71041844375963" />
-      <entry key="M5" value="26.906634789694856" />
-      <entry key="M10" value="33.03385724824254" />
-      <entry key="M15" value="37.354744443505886" />
-      <entry key="M30" value="44.13148997876215" />
-      <entry key="H1" value="48.914816456332964" />
-      <entry key="H2" value="51.77292012271974" />
-      <entry key="H4" value="53.33728962515764" />
-      <entry key="D1" value="54.71577664808643" />
-      <entry key="W1" value="54.95921894899001" />
+      <entry key="MS100" value="1.0000000000320697" />
+      <entry key="MS500" value="1.0079656068984233" />
+      <entry key="S2" value="1.2987655305743937" />
+      <entry key="S5" value="1.6293421929315755" />
+      <entry key="S10" value="1.897571283427104" />
+      <entry key="S30" value="2.479574997689253" />
+      <entry key="S60" value="3.1265169394812666" />
+      <entry key="M2" value="4.495625359800291" />
+      <entry key="M5" value="11.800661326549234" />
+      <entry key="M10" value="23.941369772731043" />
+      <entry key="M15" value="32.66717230062517" />
+      <entry key="M30" value="46.97541292400762" />
+      <entry key="H1" value="57.656450139062315" />
+      <entry key="H2" value="64.28654146410156" />
+      <entry key="H4" value="67.99550800993143" />
+      <entry key="D1" value="71.31091379808906" />
+      <entry key="W1" value="71.90101269206421" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="2.0586914632653095E-174" />
-      <entry key="S5" value="3.603094059514875E-70" />
-      <entry key="S10" value="2.332914742378792E-35" />
-      <entry key="S30" value="4.4759156316710296E-12" />
-      <entry key="S60" value="3.3018732546065313E-6" />
-      <entry key="M2" value="0.003171934441258287" />
-      <entry key="M5" value="0.23290781591099438" />
-      <entry key="M10" value="1.0497822655140732" />
-      <entry key="M15" value="1.7546384134777397" />
-      <entry key="M30" value="2.951908197474341" />
-      <entry key="H1" value="3.838493703488965" />
-      <entry key="H2" value="4.379966742203958" />
-      <entry key="H4" value="4.679470099001588" />
-      <entry key="D1" value="4.945055237245651" />
-      <entry key="W1" value="4.992112597628281" />
+      <entry key="MS500" value="5.89829507902634E-274" />
+      <entry key="S2" value="4.932788812362998E-69" />
+      <entry key="S5" value="5.4810852166154035E-28" />
+      <entry key="S10" value="4.2978872061726515E-14" />
+      <entry key="S30" value="1.2758752575756316E-4" />
+      <entry key="S60" value="0.031642606659540405" />
+      <entry key="M2" value="0.5020485070754857" />
+      <entry key="M5" value="2.680366805436645" />
+      <entry key="M10" value="5.023498345315005" />
+      <entry key="M15" value="6.491866319928785" />
+      <entry key="M30" value="8.837226863309779" />
+      <entry key="H1" value="10.597772222379314" />
+      <entry key="H2" value="11.70227474837118" />
+      <entry key="H4" value="12.324538697934575" />
+      <entry key="D1" value="12.883499618149795" />
+      <entry key="W1" value="12.98325785511667" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9592641193253253" />
-      <entry key="MS500" value="0.9944016689830446" />
-      <entry key="S2" value="1.5314136644484635" />
-      <entry key="S5" value="3.1142129200630846" />
-      <entry key="S10" value="5.131902330886401" />
-      <entry key="S30" value="11.684261869044317" />
-      <entry key="S60" value="17.16003112066218" />
-      <entry key="M2" value="21.7125554953046" />
-      <entry key="M5" value="27.137407392981157" />
-      <entry key="M10" value="34.07957259828108" />
-      <entry key="M15" value="39.10494077389124" />
-      <entry key="M30" value="47.079703650553334" />
-      <entry key="H1" value="52.75091636866879" />
-      <entry key="H2" value="56.15152292283026" />
-      <entry key="H4" value="58.016031532578836" />
-      <entry key="D1" value="59.66070368707245" />
-      <entry key="W1" value="59.95131305959818" />
+      <entry key="MS100" value="0.9460576467561466" />
+      <entry key="MS500" value="0.9968595983934055" />
+      <entry key="S2" value="1.2952728691159574" />
+      <entry key="S5" value="1.627628576386375" />
+      <entry key="S10" value="1.8966048159463547" />
+      <entry key="S30" value="2.4792942184457587" />
+      <entry key="S60" value="3.1571976112183804" />
+      <entry key="M2" value="4.991801794634979" />
+      <entry key="M5" value="14.46762675438712" />
+      <entry key="M10" value="28.951354259295137" />
+      <entry key="M15" value="39.14691778932072" />
+      <entry key="M30" value="55.803962571102254" />
+      <entry key="H1" value="68.24886956144513" />
+      <entry key="H2" value="75.98581722662107" />
+      <entry key="H4" value="80.31845576693851" />
+      <entry key="D1" value="84.19413451819784" />
+      <entry key="W1" value="84.88423035360174" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -89,24 +114,32 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.RedisUtil [deploy].executor": "Run",
     "Maven.SeekUtil [deploy].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/SeekUtil",
+    "last_opened_file_path": "D:/Projects/SeekUtil/RedisUtil/src/main/resources/META-INF/spring",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/Projects/SeekUtil/CommonUtil/src/main/java/com/seek/util/Main.java",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\SeekUtil\RedisUtil\src\main\resources\META-INF\spring" />
       <recent name="D:\Projects\SeekUtil" />
     </key>
   </component>

@@ -1,6 +1,6 @@
-package com.seek.food.redisutil.Redis.Config;
+package com.seek.util.redisutil.Config;
 
-import com.seek.food.redisutil.Redis.RedissonUtil;
+import com.seek.util.redisutil.RedissonUtil;
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
 import org.redisson.config.Config;

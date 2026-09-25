@@ -1,4 +1,4 @@
-package com.seek.food.redisutil.Redis;
+package com.seek.util.redisutil;
 
 import com.seek.food.configobject.RedisData.RedisKeyData;
 import com.seek.food.configobject.UtilObject.Function.RunFunction;
@@ -17,7 +17,7 @@ public class RedisBitMapUtil {
         this.stringRedisTemplate = stringRedisTemplate;
     }
 
-    //全局BitMap设置值,offsetMin是为了适应范围型offset
+    //不同的BitMap设置值,offsetMin是为了适应范围型offset
     public boolean globalSetIdBit(RedisKeyData key, long id, boolean value, long idCapacity, int areaNumber){
         //最初偏移值，也就是不分区时的偏移值
         long originBitOffset=(id % idCapacity);
@@ -36,7 +36,7 @@ public class RedisBitMapUtil {
         if (globalSetIdBit(key,id,value,idCapacity,areaNumber)) runFunction.run();
     }
 
-    //全局BitMap获取值
+    //不同的BitMap获取值
     public boolean globalGetIdBit(RedisKeyData key,long id,long idCapacity,int areaNumber){
         //最初偏移值，也就是不分区时的偏移值
         long originBitOffset=(id % idCapacity);
@@ -48,12 +48,12 @@ public class RedisBitMapUtil {
     }
 
     //个体BitMap设置值
-    public boolean setBit(RedisKeyData key,Object id,boolean value){
+    public boolean isolateSetBit(RedisKeyData key,Object id,boolean value){
         return Boolean.TRUE.equals(stringRedisTemplate.opsForValue().setBit(key.getRedisKey(id), 0, value));
     }
 
     //个体BitMap获取值
-    public boolean getBit(RedisKeyData key,Object id){
+    public boolean isolateGetBit(RedisKeyData key,Object id){
         return Boolean.TRUE.equals(stringRedisTemplate.opsForValue().getBit(key.getRedisKey(id), 0));
     }
 
