@@ -1,6 +1,6 @@
-package com.seek.util.webutil.Interceptor;
+package com.seek.util.webutil.Config;
 
-import com.seek.food.config.NativeConfig.Interceptor.TokenInterceptor;
+import com.seek.util.webutil.Interceptor.TokenInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
 import org.springframework.context.annotation.Configuration;

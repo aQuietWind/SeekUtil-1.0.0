@@ -1,4 +1,4 @@
-package com.seek.util.commonutil.FileUtil;
+package com.seek.util.webutil.File;
 
 import com.seek.util.configobject.UtilObject.Exception.BizException;
 import com.seek.util.configobject.UtilObject.Exception.ErrorCodeEnum;
