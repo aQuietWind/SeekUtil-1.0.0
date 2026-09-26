@@ -1,8 +1,0 @@
-seek:
-  util:
-    sentinel:
-      config:
-        authority:
-          request-header:
-            name: x-sentinel-authority
-            value: service

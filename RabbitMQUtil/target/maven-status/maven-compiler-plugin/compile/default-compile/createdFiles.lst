@@ -1,7 +1,0 @@
-com\seek\util\rabbitmqutil\Config\ErrorExchangeConfig.class
-com\seek\util\rabbitmqutil\MQUtil.class
-com\seek\util\rabbitmqutil\Config\MessageReturnCallBackConfig.class
-com\seek\util\rabbitmqutil\QueueUtil.class
-com\seek\util\rabbitmqutil\CorrleationUtil.class
-com\seek\util\rabbitmqutil\AutoConfig\UtilAutoConfig.class
-com\seek\util\rabbitmqutil\Config\ConverterConfig.class

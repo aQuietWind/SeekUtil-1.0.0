@@ -1,0 +1,18 @@
+mybatis-plus:
+  type-aliases-package: xxx       #实体类包，可有可无
+  mapper-locations: "classpath*:/mapper/**/*.xml"   #xml文件的所在地址，可有可无
+  configuration:
+    map-underscore-to-camel-case: true   #开启驼峰转下划线，默认true
+    cache-enabled: false    #是否开启二级缓存，默认false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  # 打印SQL日志，方便调试
+  global-config:
+    db-config:
+      # 【关键】指定数据库类型 POSTGRE_SQL
+      db-type: POSTGRE_SQL
+      # 如果不是public，在这里指定schema，也可以在url currentSchema控制
+      # schema: biz
+      # 扫描TypeHandler包（jsonb、数组处理器）
+      type-handlers-package: com.xxx.handler
+      update-strategy: not_null   #设置更新的字段只为非空字段
+      column-format: "\"%s\""
+      table-format: "\"%s\""
