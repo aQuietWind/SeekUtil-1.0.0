@@ -5,46 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab44ae5e-63af-4ba7-9f5f-c6ce1ebe77c8" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonUtil/target/CommonUtil-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CommonUtil/target/CommonUtil-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CommonUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CommonUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigObject/target/ConfigObject-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigObject/target/ConfigObject-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigObject/target/classes/com/seek/util/configobject/JWTData/JWTRoleData.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigObject/target/classes/com/seek/util/configobject/JWTData/JWTRoleData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigObject/target/classes/com/seek/util/configobject/UtilObject/Exception/ErrorCodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigObject/target/classes/com/seek/util/configobject/UtilObject/Exception/ErrorCodeEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigObject/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigObject/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigObject/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigObject/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElasticsearchUtil/target/ElasticsearchUtil-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticsearchUtil/target/ElasticsearchUtil-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeignUtil/target/FeignUtil-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/FeignUtil/target/FeignUtil-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GatewayUtil/target/GatewayUtil-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GatewayUtil/target/GatewayUtil-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GatewayUtil/target/classes/com/seek/util/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GatewayUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/GatewayUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GatewayUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/GatewayUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JWTUtil/target/JWTUtil-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/JWTUtil/target/JWTUtil-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JWTUtil/target/classes/com/seek/util/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JWTUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/JWTUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JWTUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/JWTUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KafkaUtil/target/KafkaUtil-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaUtil/target/KafkaUtil-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KafkaUtil/target/classes/com/seek/util/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KafkaUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KafkaUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/KafkaUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Langchain4jUtil/target/Langchain4jUtil-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain4jUtil/target/Langchain4jUtil-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Langchain4jUtil/target/classes/com/seek/util/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Langchain4jUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain4jUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Langchain4jUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Langchain4jUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RabbitMQUtil/target/RabbitMQUtil-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQUtil/target/RabbitMQUtil-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedisUtil/target/RedisUtil-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/RedisUtil/target/RedisUtil-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedisUtil/target/classes/com/seek/util/redisutil/AutoConfig/UtilAutoConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/RedisUtil/target/classes/com/seek/util/redisutil/AutoConfig/UtilAutoConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedisUtil/target/classes/com/seek/util/redisutil/RedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/RedisUtil/target/classes/com/seek/util/redisutil/RedisUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedisUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/RedisUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RedisUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/RedisUtil/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RocketMQUtil/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RocketMQUtil/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RocketMQUtil/src/main/java/com/seek/util/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SentinelUtil/target/SentinelUtil-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SentinelUtil/target/SentinelUtil-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringAiUtil/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringAiUtil/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringAiUtil/src/main/java/com/seek/util/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebUtil/target/WebUtil-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/WebUtil/target/WebUtil-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GatewayUtil/src/main/java/com/seek/util/gatewayutil/FilterUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/GatewayUtil/src/main/java/com/seek/util/gatewayutil/FilterUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWTUtil/src/main/java/com/seek/util/jwtutil/AutoConfig/UtilAutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/JWTUtil/src/main/java/com/seek/util/jwtutil/AutoConfig/UtilAutoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWTUtil/src/main/java/com/seek/util/jwtutil/TokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/JWTUtil/src/main/java/com/seek/util/jwtutil/TokenUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,61 +36,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="5.925938839415513E-208" />
-      <entry key="S2" value="1.5606636330582383E-52" />
-      <entry key="S5" value="2.040432398731696E-21" />
-      <entry key="S10" value="7.027490195855116E-11" />
-      <entry key="S30" value="0.0015845543943367628" />
-      <entry key="S60" value="0.146416548192906" />
-      <entry key="M2" value="1.68193285986655" />
-      <entry key="M5" value="10.474589820272715" />
-      <entry key="M10" value="27.03120716141754" />
-      <entry key="M15" value="41.80460278533962" />
-      <entry key="M30" value="73.79089989011459" />
-      <entry key="H1" value="119.39711104519807" />
-      <entry key="H2" value="208.25436222236752" />
-      <entry key="H4" value="357.6163998406659" />
-      <entry key="D1" value="713.5676387598368" />
-      <entry key="W1" value="824.3052566538454" />
+      <entry key="MS100" value="1.0001100159256118" />
+      <entry key="MS500" value="1.1615441038296865" />
+      <entry key="S2" value="1.6339759422656177" />
+      <entry key="S5" value="1.8333546097979516" />
+      <entry key="S10" value="1.9147383737357515" />
+      <entry key="S30" value="2.3659127848954613" />
+      <entry key="S60" value="4.099051300770168" />
+      <entry key="M2" value="8.239848538024194" />
+      <entry key="M5" value="18.919611150750058" />
+      <entry key="M10" value="34.949789803938884" />
+      <entry key="M15" value="50.0721829939809" />
+      <entry key="M30" value="85.93833498979609" />
+      <entry key="H1" value="136.78959185598146" />
+      <entry key="H2" value="228.7733356623812" />
+      <entry key="H4" value="380.97012281402897" />
+      <entry key="D1" value="747.401789220779" />
+      <entry key="W1" value="862.4530501318941" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000000347546" />
-      <entry key="S2" value="1.002428026697078" />
-      <entry key="S5" value="1.0899707597337123" />
-      <entry key="S10" value="1.2999834476213625" />
-      <entry key="S30" value="1.7110198442636273" />
-      <entry key="S60" value="2.1435317324021614" />
-      <entry key="M2" value="3.602994916827263" />
-      <entry key="M5" value="13.164360933149965" />
-      <entry key="M10" value="34.09047517824473" />
-      <entry key="M15" value="53.69904286786267" />
-      <entry key="M30" value="97.35436884756828" />
-      <entry key="H1" value="158.44487607346514" />
-      <entry key="H2" value="265.0224824662634" />
-      <entry key="H4" value="420.3939212662252" />
-      <entry key="D1" value="744.2626544005317" />
-      <entry key="W1" value="838.591388836062" />
+      <entry key="MS100" value="7.480954988721525E-178" />
+      <entry key="MS500" value="4.1801092273128883E-36" />
+      <entry key="S2" value="2.5491618001020713E-9" />
+      <entry key="S5" value="6.837552696800751E-4" />
+      <entry key="S10" value="0.0459244927666532" />
+      <entry key="S30" value="0.9073771075012221" />
+      <entry key="S60" value="2.700515530713795" />
+      <entry key="M2" value="6.52234690903739" />
+      <entry key="M5" value="14.933309546819126" />
+      <entry key="M10" value="29.596896487301237" />
+      <entry key="M15" value="46.19826625879829" />
+      <entry key="M30" value="90.17687087261791" />
+      <entry key="H1" value="155.5851978204849" />
+      <entry key="H2" value="265.87354041833345" />
+      <entry key="H4" value="425.62272847273044" />
+      <entry key="D1" value="761.9625380632637" />
+      <entry key="W1" value="860.7365331126668" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="6.496400039388185E-5" />
-      <entry key="MS500" value="0.1453900052013556" />
-      <entry key="S2" value="0.6191704169517271" />
-      <entry key="S5" value="0.9021761814136304" />
-      <entry key="S10" value="1.186603890437479" />
-      <entry key="S30" value="1.6619547392184095" />
-      <entry key="S60" value="2.2526008361418057" />
-      <entry key="M2" value="5.247615879164295" />
-      <entry key="M5" value="23.580556569545585" />
-      <entry key="M10" value="61.04459712137521" />
-      <entry key="M15" value="95.4222658621771" />
-      <entry key="M30" value="171.0702077779493" />
-      <entry key="H1" value="277.7799262438173" />
-      <entry key="H2" value="473.2242392071427" />
-      <entry key="H4" value="777.967749601081" />
-      <entry key="D1" value="1457.8173341638678" />
-      <entry key="W1" value="1662.8945459266197" />
+      <entry key="MS100" value="0.9012506177428682" />
+      <entry key="MS500" value="1.022885359202864" />
+      <entry key="S2" value="1.4514140126093389" />
+      <entry key="S5" value="1.7293781893371278" />
+      <entry key="S10" value="1.8995650768753607" />
+      <entry key="S30" value="3.2323685512974154" />
+      <entry key="S60" value="6.74931654812172" />
+      <entry key="M2" value="14.703353612365214" />
+      <entry key="M5" value="33.79750507465566" />
+      <entry key="M10" value="64.48670018811269" />
+      <entry key="M15" value="96.205273778355" />
+      <entry key="M30" value="176.04833043800667" />
+      <entry key="H1" value="292.31528452377717" />
+      <entry key="H2" value="494.59487088725433" />
+      <entry key="H4" value="806.5501786361092" />
+      <entry key="D1" value="1509.3511434967938" />
+      <entry key="W1" value="1723.1874405211242" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -161,7 +124,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/SeekUtil/RocketMQUtil/src/main/resources/META-INF",
+    "last_opened_file_path": "D:/Projects/SeekUtil/JWTUtil/src/main/java/com/seek/util/jwtutil",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -176,11 +139,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\SeekUtil\RocketMQUtil\src\main\resources\META-INF" />
-      <recent name="D:\Projects\SeekUtil\RocketMQUtil\src\main\java\com\seek\util\rocketmqutil" />
-      <recent name="D:\Projects\SeekUtil\KafkaUtil\src\main\java\com\seek\util\kafkautil" />
-      <recent name="D:\Projects\SeekUtil\Langchain4jUtil\src\main\resources\META-INF" />
-      <recent name="D:\Projects\SeekUtil\JWTUtil\src\main\resources\lua" />
+      <recent name="D:\Projects\SeekUtil\JWTUtil\src\main\java\com\seek\util\jwtutil" />
+      <recent name="D:\Projects\SeekUtil\JWTUtil\src\main\resources\META-INF" />
+      <recent name="D:\Projects\SeekUtil\KafkaUtil\src\main\resources\META-INF" />
+      <recent name="D:\Projects\SeekUtil\SentinelUtil\src\main\resources\META-INF" />
+      <recent name="D:\Projects\SeekUtil\SpringAiUtil\src\main\resources\META-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\SeekUtil\RabbitMQUtil\src\main\resources\META-INF" />

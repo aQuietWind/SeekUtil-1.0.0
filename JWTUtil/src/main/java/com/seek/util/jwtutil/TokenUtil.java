@@ -26,9 +26,14 @@ public class TokenUtil {
     }
 
     //统一获取token
-    public String getToken(Long id, HttpServletResponse response, JWTGlobalData jwtGlobalData, JWTRoleData jwtRoleData) {
+    public String createToken(Long tokenId, JWTRoleData jwtRoleData) {
+        if (tokenId==null) throw new BizException(ErrorCodeEnum.DATA_IS_EMPTY);
         //登录校验成功，生成JWT Token
-        String token = jwtUtil.obtainJwt(id,jwtRoleData);
+        String token = jwtUtil.obtainJwt(tokenId,jwtRoleData);
+        return token;
+    }
+
+    public void putTokenCookieOnResponse(String token, HttpServletResponse response, JWTGlobalData jwtGlobalData, JWTRoleData jwtRoleData){
         // 构建Servlet Cookie
         Cookie cookie = new Cookie(jwtGlobalData.getRequestHeaderTokenName()
                 , jwtRoleData.getHeaderSign()+jwtGlobalData.getTokenHeaderSeparator()+token);
@@ -38,20 +43,27 @@ public class TokenUtil {
         cookie.setPath("/");
         cookie.setMaxAge((int) (jwtRoleData.getTokenDurationMillis()/1000));
         response.addCookie(cookie);
-        return token;
     }
 
-    //统一进行token的获取与Redis存储
-    //发放登录信息
-    public void getAndRecordToken(Long tokenId, HttpServletResponse response
-    , JWTGlobalData jwtGlobalData, JWTRoleData jwtRoleData
-    , RedisKeyData redisKey, String maxStore){
-        if (tokenId==null) throw new BizException(ErrorCodeEnum.DATA_IS_EMPTY);
-        //获取token，并且放在请求头上
-        String token=getToken(tokenId, response, jwtGlobalData, jwtRoleData);
+    public void recordToken(Long tokenId,String token,RedisKeyData redisKey,String maxStore){
         redisUtil.doScript(tokenAddScript         //执行脚本
                 , List.of(redisKey.getRedisKey(tokenId))       //KEYS参数
                 ,maxStore,token, ""+ System.currentTimeMillis());     //ARGV参数
     }
+
+    //统一进行token的获取与Redis存储
+    //发放登录信息
+    public String getAndRecordToken(Long tokenId, HttpServletResponse response
+    , JWTGlobalData jwtGlobalData, JWTRoleData jwtRoleData
+    , RedisKeyData redisKey, String maxStore){
+        //获取token，并且放在请求头上
+        String token= createToken(tokenId, jwtRoleData);
+        // 构建Servlet Cookie
+        putTokenCookieOnResponse(token,response,jwtGlobalData,jwtRoleData);
+        //存储token于Redis
+        recordToken(tokenId,token,redisKey,maxStore);
+        return token;
+    }
+
 
 }

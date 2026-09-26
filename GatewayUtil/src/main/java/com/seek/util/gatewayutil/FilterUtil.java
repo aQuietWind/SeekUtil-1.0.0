@@ -17,7 +17,7 @@ public class FilterUtil {
     private final static byte[] errorBytes = new Gson().toJson(Result.error(ErrorCodeEnum.UNAUTHORIZED)).getBytes();
     //拒绝放行
     public Mono<Void> reject(ServerWebExchange exchange) {
-        log.warn("非法请求被FilterFilter拦截");
+        log.warn("非法请求被Filter拦截");
         ServerHttpResponse response=exchange.getResponse();
         response.setStatusCode(ErrorCodeEnum.UNAUTHORIZED.getHttpStatus());      //设置状态码
         try {
