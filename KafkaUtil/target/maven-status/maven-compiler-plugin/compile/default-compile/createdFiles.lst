@@ -1,1 +1,5 @@
-com\seek\util\Main.class
+com\seek\util\kafkautil\KafkaConfig$1.class
+com\seek\util\kafkautil\KafkaConfig.class
+com\seek\util\kafkautil\TopicUtil.class
+com\seek\util\kafkautil\AutoConfig\UtilAutoConfig.class
+com\seek\util\kafkautil\KafkaUtil.class

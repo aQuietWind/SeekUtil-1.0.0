@@ -2,3 +2,4 @@ com\seek\util\commonutil\CommonUtil\DoubleUtil.class
 com\seek\util\commonutil\CommonUtil\StringUtil.class
 com\seek\util\commonutil\Exception\BizThrowUtil.class
 com\seek\util\commonutil\FileUtil\FileRemove.class
+com\seek\util\commonutil\Time\TimeUtil.class
