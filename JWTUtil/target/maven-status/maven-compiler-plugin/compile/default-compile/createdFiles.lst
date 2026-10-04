@@ -1,0 +1,3 @@
+com\seek\util\jwtutil\TokenUtil.class
+com\seek\util\jwtutil\AutoConfig\UtilAutoConfig.class
+com\seek\util\jwtutil\JWTUtil.class

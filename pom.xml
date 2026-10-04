@@ -47,6 +47,8 @@
         <langchain4j.version>1.17.2-beta27</langchain4j.version>
         <springai.version>1.1.8</springai.version>
         <mybatis-plus.version>3.5.5</mybatis-plus.version>
+        <alioss.version>3.10.2</alioss.version>
+        <ElasticsearchUtil.project.groupId>${groupId}</ElasticsearchUtil.project.groupId>
     </properties>
     <!--    依赖版本管理-->
     <dependencyManagement>
@@ -157,16 +159,116 @@
                 <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
                 <version>${mybatis-plus.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.aliyun.oss</groupId>
+                <artifactId>aliyun-sdk-oss</artifactId>
+                <version>${alioss.version}</version>
+            </dependency>
+
+
             <!--该项目的ConfigObject模块        -->
             <dependency>
-                <groupId>${groupId}</groupId>
+                <groupId>${project.groupId}</groupId>
                 <artifactId>ConfigObject</artifactId>
                 <version>${self.version}</version>
             </dependency>
-            <!--该项目的ConfigObject模块        -->
             <dependency>
-                <groupId>${groupId}</groupId>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>ElasticsearchUtil</artifactId>
+                <version>${self.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>MybatisPlusUtil</artifactId>
+                <version>${self.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>Langchain4jUtil</artifactId>
+                <version>${self.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>SpringAiUtil</artifactId>
+                <version>${self.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>MongoDBUtil</artifactId>
+                <version>${self.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>SentinelUtil</artifactId>
+                <version>${self.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>FeignUtil</artifactId>
+                <version>${self.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>RabbitMQUtil</artifactId>
+                <version>${self.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>RocketMQUtil</artifactId>
+                <version>${self.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>KafkaUtil</artifactId>
+                <version>${self.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>SkyWalkingUtil</artifactId>
+                <version>${self.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>CommonUtil</artifactId>
+                <version>${self.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>JWTUtil</artifactId>
+                <version>${self.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>WebUtil</artifactId>
+                <version>${self.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>CaffeineUtil</artifactId>
+                <version>${self.version}</version>
+            </dependency>
+            <!--该项目的RedisUtil模块        -->
+            <dependency>
+                <groupId>${project.groupId}</groupId>
                 <artifactId>RedisUtil</artifactId>
+                <version>${self.version}</version>
+            </dependency>
+            <!--该项目的NacosUtil模块        -->
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>NacosUtil</artifactId>
+                <version>${self.version}</version>
+            </dependency>
+            <!--该项目的GatewayUtil模块        -->
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>GatewayUtil</artifactId>
+                <version>${self.version}</version>
+            </dependency>
+            <!--该项目的OSSUtil模块        -->
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>OSSUtil</artifactId>
                 <version>${self.version}</version>
             </dependency>
         </dependencies>
@@ -207,6 +309,7 @@
         <module>JWTUtil</module>
         <module>WebUtil</module>
         <module>CaffeineUtil</module>
+        <module>OSSUtil</module>
     </modules>
 
 

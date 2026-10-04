@@ -1,0 +1,8 @@
+seek:
+  util:
+    rabbitmq:
+      config:
+        error-exchange:
+          exchange-name: errorExchange
+          queue-name: errorQueue
+        package: com.seek

@@ -18,10 +18,20 @@
     </properties>
 
     <dependencies>
+        <!-- 基础web/配置自动装配 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
         <!--        gateway依赖-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-gateway</artifactId>
+        </dependency>
+        <!--        gateway依赖-->
+        <dependency>
+            <groupId>com.seek.util</groupId>
+            <artifactId>NacosUtil</artifactId>
         </dependency>
         <dependency>
             <groupId>com.seek.util</groupId>

@@ -56,18 +56,18 @@ public class JWTUtil {
         return jwtCheck(token,jwtRoleData.getSecretKey());
     }
 
-    public TokenCheckResult jwtCheckByList(String token,String headerSeparator,HashMap<String,String> jwtHeaders){
+    public Long jwtCheckByList(String token,String headerSeparator,HashMap<String,String> jwtHeaders){
         //分割token,并且赋值
         String[] body=token.split(headerSeparator,2);
         String headerSign=body[0];
         token=body[1];
         //查找对应的secretKey进行解析
-        if (jwtHeaders.containsKey(headerSign))return new TokenCheckResult(token,jwtCheck(token,jwtHeaders.get(headerSign)));
+        if (jwtHeaders.containsKey(headerSign))return jwtCheck(token,jwtHeaders.get(headerSign));
         //啥也没查到就抛错
         throw new BizException(ErrorCodeEnum.UNAUTHORIZED);
     }
 
-    public TokenCheckResult jwtCheckByList(String token, JWTGlobalData jwtGlobalData, HashMap<String,String> jwtHeaders){
+    public Long jwtCheckByList(String token, JWTGlobalData jwtGlobalData, HashMap<String,String> jwtHeaders){
         return jwtCheckByList(token,jwtGlobalData.getTokenHeaderSeparator(),jwtHeaders);
     }
 
