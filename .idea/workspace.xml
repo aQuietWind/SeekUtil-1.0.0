@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab44ae5e-63af-4ba7-9f5f-c6ce1ebe77c8" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GatewayUtil/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GatewayUtil/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JWTUtil/src/main/java/com/seek/util/jwtutil/JWTUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/JWTUtil/src/main/java/com/seek/util/jwtutil/JWTUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JWTUtil/src/main/java/com/seek/util/jwtutil/TokenCheckResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SentinelUtil/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/SentinelUtil/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,60 +37,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000001599307" />
-      <entry key="S10" value="1.000027448658209" />
-      <entry key="S30" value="1.0994059307774204" />
-      <entry key="S60" value="1.816882048870663" />
-      <entry key="M2" value="3.378145380602441" />
-      <entry key="M5" value="5.8228938606154745" />
-      <entry key="M10" value="9.976953646091886" />
-      <entry key="M15" value="16.819796169638455" />
-      <entry key="M30" value="45.18421110189793" />
-      <entry key="H1" value="100.72525601634511" />
-      <entry key="H2" value="199.4665561664773" />
-      <entry key="H4" value="360.40666335281765" />
-      <entry key="D1" value="763.576172340762" />
-      <entry key="W1" value="894.3276899635425" />
+      <entry key="MS500" value="1.00000000003144" />
+      <entry key="S2" value="1.0030360788259332" />
+      <entry key="S5" value="1.1729675243083832" />
+      <entry key="S10" value="1.8427693129009854" />
+      <entry key="S30" value="4.113274748426917" />
+      <entry key="S60" value="6.9171250344100255" />
+      <entry key="M2" value="13.866389137687742" />
+      <entry key="M5" value="34.41195127005064" />
+      <entry key="M10" value="56.228111813203164" />
+      <entry key="M15" value="70.9174478510407" />
+      <entry key="M30" value="105.48603611456893" />
+      <entry key="H1" value="165.92108258842538" />
+      <entry key="H2" value="272.2159709841157" />
+      <entry key="H4" value="444.8499127027802" />
+      <entry key="D1" value="900.9795280871624" />
+      <entry key="W1" value="1055.5312660389689" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.2155907679718569E-200" />
-      <entry key="S5" value="1.2718888637485442E-80" />
-      <entry key="S10" value="1.4804903803737537E-40" />
-      <entry key="S30" value="8.237972007434027E-14" />
-      <entry key="S60" value="4.05521902623791E-7" />
-      <entry key="M2" value="9.487356393724623E-4" />
-      <entry key="M5" value="0.15116261501903358" />
-      <entry key="M10" value="1.7895916915559744" />
-      <entry key="M15" value="6.204072625332939" />
-      <entry key="M30" value="31.472883043830365" />
-      <entry key="H1" value="91.76362656876256" />
-      <entry key="H2" value="204.71526086279047" />
-      <entry key="H4" value="374.8358501525761" />
-      <entry key="D1" value="752.1215823891857" />
-      <entry key="W1" value="866.6664778757491" />
+      <entry key="MS100" value="4.2023870498014517E-11" />
+      <entry key="MS500" value="0.008408125976679838" />
+      <entry key="S2" value="0.3039762596654109" />
+      <entry key="S5" value="0.7004086901902365" />
+      <entry key="S10" value="1.29633272601708" />
+      <entry key="S30" value="3.787795367651058" />
+      <entry key="S60" value="6.403413197542165" />
+      <entry key="M2" value="10.441894107481001" />
+      <entry key="M5" value="20.182581179925815" />
+      <entry key="M10" value="32.05306965123914" />
+      <entry key="M15" value="42.09438780332335" />
+      <entry key="M30" value="70.46851108913981" />
+      <entry key="H1" value="128.30902542976625" />
+      <entry key="H2" value="241.64023860015908" />
+      <entry key="H4" value="422.4934656625937" />
+      <entry key="D1" value="855.902778215223" />
+      <entry key="W1" value="994.0054342086981" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9395227492140118" />
-      <entry key="MS500" value="0.9876008614453725" />
-      <entry key="S2" value="0.9968856972203758" />
-      <entry key="S5" value="0.9987531132450426" />
-      <entry key="S10" value="0.9994037651697139" />
-      <entry key="S30" value="1.0989099003580103" />
-      <entry key="S60" value="1.8149904518055666" />
-      <entry key="M2" value="3.375875032441621" />
-      <entry key="M5" value="5.970607830363332" />
-      <entry key="M10" value="11.76019469668628" />
-      <entry key="M15" value="23.012464677601866" />
-      <entry key="M30" value="76.63163614378566" />
-      <entry key="H1" value="192.45242428486753" />
-      <entry key="H2" value="404.1410092273683" />
-      <entry key="H4" value="735.2045383145821" />
-      <entry key="D1" value="1515.6846762043251" />
-      <entry key="W1" value="1760.9920011199367" />
+      <entry key="MS100" value="0.09278272316713054" />
+      <entry key="MS500" value="0.626471447821965" />
+      <entry key="S2" value="1.1553681636839228" />
+      <entry key="S5" value="1.754400944096776" />
+      <entry key="S10" value="2.986071557625757" />
+      <entry key="S30" value="7.735025373106808" />
+      <entry key="S60" value="13.179824641967409" />
+      <entry key="M2" value="24.186093254131883" />
+      <entry key="M5" value="54.48853858217969" />
+      <entry key="M10" value="88.19509838849474" />
+      <entry key="M15" value="112.93673146844232" />
+      <entry key="M30" value="175.89269893642665" />
+      <entry key="H1" value="294.1753490404472" />
+      <entry key="H2" value="513.8058732808876" />
+      <entry key="H4" value="867.299578297149" />
+      <entry key="D1" value="1756.8673080135234" />
+      <entry key="W1" value="2049.5342005921148" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -127,13 +124,13 @@
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/SeekUtil/JWTUtil/src/main/java/com/seek/util/jwtutil&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/SeekUtil/OSSUtil/src/main/resources/META-INF&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Projects/SeekUtil/CaffeineUtil/src/main/java/com/seek/util/Main.java&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Projects/SeekUtil/OSSUtil/src/main/java/com/seek/util/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -142,11 +139,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\SeekUtil\OSSUtil\src\main\resources\META-INF" />
       <recent name="D:\Projects\SeekUtil\JWTUtil\src\main\java\com\seek\util\jwtutil" />
       <recent name="D:\Projects\SeekUtil\JWTUtil\src\main\resources\META-INF" />
       <recent name="D:\Projects\SeekUtil\KafkaUtil\src\main\resources\META-INF" />
       <recent name="D:\Projects\SeekUtil\SentinelUtil\src\main\resources\META-INF" />
-      <recent name="D:\Projects\SeekUtil\SpringAiUtil\src\main\resources\META-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\SeekUtil\RabbitMQUtil\src\main\resources\META-INF" />

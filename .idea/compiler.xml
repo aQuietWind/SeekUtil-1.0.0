@@ -22,9 +22,20 @@
         <module name="WebUtil" />
         <module name="ElasticsearchUtil" />
         <module name="SkyWalkingUtil" />
+        <module name="OSSUtil" />
         <module name="ConfigObject" />
         <module name="SpringAiUtil" />
         <module name="MongoDBUtil" />
+      </profile>
+      <profile name="Annotation profile for EventRespondUtil" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../Tools/apache-maven-3.9.12-bin/apache-maven-3.9.12/mvn_repo/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+          <entry name="$PROJECT_DIR$/../../Tools/apache-maven-3.9.12-bin/apache-maven-3.9.12/mvn_repo/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+        </processorPath>
+        <module name="EventRespondUtil" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="21" />
@@ -35,6 +46,7 @@
       <module name="CommonUtil" options="-parameters" />
       <module name="ConfigObject" options="-parameters" />
       <module name="ElasticsearchUtil" options="-parameters" />
+      <module name="EventRespondUtil" options="-parameters" />
       <module name="FeignUtil" options="-parameters" />
       <module name="GatewayUtil" options="-parameters" />
       <module name="JWTUtil" options="-parameters" />
@@ -43,6 +55,7 @@
       <module name="MongoDBUtil" options="-parameters" />
       <module name="MybatisPlusUtil" options="-parameters" />
       <module name="NacosUtil" options="-parameters" />
+      <module name="OSSUtil" options="-parameters" />
       <module name="RabbitMQUtil" options="-parameters" />
       <module name="RedisUtil" options="-parameters" />
       <module name="RocketMQUtil" options="-parameters" />
