@@ -18,6 +18,7 @@ public class EventData<T> {
     private RunWithReturnParamFunction<String,T> run;
 
     private EventData(){}
+
     public EventData(RunWithReturnTwoParamFunction<Boolean,T,T> check,RunWithReturnParamFunction<String,T> run){
         this.check=check;
         this.run=run;

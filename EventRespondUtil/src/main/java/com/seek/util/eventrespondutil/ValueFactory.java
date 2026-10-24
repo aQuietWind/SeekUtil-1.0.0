@@ -11,6 +11,7 @@ public class ValueFactory {
     private ConcurrentHashMap<String, ValueData> valueMap = new ConcurrentHashMap<>();
 
     private final CheckPool checkPool;
+
     @Autowired
     public ValueFactory(CheckPool checkPool) {
         this.checkPool = checkPool;
@@ -19,6 +20,7 @@ public class ValueFactory {
     public <T> ValueData<T> getValue(@Nonnull String key) {
         return valueMap.get(key);
     }
+
     public <T> boolean putValue(@Nonnull String key, @Nonnull ValueData<T> value) {
         if (valueMap.putIfAbsent(key, value) != null){
             throw new RuntimeException("this key already exists");
@@ -29,11 +31,12 @@ public class ValueFactory {
         return valueMap.remove(key) != null;
     }
 
-    public <T> boolean setDataValue(@Nonnull ValueData<T> valueData,T newValue) {
-        if (valueData == null)throw new NullPointerException("valueData is null");
-        if (newValue == null)throw new NullPointerException("newValue is null");
-        if (!valueData.setValue(newValue))return false;
-        return true;
+    public <T> boolean setValueAndRespond(@Nonnull ValueData<T> valueData,@Nonnull T value){
+        if (valueData.setValue(value)){
+            checkPool.respond(valueData);
+            return true;
+        }
+        return false;
     }
 
 

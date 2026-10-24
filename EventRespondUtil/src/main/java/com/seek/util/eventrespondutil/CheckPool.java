@@ -1,10 +1,15 @@
 package com.seek.util.eventrespondutil;
 
+import com.seek.util.configobject.EventRespondData.EventData;
+import com.seek.util.configobject.EventRespondData.EventList;
+import com.seek.util.configobject.EventRespondData.ValueData;
 import jakarta.annotation.Nonnull;
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.beans.factory.config.BeanDefinition;
 
+import java.util.ArrayList;
 import java.util.concurrent.LinkedBlockingDeque;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
@@ -43,4 +48,30 @@ public class CheckPool {
                 new ThreadPoolExecutor.CallerRunsPolicy()  // 拒绝策略
         );
     }
+
+    public <T> void respond(ValueData<T> valueData){
+        executor.submit(()->check(valueData));
+    }
+
+    public <T> void check(ValueData<T> valueData){
+        ArrayList<EventData<T>> result=null;
+        result=valueData.checkSelfishEvent();
+        if (result==null){
+            result= valueData.checkSelflessEvent();
+            if (result==null)return;
+            executePool.respond(result,valueData);
+        }
+        //如果是自私事件,则只执行一个
+        executePool.respond(result.getFirst(),valueData);
+    }
+
+
+
+
+
+
+
+
+
+
 }
