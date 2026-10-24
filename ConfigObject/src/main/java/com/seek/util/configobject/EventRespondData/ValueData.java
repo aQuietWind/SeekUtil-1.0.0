@@ -7,7 +7,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.ArrayList;
-import java.util.List;
 
 @Data
 @NoArgsConstructor
@@ -17,8 +16,8 @@ public class ValueData<T> {
     private T oldValue;
     private boolean changed = false;
     private boolean eventCheckedNow = false;
-    private List<EventData<T>> selfishEventList = new ArrayList<>();
-    private List<EventData<T>> selflessEventList = new ArrayList<>();
+    private ArrayList<EventData<T>> selfishEventList = new ArrayList<>();
+    private ArrayList<EventData<T>> selflessEventList = new ArrayList<>();
 
     public synchronized boolean setValue(T newValue) {
         if (eventCheckedNow) throw new BizException(ErrorCodeEnum.REQUEST_IN_COOLDOWN);
@@ -29,6 +28,7 @@ public class ValueData<T> {
         this.changed = true;
         return true;
     }
+
 
 
 
