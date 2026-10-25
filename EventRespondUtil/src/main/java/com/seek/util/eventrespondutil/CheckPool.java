@@ -1,13 +1,11 @@
 package com.seek.util.eventrespondutil;
 
 import com.seek.util.configobject.EventRespondData.EventData;
-import com.seek.util.configobject.EventRespondData.EventList;
 import com.seek.util.configobject.EventRespondData.ValueData;
 import jakarta.annotation.Nonnull;
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.beans.factory.config.BeanDefinition;
 
 import java.util.ArrayList;
 import java.util.concurrent.LinkedBlockingDeque;

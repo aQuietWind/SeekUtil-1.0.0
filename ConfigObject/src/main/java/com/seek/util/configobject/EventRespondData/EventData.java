@@ -15,11 +15,11 @@ public class EventData<T> {
     private int type=0;
     private boolean selfish=false;
     private RunWithReturnTwoParamFunction<Boolean,T,T> check;
-    private RunWithReturnParamFunction<String,T> run;
+    private RunWithReturnParamFunction<Void,ValueData<T>> run;
 
     private EventData(){}
 
-    public EventData(RunWithReturnTwoParamFunction<Boolean,T,T> check,RunWithReturnParamFunction<String,T> run){
+    public EventData(RunWithReturnTwoParamFunction<Boolean,T,T> check,RunWithReturnParamFunction<Void,ValueData<T>> run){
         this.check=check;
         this.run=run;
     }
@@ -31,7 +31,7 @@ public class EventData<T> {
         return check.run(oldValue,value);
     }
 
-    public String run(T value){
-        return run.run(value);
+    public void run(ValueData<T> value){
+        run.run(value);
     }
 }
