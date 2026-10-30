@@ -6,54 +6,65 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Langchain4jUtil" />
-        <module name="CommonUtil" />
-        <module name="MybatisPlusUtil" />
-        <module name="JWTUtil" />
-        <module name="RocketMQUtil" />
-        <module name="CaffeineUtil" />
-        <module name="RedisUtil" />
-        <module name="SentinelUtil" />
-        <module name="FeignUtil" />
-        <module name="KafkaUtil" />
-        <module name="NacosUtil" />
-        <module name="RabbitMQUtil" />
-        <module name="GatewayUtil" />
-        <module name="WebUtil" />
-        <module name="EventRespondUtil" />
-        <module name="ElasticsearchUtil" />
-        <module name="SkyWalkingUtil" />
-        <module name="OSSUtil" />
-        <module name="ConfigObject" />
-        <module name="SpringAiUtil" />
-        <module name="MongoDBUtil" />
+        <module name="ali-oss-util" />
+        <module name="rocketmq-util" />
+        <module name="common-util" />
+        <module name="kafka-util" />
+        <module name="spring-ai-util" />
+        <module name="caffeine-util" />
+        <module name="nacos-util" />
+        <module name="event-respond-system" />
+        <module name="sentinel-util" />
+        <module name="rabbitmq-util" />
+        <module name="elasticsearch-util" />
+        <module name="langchain4j-util" />
+        <module name="jwt-util" />
+        <module name="redis-util" />
+        <module name="web-util" />
+        <module name="config-object" />
+        <module name="gateway-util" />
+        <module name="skywalking-util" />
+        <module name="feign-util" />
+        <module name="mongodb-util" />
+        <module name="mybatis-plus-util" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="21" />
+    <bytecodeTargetLevel target="21">
+      <module name="JWTUtil" target="21" />
+      <module name="WebUtil" target="21" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="CaffeineUtil" options="-parameters" />
-      <module name="CommonUtil" options="-parameters" />
-      <module name="ConfigObject" options="-parameters" />
-      <module name="ElasticsearchUtil" options="-parameters" />
-      <module name="EventRespondUtil" options="-parameters" />
-      <module name="FeignUtil" options="-parameters" />
-      <module name="GatewayUtil" options="-parameters" />
       <module name="JWTUtil" options="-parameters" />
-      <module name="KafkaUtil" options="-parameters" />
-      <module name="Langchain4jUtil" options="-parameters" />
-      <module name="MongoDBUtil" options="-parameters" />
-      <module name="MybatisPlusUtil" options="-parameters" />
-      <module name="NacosUtil" options="-parameters" />
-      <module name="OSSUtil" options="-parameters" />
-      <module name="RabbitMQUtil" options="-parameters" />
-      <module name="RedisUtil" options="-parameters" />
-      <module name="RocketMQUtil" options="-parameters" />
-      <module name="SentinelUtil" options="-parameters" />
-      <module name="SkyWalkingUtil" options="-parameters" />
-      <module name="SpringAiUtil" options="-parameters" />
       <module name="WebUtil" options="-parameters" />
+      <module name="ai" options="" />
+      <module name="ali-oss-util" options="-parameters" />
+      <module name="caffeine-util" options="-parameters" />
+      <module name="cloud" options="" />
+      <module name="common" options="" />
+      <module name="common-util" options="-parameters" />
+      <module name="config-object" options="-parameters" />
+      <module name="db" options="" />
+      <module name="elasticsearch-util" options="-parameters" />
+      <module name="event-respond-system" options="-parameters" />
+      <module name="feign-util" options="-parameters" />
+      <module name="gateway-util" options="-parameters" />
+      <module name="jwt-util" options="-parameters" />
+      <module name="kafka-util" options="-parameters" />
+      <module name="langchain4j-util" options="-parameters" />
+      <module name="mongodb-util" options="-parameters" />
+      <module name="mq" options="" />
+      <module name="mybatis-plus-util" options="-parameters" />
+      <module name="nacos-util" options="-parameters" />
+      <module name="rabbitmq-util" options="-parameters" />
+      <module name="redis-util" options="-parameters" />
+      <module name="rocketmq-util" options="-parameters" />
+      <module name="sentinel-util" options="-parameters" />
+      <module name="skywalking-util" options="-parameters" />
+      <module name="spring-ai-util" options="-parameters" />
+      <module name="web" options="" />
+      <module name="web-util" options="-parameters" />
     </option>
   </component>
 </project>

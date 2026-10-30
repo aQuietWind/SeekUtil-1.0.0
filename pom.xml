@@ -9,8 +9,8 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.seek.util</groupId>
-    <artifactId>SeekUtil</artifactId>
+    <groupId>seek.util</groupId>
+    <artifactId>seek-root-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>SeekUtil</name>
     <description>SeekUtil,The Tool of every project</description>
@@ -37,7 +37,6 @@
         <springCloudAlibaba.version>2023.0.1.0</springCloudAlibaba.version>
         <jvmCaffeine.version>3.1.8</jvmCaffeine.version>
         <swagger.version>2.8.15</swagger.version>
-        <self.version>1.0-SNAPSHOT</self.version>
         <skywalking.version>9.3.0</skywalking.version>
         <jwt.version>0.13.0</jwt.version>
         <jakarta.version>6.1.0</jakarta.version>
@@ -49,6 +48,10 @@
         <mybatis-plus.version>3.5.5</mybatis-plus.version>
         <alioss.version>3.10.2</alioss.version>
         <gson.version>2.10.1</gson.version>
+
+
+<!--        自己的依赖管理-->
+        <self.version>1.0-SNAPSHOT</self.version>
 
     </properties>
     <!--    依赖版本管理-->
@@ -191,16 +194,6 @@
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>Langchain4jUtil</artifactId>
-                <version>${self.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>SpringAiUtil</artifactId>
-                <version>${self.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
                 <artifactId>MongoDBUtil</artifactId>
                 <version>${self.version}</version>
             </dependency>
@@ -297,26 +290,13 @@
 
     <!--子模块管理-->
     <modules>
-        <module>ConfigObject</module>
-        <module>RedisUtil</module>
-        <module>ElasticsearchUtil</module>
-        <module>MybatisPlusUtil</module>
-        <module>Langchain4jUtil</module>
-        <module>SpringAiUtil</module>
-        <module>MongoDBUtil</module>
-        <module>SentinelUtil</module>
-        <module>FeignUtil</module>
-        <module>GatewayUtil</module>
-        <module>RabbitMQUtil</module>
-        <module>RocketMQUtil</module>
-        <module>KafkaUtil</module>
-        <module>NacosUtil</module>
-        <module>SkyWalkingUtil</module>
-        <module>CommonUtil</module>
-        <module>JWTUtil</module>
-        <module>WebUtil</module>
-        <module>CaffeineUtil</module>
-        <module>OSSUtil</module>
+        <module>db</module>
+        <module>cloud</module>
+        <module>mq</module>
+        <module>common</module>
+        <module>web</module>
+        <module>ai</module>
+        <module>ai/ai-dependencies-bom</module>
     </modules>
 
 

@@ -1,28 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/CaffeineUtil/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/CommonUtil/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ConfigObject/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ElasticsearchUtil/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/EventRespondUtil/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/FeignUtil/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/GatewayUtil/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/JWTUtil/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/KafkaUtil/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Langchain4jUtil/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/MongoDBUtil/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/MybatisPlusUtil/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/NacosUtil/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/OSSUtil/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/RabbitMQUtil/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/RedisUtil/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/RocketMQUtil/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SentinelUtil/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SkyWalkingUtil/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringAiUtil/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/WebUtil/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ai/langchain4j-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ai/spring-ai-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ai/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ai/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/feign-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/gateway-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/nacos-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/sentinel-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/skywalking-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/ali-oss-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/caffeine-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/common-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/config-object/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/event-respond-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/db/elasticsearch-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/db/mongodb-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/db/mybatis-plus-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/db/redis-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/db/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/db/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mq/kafka-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mq/rabbitmq-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mq/rocketmq-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mq/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/jwt-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/web-util/src/main/java" charset="UTF-8" />
+    <file url="file://$APPLICATION_HOME_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$APPLICATION_HOME_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>
