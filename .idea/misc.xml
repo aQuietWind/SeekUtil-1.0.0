@@ -11,6 +11,12 @@
         <option value="$PROJECT_DIR$/EventRespondUtil/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/ai/ai-dependencies-bom/pom.xml" />
+        <option value="$PROJECT_DIR$/web/web-dependencies-bom/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">

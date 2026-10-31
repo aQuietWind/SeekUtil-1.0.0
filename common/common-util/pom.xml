@@ -7,6 +7,7 @@
         <groupId>seek.util.common</groupId>
         <artifactId>common</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>common-util</artifactId>
@@ -20,8 +21,8 @@
     <dependencies>
         <!--        ConfigObject依赖-->
         <dependency>
-            <groupId>com.seek.util</groupId>
-            <artifactId>ConfigObject</artifactId>
+            <groupId>seek.util.common</groupId>
+            <artifactId>config-object</artifactId>
         </dependency>
     </dependencies>
 

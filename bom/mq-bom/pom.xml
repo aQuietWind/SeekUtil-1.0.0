@@ -4,35 +4,39 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>seek.util.web</groupId>
-        <artifactId>web</artifactId>
+        <groupId>seek.util.bom</groupId>
+        <artifactId>bom</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>web-dependencies-bom</artifactId>
+    <artifactId>mq-bom</artifactId>
+    <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <project.groupId>seek.util.web</project.groupId>
-        <self.version>1.0-SNAPSHOT</self.version>
+        <dependency.group.id>seek.util.mq</dependency.group.id>
     </properties>
-
-
 
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>web-util</artifactId>
-                <version>${self.version}</version>
+                <groupId>${dependency.group.id}</groupId>
+                <artifactId>kafka-util</artifactId>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>jwt-util</artifactId>
-                <version>${self.version}</version>
+                <groupId>${dependency.group.id}</groupId>
+                <artifactId>rabbitmq-util</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${dependency.group.id}</groupId>
+                <artifactId>rocketmq-util</artifactId>
+                <version>${project.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

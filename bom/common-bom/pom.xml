@@ -4,50 +4,49 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>seek.util.common</groupId>
-        <artifactId>common</artifactId>
+        <groupId>seek.util.bom</groupId>
+        <artifactId>bom</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>dependencies-bom</artifactId>
+    <artifactId>common-bom</artifactId>
+    <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <project.groupId>seek.util.common</project.groupId>
-        <self.version>1.0-SNAPSHOT</self.version>
+        <dependency.group.id>seek.util.common</dependency.group.id>
     </properties>
-
-
 
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>${project.groupId}</groupId>
+                <groupId>${dependency.group.id}</groupId>
                 <artifactId>ali-oss-util</artifactId>
-                <version>${self.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>${project.groupId}</groupId>
+                <groupId>${dependency.group.id}</groupId>
                 <artifactId>caffeine-util</artifactId>
-                <version>${self.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>${project.groupId}</groupId>
+                <groupId>${dependency.group.id}</groupId>
                 <artifactId>common-util</artifactId>
-                <version>${self.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>${project.groupId}</groupId>
+                <groupId>${dependency.group.id}</groupId>
                 <artifactId>config-object</artifactId>
-                <version>${self.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>${project.groupId}</groupId>
+                <groupId>${dependency.group.id}</groupId>
                 <artifactId>event-respond-system</artifactId>
-                <version>${self.version}</version>
+                <version>${project.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

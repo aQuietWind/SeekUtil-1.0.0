@@ -48,11 +48,6 @@
         <mybatis-plus.version>3.5.5</mybatis-plus.version>
         <alioss.version>3.10.2</alioss.version>
         <gson.version>2.10.1</gson.version>
-
-
-<!--        自己的依赖管理-->
-        <self.version>1.0-SNAPSHOT</self.version>
-
     </properties>
     <!--    依赖版本管理-->
     <dependencyManagement>
@@ -174,102 +169,12 @@
                 <artifactId>gson</artifactId>
                 <version>${gson.version}</version>
             </dependency>
-
-
-            <!--该项目的ConfigObject模块        -->
             <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>ConfigObject</artifactId>
-                <version>${self.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>ElasticsearchUtil</artifactId>
-                <version>${self.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>MybatisPlusUtil</artifactId>
-                <version>${self.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>MongoDBUtil</artifactId>
-                <version>${self.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>SentinelUtil</artifactId>
-                <version>${self.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>FeignUtil</artifactId>
-                <version>${self.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>RabbitMQUtil</artifactId>
-                <version>${self.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>RocketMQUtil</artifactId>
-                <version>${self.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>KafkaUtil</artifactId>
-                <version>${self.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>SkyWalkingUtil</artifactId>
-                <version>${self.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>CommonUtil</artifactId>
-                <version>${self.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>JWTUtil</artifactId>
-                <version>${self.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>WebUtil</artifactId>
-                <version>${self.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>CaffeineUtil</artifactId>
-                <version>${self.version}</version>
-            </dependency>
-            <!--该项目的RedisUtil模块        -->
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>RedisUtil</artifactId>
-                <version>${self.version}</version>
-            </dependency>
-            <!--该项目的NacosUtil模块        -->
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>NacosUtil</artifactId>
-                <version>${self.version}</version>
-            </dependency>
-            <!--该项目的GatewayUtil模块        -->
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>GatewayUtil</artifactId>
-                <version>${self.version}</version>
-            </dependency>
-            <!--该项目的OSSUtil模块        -->
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>OSSUtil</artifactId>
-                <version>${self.version}</version>
+                <groupId>seek.util.bom</groupId>
+                <artifactId>bom</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -296,8 +201,18 @@
         <module>common</module>
         <module>web</module>
         <module>ai</module>
-        <module>ai/ai-dependencies-bom</module>
+        <module>bom</module>
+        <module>seek-bom</module>
     </modules>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>versions-maven-plugin</artifactId>
+                <version>2.16.2</version>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

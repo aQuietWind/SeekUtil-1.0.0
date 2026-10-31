@@ -14,15 +14,15 @@
         <module name="caffeine-util" />
         <module name="nacos-util" />
         <module name="event-respond-system" />
-        <module name="sentinel-util" />
         <module name="rabbitmq-util" />
+        <module name="sentinel-util" />
         <module name="elasticsearch-util" />
         <module name="langchain4j-util" />
         <module name="jwt-util" />
         <module name="redis-util" />
         <module name="web-util" />
-        <module name="config-object" />
         <module name="gateway-util" />
+        <module name="config-object" />
         <module name="skywalking-util" />
         <module name="feign-util" />
         <module name="mongodb-util" />
@@ -30,7 +30,19 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="21">
+      <module name="ai-bom" target="21" />
+      <module name="ai-dependencies-bom" target="21" />
+      <module name="cloud-bom" target="21" />
+      <module name="cloud-dependencies-bom" target="21" />
+      <module name="common-bom" target="21" />
+      <module name="common-dependencies-bom" target="21" />
+      <module name="db-bom" target="21" />
+      <module name="db-dependencies-bom" target="21" />
       <module name="JWTUtil" target="21" />
+      <module name="mq-bom" target="21" />
+      <module name="mq-dependencies-bom" target="21" />
+      <module name="web-bom" target="21" />
+      <module name="web-dependencies-bom" target="21" />
       <module name="WebUtil" target="21" />
     </bytecodeTargetLevel>
   </component>
@@ -39,13 +51,21 @@
       <module name="JWTUtil" options="-parameters" />
       <module name="WebUtil" options="-parameters" />
       <module name="ai" options="" />
+      <module name="ai-bom" options="" />
+      <module name="ai-dependencies-bom" options="-parameters" />
       <module name="ali-oss-util" options="-parameters" />
       <module name="caffeine-util" options="-parameters" />
       <module name="cloud" options="" />
+      <module name="cloud-bom" options="" />
+      <module name="cloud-dependencies-bom" options="-parameters" />
       <module name="common" options="" />
+      <module name="common-bom" options="" />
+      <module name="common-dependencies-bom" options="-parameters" />
       <module name="common-util" options="-parameters" />
       <module name="config-object" options="-parameters" />
       <module name="db" options="" />
+      <module name="db-bom" options="" />
+      <module name="db-dependencies-bom" options="-parameters" />
       <module name="elasticsearch-util" options="-parameters" />
       <module name="event-respond-system" options="-parameters" />
       <module name="feign-util" options="-parameters" />
@@ -55,6 +75,8 @@
       <module name="langchain4j-util" options="-parameters" />
       <module name="mongodb-util" options="-parameters" />
       <module name="mq" options="" />
+      <module name="mq-bom" options="" />
+      <module name="mq-dependencies-bom" options="-parameters" />
       <module name="mybatis-plus-util" options="-parameters" />
       <module name="nacos-util" options="-parameters" />
       <module name="rabbitmq-util" options="-parameters" />
@@ -64,6 +86,8 @@
       <module name="skywalking-util" options="-parameters" />
       <module name="spring-ai-util" options="-parameters" />
       <module name="web" options="" />
+      <module name="web-bom" options="" />
+      <module name="web-dependencies-bom" options="-parameters" />
       <module name="web-util" options="-parameters" />
     </option>
   </component>

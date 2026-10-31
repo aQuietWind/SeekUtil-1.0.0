@@ -7,6 +7,7 @@
         <groupId>seek.util.db</groupId>
         <artifactId>db</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>redis-util</artifactId>
@@ -30,8 +31,8 @@
         </dependency>
         <!--        ConfigObject依赖-->
         <dependency>
-            <groupId>com.seek.util</groupId>
-            <artifactId>ConfigObject</artifactId>
+            <groupId>seek.util.common</groupId>
+            <artifactId>config-object</artifactId>
         </dependency>
     </dependencies>
 

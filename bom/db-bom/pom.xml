@@ -4,45 +4,44 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>seek.util.db</groupId>
-        <artifactId>db</artifactId>
+        <groupId>seek.util.bom</groupId>
+        <artifactId>bom</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>db-dependencies-bom</artifactId>
+    <artifactId>db-bom</artifactId>
+    <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <project.groupId>seek.util.db</project.groupId>
-        <self.version>1.0-SNAPSHOT</self.version>
+        <dependency.group.id>seek.util.db</dependency.group.id>
     </properties>
-
-
 
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>${project.groupId}</groupId>
+                <groupId>${dependency.group.id}</groupId>
                 <artifactId>elasticsearch-util</artifactId>
-                <version>${self.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>${project.groupId}</groupId>
+                <groupId>${dependency.group.id}</groupId>
                 <artifactId>mongodb-util</artifactId>
-                <version>${self.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>${project.groupId}</groupId>
+                <groupId>${dependency.group.id}</groupId>
                 <artifactId>mybatis-plus-util</artifactId>
-                <version>${self.version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>${project.groupId}</groupId>
+                <groupId>${dependency.group.id}</groupId>
                 <artifactId>redis-util</artifactId>
-                <version>${self.version}</version>
+                <version>${project.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

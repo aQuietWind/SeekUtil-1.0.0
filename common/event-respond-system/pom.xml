@@ -6,6 +6,7 @@
         <groupId>seek.util.common</groupId>
         <artifactId>common</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>event-respond-system</artifactId>
@@ -16,8 +17,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.seek.util</groupId>
-            <artifactId>ConfigObject</artifactId>
+            <groupId>seek.util.common</groupId>
+            <artifactId>config-object</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
