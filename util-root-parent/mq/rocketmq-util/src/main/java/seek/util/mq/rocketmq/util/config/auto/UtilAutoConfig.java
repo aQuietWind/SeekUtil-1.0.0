@@ -1,4 +1,4 @@
-package seek.util.mq.rocketmq.util.AutoConfig;
+package seek.util.mq.rocketmq.util.config.auto;
 
 import seek.util.mq.rocketmq.util.BizStore;
 import seek.util.mq.rocketmq.util.DefaultTransactionListener;

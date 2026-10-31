@@ -1,4 +1,4 @@
-package seek.util.mq.rabbitmq.util.Config;
+package seek.util.mq.rabbitmq.util.config;
 
 import org.springframework.amqp.support.converter.DefaultJackson2JavaTypeMapper;
 import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;

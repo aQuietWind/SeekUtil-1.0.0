@@ -2,4 +2,4 @@
 # 全类名即可
 # 如: com.seek.food.config.NacosConfig.Common.JWTConfig
 
-AutoConfig.seek.util.mq.kafka.util.UtilAutoConfig
+seek.util.mq.kafka.util.config.auto.UtilAutoConfig

@@ -1,4 +1,4 @@
-package seek.util.mq.rabbitmq.util.Config;
+package seek.util.mq.rabbitmq.util.config;
 
 
 import lombok.extern.slf4j.Slf4j;

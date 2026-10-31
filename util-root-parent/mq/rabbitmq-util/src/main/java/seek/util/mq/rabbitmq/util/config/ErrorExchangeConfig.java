@@ -1,4 +1,4 @@
-package seek.util.mq.rabbitmq.util.Config;
+package seek.util.mq.rabbitmq.util.config;
 
 import seek.util.common.config.object.mq.rabbitmq.QueueData;
 import seek.util.mq.rabbitmq.util.QueueUtil;

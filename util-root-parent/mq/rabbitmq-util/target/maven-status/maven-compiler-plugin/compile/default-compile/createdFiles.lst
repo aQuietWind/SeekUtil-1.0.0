@@ -6,3 +6,4 @@ seek\util\mq\rabbitmq\util\CorrleationUtil.class
 seek\util\mq\rabbitmq\util\MQUtil.class
 seek\util\mq\rabbitmq\util\Config\ConverterConfig.class
 seek\util\mq\rabbitmq\util\AutoConfig\UtilAutoConfig.class
+seek\util\mq\rabbitmq\util\QuickRegisterUtil$1.class

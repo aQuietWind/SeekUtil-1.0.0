@@ -1,4 +1,4 @@
-package seek.util.db.redis.util.Config;
+package seek.util.db.redis.util.config;
 
 import seek.util.db.redis.util.RedissonUtil;
 import org.redisson.Redisson;

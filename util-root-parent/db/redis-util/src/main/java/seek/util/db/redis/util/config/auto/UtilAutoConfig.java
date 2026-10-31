@@ -1,4 +1,4 @@
-package seek.util.db.redis.util.AutoConfig;
+package seek.util.db.redis.util.config.auto;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

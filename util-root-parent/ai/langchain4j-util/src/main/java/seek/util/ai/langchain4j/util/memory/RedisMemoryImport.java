@@ -1,4 +1,4 @@
-package seek.util.ai.langchain4j.util.RedisMemory;
+package seek.util.ai.langchain4j.util.memory;
 
 import org.springframework.context.annotation.Import;
 

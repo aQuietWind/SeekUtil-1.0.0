@@ -1,8 +1,11 @@
 package seek.util.mq.rabbitmq.util;
 
+import jakarta.annotation.Nonnull;
 import org.springframework.amqp.core.*;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
+import org.springframework.context.annotation.ImportBeanDefinitionRegistrar;
+import org.springframework.core.type.AnnotationMetadata;
 import seek.util.common.config.object.mq.rabbitmq.ExchangeData;
 import seek.util.common.config.object.mq.rabbitmq.QueueData;
 
@@ -84,6 +87,14 @@ public class QuickRegisterUtil{
         }
     }
 
+    public ImportBeanDefinitionRegistrar registrar(List<ExchangeData> exchangeDatas, List<QueueData> queueDatas){
+        return new ImportBeanDefinitionRegistrar(){
+            @Override
+            public void  registerBeanDefinitions(@Nonnull AnnotationMetadata importingClassMetadata, @Nonnull BeanDefinitionRegistry registry){
+                registerAll(registry,exchangeDatas,queueDatas);
+            }
+        };
+    }
 
 
 

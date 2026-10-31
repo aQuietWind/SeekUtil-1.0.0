@@ -1,4 +1,4 @@
-package seek.util.ai.langchain4j.util.RedisMemory;
+package seek.util.ai.langchain4j.util.memory;
 
 import seek.util.common.config.object.db.redis.RedisKeyData;
 import seek.util.db.redis.util.RedisUtil;

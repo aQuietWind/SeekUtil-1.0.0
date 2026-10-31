@@ -1,4 +1,4 @@
-package seek.util.ai.langchain4j.util.RedisMemory;
+package seek.util.ai.langchain4j.util.memory;
 
 import seek.util.db.redis.util.RedisUtil;
 import dev.langchain4j.memory.chat.ChatMemoryProvider;

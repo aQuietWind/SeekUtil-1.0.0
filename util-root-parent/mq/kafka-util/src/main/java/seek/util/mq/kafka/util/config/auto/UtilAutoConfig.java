@@ -1,4 +1,4 @@
-package seek.util.mq.kafka.util.AutoConfig;
+package seek.util.mq.kafka.util.config.auto;
 
 import seek.util.mq.kafka.util.KafkaUtil;
 import seek.util.mq.kafka.util.TopicUtil;

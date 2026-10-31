@@ -1,4 +1,4 @@
-package seek.util.db.elasticsearch.util.AutoConfig;
+package seek.util.db.elasticsearch.util.config.auto;
 
 import seek.util.db.elasticsearch.util.EsSearchUtil;
 import seek.util.db.elasticsearch.util.EsUpdateUtil;

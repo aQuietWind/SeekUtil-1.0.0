@@ -2,5 +2,5 @@
 # 全类名即可
 # 如: com.seek.food.config.NacosConfig.Common.JWTConfig
 
-AutoConfig.seek.util.db.redis.util.UtilAutoConfig
-Config.seek.util.db.redis.util.RedissonConfig
+seek.util.db.redis.util.config.auto.UtilAutoConfig
+seek.util.db.redis.util.config.RedissonConfig

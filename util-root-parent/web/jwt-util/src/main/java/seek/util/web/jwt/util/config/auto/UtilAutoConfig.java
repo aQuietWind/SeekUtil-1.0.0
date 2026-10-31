@@ -1,4 +1,4 @@
-package seek.util.web.jwt.util.AutoConfig;
+package seek.util.web.jwt.util.config.auto;
 
 import seek.util.web.jwt.util.JWTUtil;
 import seek.util.web.jwt.util.TokenUtil;

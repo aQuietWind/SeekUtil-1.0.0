@@ -1,4 +1,4 @@
-package seek.util.mq.rabbitmq.util.AutoConfig;
+package seek.util.mq.rabbitmq.util.config.auto;
 
 import seek.util.mq.rabbitmq.util.CorrleationUtil;
 import seek.util.mq.rabbitmq.util.MQUtil;
