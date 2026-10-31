@@ -2,7 +2,7 @@
 # 全类名即可
 # 如: com.seek.food.config.NacosConfig.Common.JWTConfig
 
-com.seek.util.rabbitmqutil.AutoConfig.UtilAutoConfig
-com.seek.util.rabbitmqutil.Config.ErrorExchangeConfig
-com.seek.util.rabbitmqutil.Config.MessageReturnCallBackConfig
-com.seek.util.rabbitmqutil.Config.ConverterConfig
+AutoConfig.seek.util.mq.rabbitmq.util.UtilAutoConfig
+Config.seek.util.mq.rabbitmq.util.ErrorExchangeConfig
+Config.seek.util.mq.rabbitmq.util.MessageReturnCallBackConfig
+Config.seek.util.mq.rabbitmq.util.ConverterConfig

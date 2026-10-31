@@ -2,6 +2,6 @@
 # 全类名即可
 # 如: com.seek.food.config.NacosConfig.Common.JWTConfig
 
-com.seek.util.sentinelutil.HeaderOriginParser
-com.seek.util.sentinelutil.SentinelBlockHandler
-com.seek.util.sentinelutil.SentinelGlobalApiConfig
+seek.util.cloud.sentinel.util.HeaderOriginParser
+seek.util.cloud.sentinel.util.SentinelBlockHandler
+seek.util.cloud.sentinel.util.SentinelGlobalApiConfig
