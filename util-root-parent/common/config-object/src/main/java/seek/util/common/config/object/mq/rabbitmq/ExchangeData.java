@@ -8,6 +8,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ExchangeData {
+    public static final String Fanout="fanout";
+    public static final String Direct="direct";
+    public static final String Topic="topic";
     private String exchangeName;
     private String type;
 }

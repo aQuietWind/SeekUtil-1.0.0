@@ -6,66 +6,91 @@
   <component name="ChangeListManager">
     <list default="true" id="ab44ae5e-63af-4ba7-9f5f-c6ce1ebe77c8" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/src/main/java/seek/util/ai/langchain4j/util/ChatUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/src/main/java/seek/util/ai/langchain4j/util/ChatUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/src/main/java/seek/util/ai/langchain4j/util/RedisMemory/RedisChatMemoryStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/src/main/java/seek/util/ai/langchain4j/util/RedisMemory/RedisChatMemoryStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/feign-util/src/main/java/seek/util/cloud/feign/util/FeignTokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/feign-util/src/main/java/seek/util/cloud/feign/util/FeignTokenInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/gateway-util/src/main/java/seek/util/cloud/gateway/util/FilterUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/gateway-util/src/main/java/seek/util/cloud/gateway/util/FilterUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/sentinel-util/src/main/java/seek/util/cloud/sentinel/util/SentinelBlockHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/sentinel-util/src/main/java/seek/util/cloud/sentinel/util/SentinelBlockHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/ali-oss-util/src/main/java/seek/util/common/ali/oss/util/OssUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/ali-oss-util/src/main/java/seek/util/common/ali/oss/util/OssUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/caffeine-util/src/main/java/seek/util/common/caffeine/util/JvmCaffeineParent.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/caffeine-util/src/main/java/seek/util/common/caffeine/util/JvmCaffeineParent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/common-util/src/main/java/seek/util/common/common/util/Exception/BizThrowUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/common-util/src/main/java/seek/util/common/common/util/Exception/BizThrowUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/common-util/src/main/java/seek/util/common/common/util/FileUtil/FileRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/common-util/src/main/java/seek/util/common/common/util/FileUtil/FileRemove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/AliOSSData/OssData.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/common/ali/oss/OssData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/CaffeineData/CaffeineData.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/common/caffeine/CaffeineData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/Context/TokenIdContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/common/context/TokenIdContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/EventRespondData/EventData.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/common/event/respond/system/EventData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/EventRespondData/EventList.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/common/event/respond/system/EventList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/EventRespondData/ValueData.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/common/event/respond/system/ValueData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/JWTData/JWTGlobalData.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/web/jwt/JWTGlobalData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/JWTData/JWTRoleData.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/web/jwt/JWTRoleData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/KafkaData/TopicData.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/mq/kafka/TopicData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/RabbitMQData/ExchangeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/mq/rabbitmq/ExchangeData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/RabbitMQData/QueueData.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/mq/rabbitmq/QueueData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/RedisData/RedisConsumerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/db/redis/RedisConsumerData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/RedisData/RedisKeyData.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/db/redis/RedisKeyData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/RedisData/RedisStreamData.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/db/redis/RedisStreamData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/RocketMQData/ConsumerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/mq/rocketmq/ConsumerData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/UtilObject/DTO/ChangeAmountDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/common/common/object/dto/ChangeAmountDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/UtilObject/DTO/EsSearchResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/common/common/object/dto/EsSearchResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/UtilObject/DTO/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/common/common/object/dto/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/UtilObject/DTO/SimplePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/common/common/object/dto/SimplePoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/UtilObject/DTO/SyncStateDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/common/common/object/dto/SyncStateDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/UtilObject/Exception/BizException.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/common/common/object/exception/BizException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/UtilObject/Exception/ErrorCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/common/common/object/exception/ErrorCodeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/UtilObject/Function/RunFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/common/common/object/function/RunFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/UtilObject/Function/RunWithParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/common/common/object/function/RunWithParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/UtilObject/Function/RunWithReturnFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/common/common/object/function/RunWithReturnFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/UtilObject/Function/RunWithReturnParamFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/common/common/object/function/RunWithReturnParamFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/UtilObject/Function/RunWithReturnTwoParamFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/common/common/object/function/RunWithReturnTwoParamFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/UtilObject/Function/RunWithTwoParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/common/common/object/function/RunWithTwoParams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/src/main/java/seek/util/common/event/respond/system/CheckPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/src/main/java/seek/util/common/event/respond/system/CheckPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/src/main/java/seek/util/common/event/respond/system/ExecutePool.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/src/main/java/seek/util/common/event/respond/system/ExecutePool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/src/main/java/seek/util/common/event/respond/system/ValueFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/src/main/java/seek/util/common/event/respond/system/ValueFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/elasticsearch-util/src/main/java/seek/util/db/elasticsearch/util/EsSearchUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/elasticsearch-util/src/main/java/seek/util/db/elasticsearch/util/EsSearchUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/src/main/java/seek/util/db/redis/util/AutoConfig/UtilAutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/src/main/java/seek/util/db/redis/util/AutoConfig/UtilAutoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/src/main/java/seek/util/db/redis/util/RedisBitMapUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/src/main/java/seek/util/db/redis/util/RedisBitMapUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/src/main/java/seek/util/db/redis/util/RedisIdUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/src/main/java/seek/util/db/redis/util/RedisIdUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/src/main/java/seek/util/db/redis/util/RedisStreamUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/src/main/java/seek/util/db/redis/util/RedisStreamUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/src/main/java/seek/util/db/redis/util/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/src/main/java/seek/util/db/redis/util/RedisUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/src/main/java/seek/util/db/redis/util/RedissonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/src/main/java/seek/util/db/redis/util/RedissonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/src/main/java/seek/util/mq/kafka/util/KafkaUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/src/main/java/seek/util/mq/kafka/util/KafkaUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/src/main/java/seek/util/mq/kafka/util/TopicUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/src/main/java/seek/util/mq/kafka/util/TopicUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/Config/ErrorExchangeConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/Config/ErrorExchangeConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/MQUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/MQUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/QueueUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/QueueUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/src/main/java/seek/util/mq/rocketmq/util/BizStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/src/main/java/seek/util/mq/rocketmq/util/BizStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/src/main/java/seek/util/mq/rocketmq/util/DefaultTransactionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/src/main/java/seek/util/mq/rocketmq/util/DefaultTransactionListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/src/main/java/seek/util/mq/rocketmq/util/ProducerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/src/main/java/seek/util/mq/rocketmq/util/ProducerUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/web/jwt-util/src/main/java/seek/util/web/jwt/util/JWTUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/jwt-util/src/main/java/seek/util/web/jwt/util/JWTUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/web/jwt-util/src/main/java/seek/util/web/jwt/util/TokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/jwt-util/src/main/java/seek/util/web/jwt/util/TokenUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/web/web-util/src/main/java/seek/util/web/web/util/File/FileSave.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/web-util/src/main/java/seek/util/web/web/util/File/FileSave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/web/web-util/src/main/java/seek/util/web/web/util/Handler/GlobalRequestExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/web-util/src/main/java/seek/util/web/web/util/Handler/GlobalRequestExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/web/web-util/src/main/java/seek/util/web/web/util/Interceptor/TokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/web-util/src/main/java/seek/util/web/web/util/Interceptor/TokenInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/target/classes/seek/util/ai/langchain4j/util/ChatUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/target/classes/seek/util/ai/langchain4j/util/ChatUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/target/classes/seek/util/ai/langchain4j/util/RedisMemory/AiMemoryConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/target/classes/seek/util/ai/langchain4j/util/RedisMemory/AiMemoryConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/target/classes/seek/util/ai/langchain4j/util/RedisMemory/RedisChatMemoryStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/target/classes/seek/util/ai/langchain4j/util/RedisMemory/RedisChatMemoryStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/target/langchain4j-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/target/langchain4j-util-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/ai/spring-ai-util/target/spring-ai-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/ai/spring-ai-util/target/spring-ai-util-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/feign-util/target/classes/seek/util/cloud/feign/util/FeignTokenInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/feign-util/target/classes/seek/util/cloud/feign/util/FeignTokenInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/feign-util/target/feign-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/feign-util/target/feign-util-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/gateway-util/target/classes/seek/util/cloud/gateway/util/FilterUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/gateway-util/target/classes/seek/util/cloud/gateway/util/FilterUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/gateway-util/target/gateway-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/gateway-util/target/gateway-util-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/sentinel-util/target/classes/seek/util/cloud/sentinel/util/SentinelBlockHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/sentinel-util/target/classes/seek/util/cloud/sentinel/util/SentinelBlockHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/sentinel-util/target/sentinel-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/sentinel-util/target/sentinel-util-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/ali-oss-util/target/ali-oss-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/ali-oss-util/target/ali-oss-util-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/ali-oss-util/target/classes/seek/util/common/ali/oss/util/OssUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/ali-oss-util/target/classes/seek/util/common/ali/oss/util/OssUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/caffeine-util/target/caffeine-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/caffeine-util/target/caffeine-util-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/caffeine-util/target/classes/seek/util/common/caffeine/util/JvmCaffeineParent.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/caffeine-util/target/classes/seek/util/common/caffeine/util/JvmCaffeineParent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/common-util/target/classes/seek/util/common/common/util/Exception/BizThrowUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/common-util/target/classes/seek/util/common/common/util/Exception/BizThrowUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/common-util/target/classes/seek/util/common/common/util/FileUtil/FileRemove.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/common-util/target/classes/seek/util/common/common/util/FileUtil/FileRemove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/common-util/target/common-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/common-util/target/common-util-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/mq/rabbitmq/ExchangeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/mq/rabbitmq/ExchangeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/AliOSSData/OssData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/CaffeineData/CaffeineData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/Context/TokenIdContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/EventRespondData/EventData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/EventRespondData/EventList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/EventRespondData/ValueData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/JWTData/JWTGlobalData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/JWTData/JWTRoleData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/KafkaData/TopicData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/RabbitMQData/ExchangeData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/RabbitMQData/QueueData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/RedisData/RedisConsumerData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/RedisData/RedisKeyData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/RedisData/RedisStreamData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/RocketMQData/ConsumerData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/UtilObject/DTO/ChangeAmountDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/UtilObject/DTO/EsSearchResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/UtilObject/DTO/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/UtilObject/DTO/SimplePoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/UtilObject/DTO/SyncStateDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/UtilObject/Exception/BizException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/UtilObject/Exception/ErrorCodeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/UtilObject/Function/RunFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/UtilObject/Function/RunWithParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/UtilObject/Function/RunWithReturnFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/UtilObject/Function/RunWithReturnParamFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/UtilObject/Function/RunWithReturnTwoParamFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/UtilObject/Function/RunWithTwoParams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/config-object-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/target/config-object-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/target/classes/seek/util/common/event/respond/system/CheckPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/target/classes/seek/util/common/event/respond/system/CheckPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/target/classes/seek/util/common/event/respond/system/ExecutePool.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/target/classes/seek/util/common/event/respond/system/ExecutePool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/target/classes/seek/util/common/event/respond/system/ValueFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/target/classes/seek/util/common/event/respond/system/ValueFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/target/event-respond-system-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/target/event-respond-system-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/db/elasticsearch-util/target/classes/seek/util/db/elasticsearch/util/EsSearchUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/elasticsearch-util/target/classes/seek/util/db/elasticsearch/util/EsSearchUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/db/elasticsearch-util/target/elasticsearch-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/elasticsearch-util/target/elasticsearch-util-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/RedisBitMapUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/RedisBitMapUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/RedisIdUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/RedisIdUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/RedisStreamUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/RedisStreamUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/RedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/RedisUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/RedissonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/RedissonUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/redis-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/redis-util-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/target/classes/seek/util/mq/kafka/util/KafkaUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/target/classes/seek/util/mq/kafka/util/KafkaUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/target/classes/seek/util/mq/kafka/util/TopicUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/target/classes/seek/util/mq/kafka/util/TopicUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/target/kafka-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/target/kafka-util-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/seek/util/mq/rabbitmq/util/Config/ErrorExchangeConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/seek/util/mq/rabbitmq/util/Config/ErrorExchangeConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/seek/util/mq/rabbitmq/util/MQUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/seek/util/mq/rabbitmq/util/MQUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/seek/util/mq/rabbitmq/util/QueueUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/seek/util/mq/rabbitmq/util/QueueUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/rabbitmq-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/rabbitmq-util-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/classes/seek/util/mq/rocketmq/util/BizStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/classes/seek/util/mq/rocketmq/util/BizStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/classes/seek/util/mq/rocketmq/util/DefaultTransactionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/classes/seek/util/mq/rocketmq/util/DefaultTransactionListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/classes/seek/util/mq/rocketmq/util/ProducerUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/classes/seek/util/mq/rocketmq/util/ProducerUtil$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/classes/seek/util/mq/rocketmq/util/ProducerUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/classes/seek/util/mq/rocketmq/util/ProducerUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/rocketmq-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/rocketmq-util-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/web/jwt-util/target/classes/seek/util/web/jwt/util/JWTUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/jwt-util/target/classes/seek/util/web/jwt/util/JWTUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/web/jwt-util/target/classes/seek/util/web/jwt/util/TokenUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/jwt-util/target/classes/seek/util/web/jwt/util/TokenUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/web/jwt-util/target/jwt-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/jwt-util/target/jwt-util-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/web/web-util/src/main/java/seek/util/web/web/util/Config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/web-util/src/main/java/seek/util/web/web/util/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/web/web-util/src/main/java/seek/util/web/web/util/File/FileSave.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/web-util/src/main/java/seek/util/web/web/util/file/WebFileSave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/web/web-util/src/main/java/seek/util/web/web/util/Handler/GlobalRequestExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/web-util/src/main/java/seek/util/web/web/util/handler/GlobalRequestExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/web/web-util/src/main/java/seek/util/web/web/util/Interceptor/TokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/web-util/src/main/java/seek/util/web/web/util/interceptor/TokenInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/web/web-util/target/classes/seek/util/web/web/util/File/FileSave.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/web-util/target/classes/seek/util/web/web/util/File/FileSave.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/web/web-util/target/classes/seek/util/web/web/util/Handler/GlobalRequestExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/web-util/target/classes/seek/util/web/web/util/Handler/GlobalRequestExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/web/web-util/target/classes/seek/util/web/web/util/Interceptor/TokenInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/web-util/target/classes/seek/util/web/web/util/Interceptor/TokenInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/web/web-util/target/web-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/web-util/target/web-util-2.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,61 +119,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000093639279" />
-      <entry key="S2" value="1.0129736700009553" />
-      <entry key="S5" value="1.3108991156117424" />
-      <entry key="S10" value="2.1377956140825294" />
-      <entry key="S30" value="5.319638466072751" />
-      <entry key="S60" value="9.138932008387831" />
-      <entry key="M2" value="13.612309081654958" />
-      <entry key="M5" value="18.876504962088493" />
-      <entry key="M10" value="26.4133407428288" />
-      <entry key="M15" value="36.215871075059766" />
-      <entry key="M30" value="62.754793126679466" />
-      <entry key="H1" value="98.83252217671307" />
-      <entry key="H2" value="178.83224437954937" />
-      <entry key="H4" value="394.3911463992142" />
-      <entry key="D1" value="1378.9393491092849" />
-      <entry key="W1" value="1843.037673950866" />
+      <entry key="MS100" value="4.334543049657096E-252" />
+      <entry key="MS500" value="5.3381240772324046E-51" />
+      <entry key="S2" value="2.710016101153319E-13" />
+      <entry key="S5" value="1.0804868517196506E-5" />
+      <entry key="S10" value="0.00539939510082987" />
+      <entry key="S30" value="0.5874897352975641" />
+      <entry key="S60" value="2.5135596943920304" />
+      <entry key="M2" value="6.691986894547667" />
+      <entry key="M5" value="15.256994522223593" />
+      <entry key="M10" value="23.55745734420917" />
+      <entry key="M15" value="31.004862283863208" />
+      <entry key="M30" value="54.589726472524184" />
+      <entry key="H1" value="94.49590139701297" />
+      <entry key="H2" value="175.59753601732962" />
+      <entry key="H4" value="385.9459930993598" />
+      <entry key="D1" value="1387.3479875798168" />
+      <entry key="W1" value="1872.118034274501" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="6.341437717653461E-227" />
-      <entry key="S5" value="5.021507062519843E-91" />
-      <entry key="S10" value="1.0018942967441345E-45" />
-      <entry key="S30" value="1.5883132051395727E-15" />
-      <entry key="S60" value="5.636208930532186E-8" />
-      <entry key="M2" value="3.3798249150072577E-4" />
-      <entry key="M5" value="0.08220465607624952" />
-      <entry key="M10" value="0.9247111928357454" />
-      <entry key="M15" value="2.5318383955995034" />
-      <entry key="M30" value="8.151352176387727" />
-      <entry key="H1" value="20.269007777827355" />
-      <entry key="H2" value="65.1912798948787" />
-      <entry key="H4" value="217.81180291554455" />
-      <entry key="D1" value="1020.8460196469423" />
-      <entry key="W1" value="1411.930837847829" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000000002" />
+      <entry key="S5" value="1.0000010583259742" />
+      <entry key="S10" value="1.0019221475645177" />
+      <entry key="S30" value="1.410163725398263" />
+      <entry key="S60" value="2.871957295608315" />
+      <entry key="M2" value="5.354594668225636" />
+      <entry key="M5" value="9.373257660268346" />
+      <entry key="M10" value="12.445874265781164" />
+      <entry key="M15" value="14.272902659816848" />
+      <entry key="M30" value="19.011534034536645" />
+      <entry key="H1" value="29.72627801997738" />
+      <entry key="H2" value="69.48742500985843" />
+      <entry key="H4" value="212.43605777263784" />
+      <entry key="D1" value="1019.9337824445123" />
+      <entry key="W1" value="1426.1671712290163" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9726549474122855" />
-      <entry key="MS500" value="0.9944701779595785" />
-      <entry key="S2" value="1.0115615546621703" />
-      <entry key="S5" value="1.3100939652551995" />
-      <entry key="S10" value="2.1370691932444954" />
-      <entry key="S30" value="5.318983526097522" />
-      <entry key="S60" value="9.138352972608454" />
-      <entry key="M2" value="13.611998024715989" />
-      <entry key="M5" value="18.956847213512933" />
-      <entry key="M10" value="27.333439641802276" />
-      <entry key="M15" value="38.740716780463444" />
-      <entry key="M30" value="70.89664245358448" />
-      <entry key="H1" value="119.09139466353588" />
-      <entry key="H2" value="244.00895882133273" />
-      <entry key="H4" value="612.1791912021322" />
-      <entry key="D1" value="2399.7669015073216" />
-      <entry key="W1" value="3254.964861047874" />
+      <entry key="MS100" value="5.090164847857037E-4" />
+      <entry key="MS500" value="0.21945544940237982" />
+      <entry key="S2" value="0.6844419065460113" />
+      <entry key="S5" value="0.8592881115486848" />
+      <entry key="S10" value="0.9334417206416642" />
+      <entry key="S30" value="1.944928598177642" />
+      <entry key="S60" value="5.31822542436888" />
+      <entry key="M2" value="11.980240139704788" />
+      <entry key="M5" value="24.58364307242093" />
+      <entry key="M10" value="35.97209867258223" />
+      <entry key="M15" value="45.25341310956952" />
+      <entry key="M30" value="73.58413159145248" />
+      <entry key="H1" value="124.20857301926297" />
+      <entry key="H2" value="245.06961179945378" />
+      <entry key="H4" value="598.358918487554" />
+      <entry key="D1" value="2407.2633237986734" />
+      <entry key="W1" value="3298.2815186007" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
