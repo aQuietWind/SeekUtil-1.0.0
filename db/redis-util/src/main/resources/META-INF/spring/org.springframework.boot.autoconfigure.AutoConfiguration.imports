@@ -1,6 +1,0 @@
-# 基础通用配置（引入依赖自动加载）
-# 全类名即可
-# 如: com.seek.food.config.NacosConfig.Common.JWTConfig
-
-com.seek.util.redisutil.AutoConfig.UtilAutoConfig
-com.seek.util.redisutil.Config.RedissonConfig

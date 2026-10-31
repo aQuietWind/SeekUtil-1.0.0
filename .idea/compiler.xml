@@ -10,38 +10,33 @@
         <module name="rocketmq-util" />
         <module name="common-util" />
         <module name="kafka-util" />
+        <module name="seek-bom" />
         <module name="spring-ai-util" />
         <module name="caffeine-util" />
         <module name="nacos-util" />
+        <module name="sentinel-util" />
         <module name="event-respond-system" />
         <module name="rabbitmq-util" />
-        <module name="sentinel-util" />
         <module name="elasticsearch-util" />
         <module name="langchain4j-util" />
         <module name="jwt-util" />
         <module name="redis-util" />
         <module name="web-util" />
         <module name="gateway-util" />
-        <module name="config-object" />
         <module name="skywalking-util" />
+        <module name="config-object" />
         <module name="feign-util" />
         <module name="mongodb-util" />
         <module name="mybatis-plus-util" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="21">
-      <module name="ai-bom" target="21" />
       <module name="ai-dependencies-bom" target="21" />
-      <module name="cloud-bom" target="21" />
       <module name="cloud-dependencies-bom" target="21" />
-      <module name="common-bom" target="21" />
       <module name="common-dependencies-bom" target="21" />
-      <module name="db-bom" target="21" />
       <module name="db-dependencies-bom" target="21" />
       <module name="JWTUtil" target="21" />
-      <module name="mq-bom" target="21" />
       <module name="mq-dependencies-bom" target="21" />
-      <module name="web-bom" target="21" />
       <module name="web-dependencies-bom" target="21" />
       <module name="WebUtil" target="21" />
     </bytecodeTargetLevel>
@@ -82,9 +77,11 @@
       <module name="rabbitmq-util" options="-parameters" />
       <module name="redis-util" options="-parameters" />
       <module name="rocketmq-util" options="-parameters" />
+      <module name="seek-bom" options="-parameters" />
       <module name="sentinel-util" options="-parameters" />
       <module name="skywalking-util" options="-parameters" />
       <module name="spring-ai-util" options="-parameters" />
+      <module name="util-root-parent" options="" />
       <module name="web" options="" />
       <module name="web-bom" options="" />
       <module name="web-dependencies-bom" options="-parameters" />
