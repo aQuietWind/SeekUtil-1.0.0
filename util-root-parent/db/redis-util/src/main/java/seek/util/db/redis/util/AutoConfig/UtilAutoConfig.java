@@ -1,6 +1,5 @@
 package seek.util.db.redis.util.AutoConfig;
 
-import com.seek.util.redisutil.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Lazy;

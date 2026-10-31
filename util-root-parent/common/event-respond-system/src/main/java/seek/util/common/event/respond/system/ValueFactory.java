@@ -1,6 +1,6 @@
 package seek.util.common.event.respond.system;
 
-import seek.util.common.config.object.EventRespondData.ValueData;
+import seek.util.common.config.object.common.event.respond.system.ValueData;
 import jakarta.annotation.Nonnull;
 import org.springframework.beans.factory.annotation.Autowired;
 

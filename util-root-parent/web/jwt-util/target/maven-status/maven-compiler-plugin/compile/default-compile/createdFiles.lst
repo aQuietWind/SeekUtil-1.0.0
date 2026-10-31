@@ -1,0 +1,3 @@
+seek\util\web\jwt\util\AutoConfig\UtilAutoConfig.class
+seek\util\web\jwt\util\JWTUtil.class
+seek\util\web\jwt\util\TokenUtil.class

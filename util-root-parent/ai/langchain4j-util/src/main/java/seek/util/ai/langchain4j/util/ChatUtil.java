@@ -1,7 +1,7 @@
 package seek.util.ai.langchain4j.util;
 
-import seek.util.common.config.object.UtilObject.Exception.BizException;
-import seek.util.common.config.object.UtilObject.Exception.ErrorCodeEnum;
+import seek.util.common.config.object.common.common.object.exception.BizException;
+import seek.util.common.config.object.common.common.object.exception.ErrorCodeEnum;
 import dev.langchain4j.data.audio.Audio;
 import dev.langchain4j.data.image.Image;
 import dev.langchain4j.data.message.*;

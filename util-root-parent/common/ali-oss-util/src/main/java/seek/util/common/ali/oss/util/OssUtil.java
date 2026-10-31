@@ -2,7 +2,7 @@ package seek.util.common.ali.oss.util;
 
 import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClientBuilder;
-import seek.util.common.config.object.AliOSSData.OssData;
+import seek.util.common.config.object.common.ali.oss.OssData;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;

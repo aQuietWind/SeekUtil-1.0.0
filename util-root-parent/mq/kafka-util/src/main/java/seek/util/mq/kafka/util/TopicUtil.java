@@ -1,6 +1,6 @@
 package seek.util.mq.kafka.util;
 
-import seek.util.common.config.object.KafkaData.TopicData;
+import seek.util.common.config.object.mq.kafka.TopicData;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.apache.kafka.common.config.TopicConfig;
 

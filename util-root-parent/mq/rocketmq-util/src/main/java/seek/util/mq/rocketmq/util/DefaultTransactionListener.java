@@ -1,7 +1,7 @@
 package seek.util.mq.rocketmq.util;
 
-import seek.util.common.config.object.UtilObject.Function.RunWithReturnFunction;
-import seek.util.common.config.object.UtilObject.Function.RunWithReturnParamFunction;
+import seek.util.common.config.object.common.common.object.function.RunWithReturnFunction;
+import seek.util.common.config.object.common.common.object.function.RunWithReturnParamFunction;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.client.producer.LocalTransactionState;
 import org.apache.rocketmq.client.producer.TransactionListener;

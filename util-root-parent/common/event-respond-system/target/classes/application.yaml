@@ -1,0 +1,16 @@
+seek:
+  util:
+    event-respond:
+      config:
+        check-pool:
+          thread-core-size: 2
+          thread-max-size: 4
+          thread-alive-seconds: 60
+        execute-pool:
+          thread-core-size: 4
+          thread-max-size: 8
+          thread-alive-seconds: 60
+        delay-pool:
+          thread-core-size: 2
+          thread-max-size: 4
+          thread-alive-seconds: 60

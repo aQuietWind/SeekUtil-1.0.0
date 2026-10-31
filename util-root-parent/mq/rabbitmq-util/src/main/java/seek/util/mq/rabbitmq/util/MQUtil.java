@@ -1,6 +1,6 @@
 package seek.util.mq.rabbitmq.util;
 
-import seek.util.common.config.object.RabbitMQData.QueueData;
+import seek.util.common.config.object.mq.rabbitmq.QueueData;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;

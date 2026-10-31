@@ -1,7 +1,7 @@
 package seek.util.db.redis.util;
 
-import seek.util.common.config.object.RedisData.RedisKeyData;
-import seek.util.common.config.object.UtilObject.Function.RunFunction;
+import seek.util.common.config.object.db.redis.RedisKeyData;
+import seek.util.common.config.object.common.common.object.function.RunFunction;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;

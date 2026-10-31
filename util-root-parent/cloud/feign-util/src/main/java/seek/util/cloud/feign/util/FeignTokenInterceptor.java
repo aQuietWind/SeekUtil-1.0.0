@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
-import seek.util.common.config.object.Context.TokenIdContext;
+import seek.util.common.config.object.common.context.TokenIdContext;
 
 @Configuration
 public class FeignTokenInterceptor {

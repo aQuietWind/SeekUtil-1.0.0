@@ -1,6 +1,6 @@
 package seek.util.web.web.util.Interceptor;
 
-import seek.util.common.config.object.Context.TokenIdContext;
+import seek.util.common.config.object.common.context.TokenIdContext;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;

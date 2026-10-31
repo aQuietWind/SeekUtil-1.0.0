@@ -1,6 +1,6 @@
 package seek.util.ai.langchain4j.util.RedisMemory;
 
-import seek.util.common.config.object.RedisData.RedisKeyData;
+import seek.util.common.config.object.db.redis.RedisKeyData;
 import seek.util.db.redis.util.RedisUtil;
 import dev.langchain4j.data.message.ChatMessage;
 import dev.langchain4j.data.message.ChatMessageDeserializer;

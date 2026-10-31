@@ -1,6 +1,6 @@
 package seek.util.mq.rabbitmq.util;
 
-import seek.util.common.config.object.RabbitMQData.QueueData;
+import seek.util.common.config.object.mq.rabbitmq.QueueData;
 import org.springframework.amqp.core.Queue;
 
 import java.util.HashMap;

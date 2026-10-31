@@ -1,6 +1,6 @@
 package seek.util.mq.rabbitmq.util.Config;
 
-import seek.util.common.config.object.RabbitMQData.QueueData;
+import seek.util.common.config.object.mq.rabbitmq.QueueData;
 import seek.util.mq.rabbitmq.util.QueueUtil;
 import jakarta.annotation.PostConstruct;
 import org.springframework.amqp.core.Binding;

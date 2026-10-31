@@ -1,7 +1,7 @@
 package seek.util.web.web.util.File;
 
-import seek.util.common.config.object.UtilObject.Exception.BizException;
-import seek.util.common.config.object.UtilObject.Exception.ErrorCodeEnum;
+import seek.util.common.config.object.common.common.object.exception.BizException;
+import seek.util.common.config.object.common.common.object.exception.ErrorCodeEnum;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.multipart.MultipartFile;
 

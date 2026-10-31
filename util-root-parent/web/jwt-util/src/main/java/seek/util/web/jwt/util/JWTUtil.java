@@ -1,9 +1,9 @@
 package seek.util.web.jwt.util;
 
-import seek.util.common.config.object.JWTData.JWTGlobalData;
-import seek.util.common.config.object.JWTData.JWTRoleData;
-import seek.util.common.config.object.UtilObject.Exception.BizException;
-import seek.util.common.config.object.UtilObject.Exception.ErrorCodeEnum;
+import seek.util.common.config.object.web.jwt.JWTGlobalData;
+import seek.util.common.config.object.web.jwt.JWTRoleData;
+import seek.util.common.config.object.common.common.object.exception.BizException;
+import seek.util.common.config.object.common.common.object.exception.ErrorCodeEnum;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jws;
 import io.jsonwebtoken.Jwts;

@@ -1,8 +1,8 @@
 package seek.util.db.redis.util;
 
 
-import seek.util.common.config.object.RedisData.RedisStreamData;
-import seek.util.common.config.object.UtilObject.Function.RunWithParam;
+import seek.util.common.config.object.db.redis.RedisStreamData;
+import seek.util.common.config.object.common.common.object.function.RunWithParam;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.connection.stream.*;

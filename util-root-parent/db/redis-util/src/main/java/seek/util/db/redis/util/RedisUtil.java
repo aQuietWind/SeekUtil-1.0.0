@@ -1,8 +1,8 @@
 package seek.util.db.redis.util;
 
-import seek.util.common.config.object.RedisData.RedisKeyData;
-import seek.util.common.config.object.UtilObject.Exception.BizException;
-import seek.util.common.config.object.UtilObject.Exception.ErrorCodeEnum;
+import seek.util.common.config.object.db.redis.RedisKeyData;
+import seek.util.common.config.object.common.common.object.exception.BizException;
+import seek.util.common.config.object.common.common.object.exception.ErrorCodeEnum;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;

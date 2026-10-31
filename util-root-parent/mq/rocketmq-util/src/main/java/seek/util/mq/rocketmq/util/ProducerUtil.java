@@ -1,9 +1,9 @@
 package seek.util.mq.rocketmq.util;
 
-import seek.util.common.config.object.UtilObject.Exception.BizException;
-import seek.util.common.config.object.UtilObject.Function.RunWithParam;
-import seek.util.common.config.object.UtilObject.Function.RunWithReturnFunction;
-import seek.util.common.config.object.UtilObject.Function.RunWithReturnParamFunction;
+import seek.util.common.config.object.common.common.object.exception.BizException;
+import seek.util.common.config.object.common.common.object.function.RunWithParam;
+import seek.util.common.config.object.common.common.object.function.RunWithReturnFunction;
+import seek.util.common.config.object.common.common.object.function.RunWithReturnParamFunction;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.client.producer.SendCallback;
 import org.apache.rocketmq.client.producer.SendResult;
