@@ -34,7 +34,7 @@ public class QuickRegisterUtil{
                 throw new IllegalArgumentException("a exchangeData is empty");
             }
             //生成交换机
-            Exchange exchange = exchanges.get(exchangeData.getExchangeName());
+            Exchange exchange = createExchange(exchangeData);
             if (exchange==null)throw new IllegalArgumentException("exchange not right");
             //存放交换机
             exchanges.putIfAbsent(exchangeData.getExchangeName(),exchange );
@@ -56,6 +56,7 @@ public class QuickRegisterUtil{
         addBean(registry);
     }
 
+    //生成交换机
     public Exchange createExchange(ExchangeData exchangeData) {
         if (exchangeData.getType().equals(ExchangeData.Direct)) return new DirectExchange(exchangeData.getExchangeName());
         else if (exchangeData.getType().equals(ExchangeData.Topic)) return new TopicExchange(exchangeData.getExchangeName());

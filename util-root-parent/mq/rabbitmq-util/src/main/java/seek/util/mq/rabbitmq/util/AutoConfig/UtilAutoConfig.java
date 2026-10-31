@@ -7,6 +7,7 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Lazy;
+import seek.util.mq.rabbitmq.util.QuickRegisterUtil;
 
 @Configuration
 public class UtilAutoConfig {
@@ -24,5 +25,10 @@ public class UtilAutoConfig {
     @Lazy
     public QueueUtil queueUtil() {
         return new QueueUtil();
+    }
+    @Bean
+    @Lazy
+    public QuickRegisterUtil quickRegisterUtil(QueueUtil queueUtil) {
+        return new QuickRegisterUtil(queueUtil);
     }
 }

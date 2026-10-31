@@ -26,27 +26,27 @@
             <dependency>
                 <groupId>${dependency.group.id}</groupId>
                 <artifactId>ali-oss-util</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
             </dependency>
             <dependency>
                 <groupId>${dependency.group.id}</groupId>
                 <artifactId>caffeine-util</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
             </dependency>
             <dependency>
                 <groupId>${dependency.group.id}</groupId>
                 <artifactId>common-util</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
             </dependency>
             <dependency>
                 <groupId>${dependency.group.id}</groupId>
                 <artifactId>config-object</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
             </dependency>
             <dependency>
                 <groupId>${dependency.group.id}</groupId>
                 <artifactId>event-respond-system</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

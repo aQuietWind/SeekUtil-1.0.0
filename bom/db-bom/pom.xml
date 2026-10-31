@@ -26,22 +26,22 @@
             <dependency>
                 <groupId>${dependency.group.id}</groupId>
                 <artifactId>elasticsearch-util</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
             </dependency>
             <dependency>
                 <groupId>${dependency.group.id}</groupId>
                 <artifactId>mongodb-util</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
             </dependency>
             <dependency>
                 <groupId>${dependency.group.id}</groupId>
                 <artifactId>mybatis-plus-util</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
             </dependency>
             <dependency>
                 <groupId>${dependency.group.id}</groupId>
                 <artifactId>redis-util</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

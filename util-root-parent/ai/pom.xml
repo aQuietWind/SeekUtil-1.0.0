@@ -21,18 +21,6 @@
     </properties>
 
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>seek.util.bom</groupId>
-                <artifactId>bom</artifactId>
-                <version>${project.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
     <modules>
         <module>langchain4j-util</module>
         <module>spring-ai-util</module>

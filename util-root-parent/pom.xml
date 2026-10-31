@@ -158,7 +158,7 @@
             <dependency>
                 <groupId>seek.util.bom</groupId>
                 <artifactId>seek-bom</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

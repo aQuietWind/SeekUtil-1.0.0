@@ -27,12 +27,12 @@
             <dependency>
                 <groupId>${dependency.group.id}</groupId>
                 <artifactId>jwt-util</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
             </dependency>
             <dependency>
                 <groupId>${dependency.group.id}</groupId>
                 <artifactId>web-util</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

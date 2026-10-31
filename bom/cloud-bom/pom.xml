@@ -26,27 +26,27 @@
             <dependency>
                 <groupId>${dependency.group.id}</groupId>
                 <artifactId>feign-util</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
             </dependency>
             <dependency>
                 <groupId>${dependency.group.id}</groupId>
                 <artifactId>gateway-util</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
             </dependency>
             <dependency>
                 <groupId>${dependency.group.id}</groupId>
                 <artifactId>nacos-util</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
             </dependency>
             <dependency>
                 <groupId>${dependency.group.id}</groupId>
                 <artifactId>sentinel-util</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
             </dependency>
             <dependency>
                 <groupId>${dependency.group.id}</groupId>
                 <artifactId>skywalking-util</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

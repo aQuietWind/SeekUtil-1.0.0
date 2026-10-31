@@ -24,7 +24,7 @@
             <dependency>
                 <groupId>seek.util.bom</groupId>
                 <artifactId>ai-bom</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -33,7 +33,7 @@
             <dependency>
                 <groupId>seek.util.bom</groupId>
                 <artifactId>cloud-bom</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -42,7 +42,7 @@
             <dependency>
                 <groupId>seek.util.bom</groupId>
                 <artifactId>common-bom</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -51,7 +51,7 @@
             <dependency>
                 <groupId>seek.util.bom</groupId>
                 <artifactId>db-bom</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -60,7 +60,7 @@
             <dependency>
                 <groupId>seek.util.bom</groupId>
                 <artifactId>mq-bom</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -69,7 +69,7 @@
             <dependency>
                 <groupId>seek.util.bom</groupId>
                 <artifactId>web-bom</artifactId>
-                <version>${project.version}</version>
+                <version>${version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
