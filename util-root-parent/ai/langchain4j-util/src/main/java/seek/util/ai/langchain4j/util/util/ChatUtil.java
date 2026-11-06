@@ -1,4 +1,4 @@
-package seek.util.ai.langchain4j.util;
+package seek.util.ai.langchain4j.util.util;
 
 import seek.util.common.config.object.common.common.object.exception.BizException;
 import seek.util.common.config.object.common.common.object.exception.ErrorCodeEnum;
@@ -15,7 +15,6 @@ import java.util.Base64;
 import java.util.List;
 
 @Slf4j
-@Component
 public class ChatUtil {
 
     private final ChatModel chatModel;

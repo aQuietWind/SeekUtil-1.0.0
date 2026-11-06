@@ -1,12 +1,13 @@
-package seek.util.ai.langchain4j.util.memory;
+package seek.util.ai.langchain4j.util.support;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import seek.util.ai.langchain4j.util.config.PropertiesConfig;
 import seek.util.common.config.object.db.redis.RedisKeyData;
 import seek.util.db.redis.util.RedisUtil;
 import dev.langchain4j.data.message.ChatMessage;
 import dev.langchain4j.data.message.ChatMessageDeserializer;
 import dev.langchain4j.data.message.ChatMessageSerializer;
 import dev.langchain4j.store.memory.chat.ChatMemoryStore;
-import org.springframework.beans.factory.annotation.Value;
 
 import java.util.List;
 
@@ -14,13 +15,12 @@ import java.util.List;
 public class RedisChatMemoryStore implements ChatMemoryStore {
 
     private final RedisUtil redisUtil;
-    @Value("${seek.util.langchain4j.config.redis-memory.redis-key}")
-    private RedisKeyData redisKey;
+    private final RedisKeyData redisKey;
 
-    public RedisChatMemoryStore(RedisUtil redisUtil,RedisKeyData redisKey) {
+    @Autowired
+    public RedisChatMemoryStore(RedisUtil redisUtil,PropertiesConfig propertiesConfig) {
         this.redisUtil = redisUtil;
-        //提供第二种方案来传递key
-        if (redisKey != null) this.redisKey = redisKey;
+        redisKey = propertiesConfig.getRedisSessionMemory().getRedisKey();
     }
 
     @Override

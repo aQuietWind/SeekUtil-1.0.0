@@ -2,7 +2,7 @@ seek:
   util:
     langchain4j:
       config:
-        redis-memory:
+        redis-session-memory:
           store-max: 10
           redis-key:
             name: "seek:util:langchain4j:memory:"
