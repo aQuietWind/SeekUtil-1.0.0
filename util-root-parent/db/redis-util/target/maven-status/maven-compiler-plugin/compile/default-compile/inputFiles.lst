@@ -1,5 +1,7 @@
-D:\Projects\seek-util\util-root-parent\db\redis-util\src\main\java\seek\util\db\redis\util\AutoConfig\UtilAutoConfig.java
-D:\Projects\seek-util\util-root-parent\db\redis-util\src\main\java\seek\util\db\redis\util\Config\RedissonConfig.java
+D:\Projects\seek-util\util-root-parent\db\redis-util\src\main\java\seek\util\db\redis\util\config\auto\UtilAutoConfig.java
+D:\Projects\seek-util\util-root-parent\db\redis-util\src\main\java\seek\util\db\redis\util\config\Import\RedissonImport.java
+D:\Projects\seek-util\util-root-parent\db\redis-util\src\main\java\seek\util\db\redis\util\config\PropertiesConfig.java
+D:\Projects\seek-util\util-root-parent\db\redis-util\src\main\java\seek\util\db\redis\util\config\RedissonConfig.java
 D:\Projects\seek-util\util-root-parent\db\redis-util\src\main\java\seek\util\db\redis\util\RedisBitMapUtil.java
 D:\Projects\seek-util\util-root-parent\db\redis-util\src\main\java\seek\util\db\redis\util\RedisIdUtil.java
 D:\Projects\seek-util\util-root-parent\db\redis-util\src\main\java\seek\util\db\redis\util\RedisScriptUtil.java

@@ -11,30 +11,29 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.amqp.rabbit.retry.MessageRecoverer;
 import org.springframework.amqp.rabbit.retry.RepublishMessageRecoverer;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class ErrorExchangeConfig {
-    @Value("${seek.util.rabbitmq.config.error-exchange.exchange-name}")
-    private String exchangeName;
-    @Value("${seek.util.rabbitmq.config.error-exchange.queue-name}")
-    private String queueName;
+
     private QueueData queue;
     private final QueueUtil queueUtil;
     private final RabbitTemplate rabbitTemplate;
+    private final PropertiesConfig propertiesConfig;
 
     @Autowired
-    public ErrorExchangeConfig(QueueUtil queueUtil, RabbitTemplate rabbitTemplate) {
+    public ErrorExchangeConfig(QueueUtil queueUtil, RabbitTemplate rabbitTemplate, PropertiesConfig propertiesConfig) {
         this.queueUtil = queueUtil;
         this.rabbitTemplate = rabbitTemplate;
+        this.propertiesConfig = propertiesConfig;
     }
 
     @PostConstruct
     public void init() {
+        if (propertiesConfig.getErrorExchange() != null) queue = propertiesConfig.getErrorExchange();
         //提供默认的配置
-        queue = new QueueData(exchangeName,queueName,null);
+        else queue=new QueueData("errorExchange","errorQueue",null);
     }
 
     //创建一个用于失败消息接受的队列

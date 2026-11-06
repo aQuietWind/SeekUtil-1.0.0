@@ -4,7 +4,6 @@ import seek.util.db.redis.util.RedissonUtil;
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
 import org.redisson.config.Config;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Lazy;
@@ -13,16 +12,16 @@ import org.springframework.context.annotation.Lazy;
 @Configuration
 public class RedissonConfig {
 
-    @Value("${spring.data.redis.host}")
     private String host;
-    @Value("${spring.data.redis.port}")
     private String port;
-    @Value("${spring.data.redis.password}")
     private String password;
 
     @Bean
     @Lazy
-    public RedissonClient redissonClient() {
+    public RedissonClient redissonClient(PropertiesConfig propertiesConfig) {
+        host=propertiesConfig.getHost();
+        port=propertiesConfig.getPort();
+        password=propertiesConfig.getPassword();
         //获取配置对象
         Config config = new Config();
         //设置地址和密码,常规的读取配置会读取空字符串，所以需要进行判断变为null值

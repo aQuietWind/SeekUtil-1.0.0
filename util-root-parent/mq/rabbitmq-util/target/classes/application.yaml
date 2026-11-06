@@ -5,4 +5,4 @@ seek:
         error-exchange:
           exchange-name: errorExchange
           queue-name: errorQueue
-        package: com.seek
+        package: seek.util

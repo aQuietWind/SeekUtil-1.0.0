@@ -1,8 +1,10 @@
 seek\util\db\redis\util\RedissonUtil.class
-seek\util\db\redis\util\AutoConfig\UtilAutoConfig.class
 seek\util\db\redis\util\RedisBitMapUtil.class
 seek\util\db\redis\util\RedisIdUtil.class
+seek\util\db\redis\util\config\PropertiesConfig.class
 seek\util\db\redis\util\RedisScriptUtil.class
 seek\util\db\redis\util\RedisStreamUtil.class
+seek\util\db\redis\util\config\auto\UtilAutoConfig.class
 seek\util\db\redis\util\RedisUtil.class
-seek\util\db\redis\util\Config\RedissonConfig.class
+seek\util\db\redis\util\config\Import\RedissonImport.class
+seek\util\db\redis\util\config\RedissonConfig.class

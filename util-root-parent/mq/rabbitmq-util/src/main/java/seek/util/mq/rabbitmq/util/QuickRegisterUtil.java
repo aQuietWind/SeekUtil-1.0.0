@@ -87,6 +87,7 @@ public class QuickRegisterUtil{
         }
     }
 
+    //直接返回一个实现类
     public ImportBeanDefinitionRegistrar registrar(List<ExchangeData> exchangeDatas, List<QueueData> queueDatas){
         return new ImportBeanDefinitionRegistrar(){
             @Override
