@@ -3,7 +3,7 @@ package seek.util.ai.langchain4j.util.support;
 import org.springframework.beans.factory.annotation.Autowired;
 import seek.util.ai.langchain4j.util.config.PropertiesConfig;
 import seek.util.common.config.object.db.redis.RedisKeyData;
-import seek.util.db.redis.util.RedisUtil;
+import seek.util.db.redis.util.util.Redis.RedisUtil;
 import dev.langchain4j.data.message.ChatMessage;
 import dev.langchain4j.data.message.ChatMessageDeserializer;
 import dev.langchain4j.data.message.ChatMessageSerializer;

@@ -2,7 +2,7 @@ package seek.util.web.jwt.util.config.auto;
 
 import seek.util.web.jwt.util.JWTUtil;
 import seek.util.web.jwt.util.TokenUtil;
-import seek.util.db.redis.util.RedisUtil;
+import seek.util.db.redis.util.util.Redis.RedisUtil;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Lazy;

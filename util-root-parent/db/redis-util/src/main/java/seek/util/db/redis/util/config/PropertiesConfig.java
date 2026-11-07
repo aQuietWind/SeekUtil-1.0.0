@@ -9,9 +9,16 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@ConfigurationProperties("spring.data.redis")
+@ConfigurationProperties("seek.util.db.redis.config")
 public class PropertiesConfig {
-    private String host;
-    private String port;
-    private String password;
+    private RedisConnection redissonConnection=new RedisConnection();
+
+    @Data
+    @NoArgsConstructor
+    @AllArgsConstructor
+    public static class RedisConnection {
+        private String host="localhost";
+        private String port="6379";
+        private String password="123456";
+    }
 }

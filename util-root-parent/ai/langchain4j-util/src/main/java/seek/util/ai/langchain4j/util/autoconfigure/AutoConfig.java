@@ -5,7 +5,7 @@ import dev.langchain4j.store.memory.chat.ChatMemoryStore;
 import seek.util.ai.langchain4j.util.config.PropertiesConfig;
 import seek.util.ai.langchain4j.util.support.RedisChatMemoryStore;
 import seek.util.ai.langchain4j.util.util.ChatUtil;
-import seek.util.db.redis.util.RedisUtil;
+import seek.util.db.redis.util.util.Redis.RedisUtil;
 import dev.langchain4j.memory.chat.ChatMemoryProvider;
 import dev.langchain4j.memory.chat.MessageWindowChatMemory;
 import org.springframework.context.annotation.Bean;
