@@ -14,7 +14,6 @@ import org.springframework.context.annotation.Lazy;
 public class RedissonAutoConfig {
 
     @Bean
-    @Lazy
     public RedissonClient redissonClient(PropertiesConfig propertiesConfig) {
         String host=propertiesConfig.getRedissonConnection().getHost();
         String port=propertiesConfig.getRedissonConnection().getPort();
@@ -28,7 +27,6 @@ public class RedissonAutoConfig {
     }
 
     @Bean
-    @Lazy
     public RedissonUtil redissonUtil(RedissonClient redissonClient) {
         return new RedissonUtil(redissonClient);
     }

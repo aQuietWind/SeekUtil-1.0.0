@@ -7,10 +7,11 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+//注册交换机用
 public class ExchangeData {
     public static final String Fanout="fanout";
     public static final String Direct="direct";
     public static final String Topic="topic";
     private String exchangeName;
-    private String type;
+    private String type=Direct;
 }

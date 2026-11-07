@@ -1,5 +1,5 @@
-seek\util\mq\kafka\util\config\auto\UtilAutoConfig.class
-seek\util\mq\kafka\util\KafkaConfig.class
-seek\util\mq\kafka\util\KafkaUtil.class
-seek\util\mq\kafka\util\TopicUtil.class
-seek\util\mq\kafka\util\KafkaConfig$1.class
+seek\util\mq\kafka\util\util\KafkaUtil.class
+seek\util\mq\kafka\util\util\TopicUtil.class
+seek\util\mq\kafka\util\autoconfigure\UtilAutoConfig.class
+seek\util\mq\kafka\util\config\KafkaConfig.class
+seek\util\mq\kafka\util\config\KafkaConfig$1.class

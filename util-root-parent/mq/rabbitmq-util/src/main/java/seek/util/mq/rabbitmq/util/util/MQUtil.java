@@ -1,9 +1,9 @@
 package seek.util.mq.rabbitmq.util.util;
 
-import seek.util.common.config.object.mq.rabbitmq.QueueData;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
+import seek.util.common.config.object.mq.rabbitmq.DestinationData;
 
 import java.util.UUID;
 
@@ -22,34 +22,34 @@ public class MQUtil {
 
 
     //发送消息
-    public void send(QueueData queue, Object message){
-        rabbitTemplate.convertAndSend(queue.getExchangeName(),queue.getRoutingKey(),message,corrleationUtil.getCorrelation(queue.getExchangeName(), queue.getRoutingKey()));
+    public void send(DestinationData destination, Object message){
+        rabbitTemplate.convertAndSend(destination.getExchangeName(),destination.getRoutingKey(),message,corrleationUtil.getCorrelation(destination.getExchangeName(), destination.getRoutingKey()));
     }
 
 
     //发送带过期时间的消息并且返回letterId使用
-    public String sendWithTLLAndGetId(QueueData queue, Object message,String tllMilliSeconds){
+    public String sendWithTLLAndGetId(DestinationData destination, Object message,String tllMilliSeconds){
         String letterId=UUID.randomUUID().toString();
-        rabbitTemplate.convertAndSend(queue.getExchangeName(),queue.getRoutingKey()
+        rabbitTemplate.convertAndSend(destination.getExchangeName(),destination.getRoutingKey()
                 ,message
                 , msg->{
             //设置ttl
             msg.getMessageProperties().setExpiration(tllMilliSeconds);
             msg.getMessageProperties().setMessageId(letterId);
             return msg;}
-                ,corrleationUtil.getCorrelationWithId(queue.getExchangeName(), queue.getRoutingKey(),letterId));
+                ,corrleationUtil.getCorrelationWithId(destination.getExchangeName(), destination.getRoutingKey(),letterId));
         return letterId;
     }
 
     //发送带过期时间的消息
-    public void sendWithTLL(QueueData queue, Object message ,String tllMilliSeconds){
-        rabbitTemplate.convertAndSend(queue.getExchangeName(),queue.getRoutingKey()
+    public void sendWithTLL(DestinationData destination, Object message ,String tllMilliSeconds){
+        rabbitTemplate.convertAndSend(destination.getExchangeName(),destination.getRoutingKey()
                 ,message
                 , msg->{
             //设置ttl
             msg.getMessageProperties().setExpiration(tllMilliSeconds);
             return msg;}
-                ,corrleationUtil.getCorrelation(queue.getExchangeName(), queue.getRoutingKey()));
+                ,corrleationUtil.getCorrelation(destination.getExchangeName(), destination.getRoutingKey()));
     }
 
     //分钟转毫秒

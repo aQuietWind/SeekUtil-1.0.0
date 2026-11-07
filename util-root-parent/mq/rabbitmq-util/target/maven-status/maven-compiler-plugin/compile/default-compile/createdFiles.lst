@@ -1,10 +1,11 @@
 seek\util\mq\rabbitmq\util\config\MessageReturnCallBackConfig.class
-seek\util\mq\rabbitmq\util\QueueUtil.class
-seek\util\mq\rabbitmq\util\QuickRegisterUtil.class
-seek\util\mq\rabbitmq\util\config\auto\UtilAutoConfig.class
-seek\util\mq\rabbitmq\util\CorrleationUtil.class
-seek\util\mq\rabbitmq\util\MQUtil.class
+seek\util\mq\rabbitmq\util\util\QueueUtil.class
+seek\util\mq\rabbitmq\util\util\QuickRegisterUtil.class
 seek\util\mq\rabbitmq\util\config\ConverterConfig.class
 seek\util\mq\rabbitmq\util\config\ErrorExchangeConfig.class
+seek\util\mq\rabbitmq\util\autoconfigure\UtilAutoConfig.class
 seek\util\mq\rabbitmq\util\config\PropertiesConfig.class
-seek\util\mq\rabbitmq\util\QuickRegisterUtil$1.class
+seek\util\mq\rabbitmq\util\util\CorrleationUtil.class
+seek\util\mq\rabbitmq\util\util\QuickRegisterUtil$1.class
+seek\util\mq\rabbitmq\util\util\MQUtil.class
+seek\util\mq\rabbitmq\util\enums\BeanName.class

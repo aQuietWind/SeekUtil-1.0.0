@@ -1,3 +1,7 @@
-seek\util\cloud\sentinel\util\SentinelGlobalApiConfig.class
-seek\util\cloud\sentinel\util\HeaderOriginParser.class
-seek\util\cloud\sentinel\util\SentinelBlockHandler.class
+seek\util\cloud\sentinel\util\config\PropertiesConfig$Authority.class
+seek\util\cloud\sentinel\util\config\HeaderOriginParser.class
+seek\util\cloud\sentinel\util\config\SentinelBlockHandler.class
+seek\util\cloud\sentinel\util\config\SentinelGlobalApiConfig.class
+seek\util\cloud\sentinel\util\autoconfigure\AutoConfig.class
+seek\util\cloud\sentinel\util\autoconfigure\SentinelImport.class
+seek\util\cloud\sentinel\util\config\PropertiesConfig.class

@@ -1,8 +1,6 @@
 package seek.util.mq.rabbitmq.util.config;
 
-import seek.util.common.config.object.mq.rabbitmq.QueueData;
 import seek.util.mq.rabbitmq.util.util.QueueUtil;
-import jakarta.annotation.PostConstruct;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.FanoutExchange;
@@ -16,8 +14,6 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class ErrorExchangeConfig {
-
-    private QueueData queue;
     private final QueueUtil queueUtil;
     private final RabbitTemplate rabbitTemplate;
     private final PropertiesConfig propertiesConfig;
@@ -29,22 +25,15 @@ public class ErrorExchangeConfig {
         this.propertiesConfig = propertiesConfig;
     }
 
-    @PostConstruct
-    public void init() {
-        if (propertiesConfig.getErrorExchange() != null) queue = propertiesConfig.getErrorExchange();
-        //提供默认的配置
-        else queue=new QueueData("errorExchange","errorQueue",null);
-    }
-
     //创建一个用于失败消息接受的队列
     @Bean
     public Queue errorQueue(){
-        return queueUtil.generateQuorumQueue(queue);
+        return queueUtil.generateQuorumQueue(propertiesConfig.getErrorBinding().getQueueName());
     }
     //创建一个用于失败消息投递的交换机
     @Bean
     public FanoutExchange errorExchange(){
-        return new FanoutExchange(queue.getExchangeName());
+        return new FanoutExchange(propertiesConfig.getErrorExchange().getExchangeName());
     }
     //绑定交换机与队列
     @Bean
@@ -54,6 +43,6 @@ public class ErrorExchangeConfig {
     @Bean
     public MessageRecoverer recoverer(){
         //声明目标交换机以及key，返回该处理器
-        return new RepublishMessageRecoverer(rabbitTemplate,queue.getExchangeName());
+        return new RepublishMessageRecoverer(rabbitTemplate, propertiesConfig.getErrorExchange().getExchangeName());
     }
 }

@@ -1,3 +1,6 @@
-D:\Projects\seek-util\util-root-parent\cloud\sentinel-util\src\main\java\seek\util\cloud\sentinel\util\HeaderOriginParser.java
-D:\Projects\seek-util\util-root-parent\cloud\sentinel-util\src\main\java\seek\util\cloud\sentinel\util\SentinelBlockHandler.java
-D:\Projects\seek-util\util-root-parent\cloud\sentinel-util\src\main\java\seek\util\cloud\sentinel\util\SentinelGlobalApiConfig.java
+D:\Projects\seek-util\util-root-parent\cloud\sentinel-util\src\main\java\seek\util\cloud\sentinel\util\autoconfigure\AutoConfig.java
+D:\Projects\seek-util\util-root-parent\cloud\sentinel-util\src\main\java\seek\util\cloud\sentinel\util\autoconfigure\SentinelImport.java
+D:\Projects\seek-util\util-root-parent\cloud\sentinel-util\src\main\java\seek\util\cloud\sentinel\util\config\HeaderOriginParser.java
+D:\Projects\seek-util\util-root-parent\cloud\sentinel-util\src\main\java\seek\util\cloud\sentinel\util\config\PropertiesConfig.java
+D:\Projects\seek-util\util-root-parent\cloud\sentinel-util\src\main\java\seek\util\cloud\sentinel\util\config\SentinelBlockHandler.java
+D:\Projects\seek-util\util-root-parent\cloud\sentinel-util\src\main\java\seek\util\cloud\sentinel\util\config\SentinelGlobalApiConfig.java

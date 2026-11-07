@@ -1,4 +1,6 @@
-seek\util\web\web\util\file\WebFileSave.class
+seek\util\web\web\util\config\GlobalRequestExceptionHandler.class
 seek\util\web\web\util\config\WebConfig.class
-seek\util\web\web\util\handler\GlobalRequestExceptionHandler.class
-seek\util\web\web\util\interceptor\TokenInterceptor.class
+seek\util\web\web\util\util\WebFileSave.class
+seek\util\web\web\util\autoconfigure\AutoConfig.class
+seek\util\web\web\util\config\PropertiesConfig.class
+seek\util\web\web\util\config\TokenInterceptor.class

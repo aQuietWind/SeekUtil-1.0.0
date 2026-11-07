@@ -1,4 +1,4 @@
-D:\Projects\seek-util\util-root-parent\mq\kafka-util\src\main\java\seek\util\mq\kafka\util\config\auto\UtilAutoConfig.java
-D:\Projects\seek-util\util-root-parent\mq\kafka-util\src\main\java\seek\util\mq\kafka\util\KafkaConfig.java
-D:\Projects\seek-util\util-root-parent\mq\kafka-util\src\main\java\seek\util\mq\kafka\util\KafkaUtil.java
-D:\Projects\seek-util\util-root-parent\mq\kafka-util\src\main\java\seek\util\mq\kafka\util\TopicUtil.java
+D:\Projects\seek-util\util-root-parent\mq\kafka-util\src\main\java\seek\util\mq\kafka\util\autoconfigure\UtilAutoConfig.java
+D:\Projects\seek-util\util-root-parent\mq\kafka-util\src\main\java\seek\util\mq\kafka\util\config\KafkaConfig.java
+D:\Projects\seek-util\util-root-parent\mq\kafka-util\src\main\java\seek\util\mq\kafka\util\util\KafkaUtil.java
+D:\Projects\seek-util\util-root-parent\mq\kafka-util\src\main\java\seek\util\mq\kafka\util\util\TopicUtil.java
