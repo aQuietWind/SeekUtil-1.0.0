@@ -57,6 +57,7 @@
     <file url="file://$PROJECT_DIR$/util-root-parent/cloud/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/util-root-parent/cloud/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/util-root-parent/common/ali-oss-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/util-root-parent/common/bean-register-util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/util-root-parent/common/caffeine-util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/util-root-parent/common/common-dependencies-bom/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/util-root-parent/common/common-util/src/main/java" charset="UTF-8" />

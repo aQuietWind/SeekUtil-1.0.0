@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab44ae5e-63af-4ba7-9f5f-c6ce1ebe77c8" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/util-root-parent/common/bean-register-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bom/ai-bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom/ai-bom/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bom/cloud-bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom/cloud-bom/pom.xml" afterDir="false" />
@@ -16,187 +19,82 @@
       <change beforePath="$PROJECT_DIR$/bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bom/web-bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom/web-bom/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gather/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gather/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gather/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gather/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gather/target/gather-2.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gather/target/gather-2.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gather/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gather/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gather/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/target/classes/seek/util/ai/langchain4j/util/autoconfigure/AutoConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/target/classes/seek/util/ai/langchain4j/util/autoconfigure/AutoConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/target/classes/seek/util/ai/langchain4j/util/support/RedisChatMemoryStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/target/classes/seek/util/ai/langchain4j/util/support/RedisChatMemoryStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/target/langchain4j-util-2.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/target/langchain4j-util-2.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/ai/langchain4j-util/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/ai/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/ai/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/ai/spring-ai-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/ai/spring-ai-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/ai/spring-ai-util/target/classes/seek/util/ai/spring/ai/util/support/AiLogAdvisor.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/ai/spring-ai-util/target/classes/seek/util/ai/spring/ai/util/support/AiLogAdvisor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/ai/spring-ai-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/ai/spring-ai-util/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/feign-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/feign-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/feign-util/target/feign-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/feign-util/target/feign-util-2.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/feign-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/feign-util/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/gateway-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/gateway-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/gateway-util/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/gateway-util/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/gateway-util/target/classes/seek/util/cloud/gateway/util/FilterUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/gateway-util/target/gateway-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/gateway-util/target/gateway-util-2.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/gateway-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/gateway-util/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/gateway-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/gateway-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/gateway-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/gateway-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/nacos-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/nacos-util/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/nacos-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/nacos-util/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/sentinel-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/sentinel-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/sentinel-util/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/sentinel-util/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/sentinel-util/target/classes/seek/util/cloud/sentinel/util/HeaderOriginParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/sentinel-util/target/classes/seek/util/cloud/sentinel/util/SentinelBlockHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/sentinel-util/target/classes/seek/util/cloud/sentinel/util/SentinelGlobalApiConfig.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/sentinel-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/sentinel-util/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/sentinel-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/sentinel-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/sentinel-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/sentinel-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/sentinel-util/target/sentinel-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/sentinel-util/target/sentinel-util-2.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/skywalking-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/skywalking-util/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/cloud/skywalking-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/cloud/skywalking-util/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/common/ali-oss-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/ali-oss-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/ali-oss-util/target/ali-oss-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/ali-oss-util/target/ali-oss-util-2.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/ali-oss-util/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/ali-oss-util/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/ali-oss-util/target/classes/seek/util/common/ali/oss/util/OssUtil.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/common/ali-oss-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/ali-oss-util/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/ali-oss-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/ali-oss-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/ali-oss-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/ali-oss-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/common/caffeine-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/caffeine-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/caffeine-util/target/caffeine-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/caffeine-util/target/caffeine-util-2.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/caffeine-util/target/classes/seek/util/common/caffeine/util/JvmCaffeineParent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/common/caffeine-util/target/caffeine-util-2.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/caffeine-util/target/caffeine-util-2.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/common/caffeine-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/caffeine-util/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/caffeine-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/caffeine-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/caffeine-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/caffeine-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/common/common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/common-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/common-util/target/classes/seek/util/common/common/util/CommonUtil/DoubleUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/common-util/target/classes/seek/util/common/common/util/CommonUtil/StringUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/common-util/target/classes/seek/util/common/common/util/Exception/BizThrowUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/common-util/target/classes/seek/util/common/common/util/FileUtil/FileRemove.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/common-util/target/classes/seek/util/common/common/util/Time/TimeUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/common-util/target/common-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/common-util/target/common-util-2.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/common/common-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/common-util/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/common-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/common-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/common-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/common-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/mq/rabbitmq/ExchangeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/mq/rabbitmq/ExchangeData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/mq/rabbitmq/MessageData.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/mq/rabbitmq/DestinationData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/src/main/java/seek/util/common/config/object/mq/rabbitmq/QueueData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/mq/rabbitmq/ExchangeData.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/mq/rabbitmq/ExchangeData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/mq/rabbitmq/MessageData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/classes/seek/util/common/config/object/mq/rabbitmq/QueueData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/config-object-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/target/config-object-2.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/config-object/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/config-object/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/src/main/java/seek/util/common/event/respond/system/config/PropertiesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/src/main/java/seek/util/common/event/respond/system/config/PropertiesConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/target/classes/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/target/classes/seek/util/common/event/respond/system/CheckPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/target/classes/seek/util/common/event/respond/system/DelayPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/target/classes/seek/util/common/event/respond/system/ExecutePool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/target/classes/seek/util/common/event/respond/system/ValueFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/target/event-respond-system-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/target/event-respond-system-2.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/event-respond-system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/db/elasticsearch-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/elasticsearch-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/elasticsearch-util/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/elasticsearch-util/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/elasticsearch-util/target/classes/seek/util/db/elasticsearch/util/EsSearchUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/elasticsearch-util/target/classes/seek/util/db/elasticsearch/util/EsUpdateUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/elasticsearch-util/target/classes/seek/util/db/elasticsearch/util/config/auto/UtilAutoConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/elasticsearch-util/target/elasticsearch-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/elasticsearch-util/target/elasticsearch-util-2.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/db/elasticsearch-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/elasticsearch-util/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/elasticsearch-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/elasticsearch-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/elasticsearch-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/elasticsearch-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/db/mongodb-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/mongodb-util/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/db/mongodb-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/mongodb-util/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/db/mybatis-plus-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/mybatis-plus-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/mybatis-plus-util/target/classes/seek/util/db/mybatis/plus/util/MybatisPlusConfig.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/db/mybatis-plus-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/mybatis-plus-util/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/mybatis-plus-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/mybatis-plus-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/mybatis-plus-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/mybatis-plus-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/mybatis-plus-util/target/mybatis-plus-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/mybatis-plus-util/target/mybatis-plus-util-2.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/db/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/src/main/java/seek/util/db/redis/util/autoconfigure/AutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/src/main/java/seek/util/db/redis/util/autoconfigure/AutoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/src/main/java/seek/util/db/redis/util/autoconfigure/RedissonAutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/src/main/java/seek/util/db/redis/util/autoconfigure/RedissonAutoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/Config/Import/RedissonImport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/Config/PropertiesConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/Config/PropertiesConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/Config/RedissonConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/Config/auto/UtilAutoConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/RedisBitMapUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/RedisIdUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/RedisScriptUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/RedisStreamUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/RedisUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/RedissonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/autoconfigure/AutoConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/autoconfigure/AutoConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/autoconfigure/RedissonAutoConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/classes/seek/util/db/redis/util/autoconfigure/RedissonAutoConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/redis-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/redis-util-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/redis-util-2.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/db/redis-util/target/redis-util-2.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/target/classes/seek/util/mq/kafka/util/KafkaConfig$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/target/classes/seek/util/mq/kafka/util/KafkaConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/target/classes/seek/util/mq/kafka/util/KafkaUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/target/classes/seek/util/mq/kafka/util/TopicUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/target/classes/seek/util/mq/kafka/util/config/auto/UtilAutoConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/target/kafka-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/target/kafka-util-2.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/kafka-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/mq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/autoconfigure/UtilAutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/autoconfigure/UtilAutoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/config/ConverterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/config/ConverterConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/config/ErrorExchangeConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/config/ErrorExchangeConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/config/PropertiesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/config/PropertiesConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/util/MQUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/util/MQUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/util/QueueUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/util/QueueUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/util/QuickRegisterUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/util/QuickRegisterUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/config/ConverterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/configuration/ConverterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/config/ErrorExchangeConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/configuration/ErrorExchangeConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/config/MessageReturnCallBackConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/configuration/MessageReturnCallBackConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/config/PropertiesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/configuration/PropertiesConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/enums/BeanName.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/enums/BeanName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/util/QuickRegisterUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/java/seek/util/mq/rabbitmq/util/util/RegisterUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/seek/util/mq/rabbitmq/util/Config/ErrorExchangeConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/seek/util/mq/rabbitmq/util/Config/ErrorExchangeConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/seek/util/mq/rabbitmq/util/Config/PropertiesConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/seek/util/mq/rabbitmq/util/Config/PropertiesConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/seek/util/mq/rabbitmq/util/Config/auto/UtilAutoConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/seek/util/mq/rabbitmq/util/CorrleationUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/seek/util/mq/rabbitmq/util/MQUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/seek/util/mq/rabbitmq/util/QueueUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/seek/util/mq/rabbitmq/util/QuickRegisterUtil$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/seek/util/mq/rabbitmq/util/QuickRegisterUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/seek/util/mq/rabbitmq/util/autoconfigure/UtilAutoConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/seek/util/mq/rabbitmq/util/autoconfigure/UtilAutoConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/seek/util/mq/rabbitmq/util/util/QuickRegisterUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/classes/seek/util/mq/rabbitmq/util/util/QuickRegisterUtil.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/rabbitmq-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/rabbitmq-util-2.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/rabbitmq-util-2.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rabbitmq-util/target/rabbitmq-util-2.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/classes/seek/util/mq/rocketmq/util/BizStore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/classes/seek/util/mq/rocketmq/util/DefaultTransactionListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/classes/seek/util/mq/rocketmq/util/ProducerUtil$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/classes/seek/util/mq/rocketmq/util/ProducerUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/classes/seek/util/mq/rocketmq/util/config/auto/UtilAutoConfig.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/rocketmq-util-2.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/mq/rocketmq-util/target/rocketmq-util-2.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/web/jwt-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/jwt-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/web/jwt-util/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/jwt-util/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/web/jwt-util/target/classes/seek/util/web/jwt/util/JWTUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/web/jwt-util/target/classes/seek/util/web/jwt/util/TokenUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/web/jwt-util/target/classes/seek/util/web/jwt/util/config/auto/UtilAutoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util-root-parent/web/jwt-util/target/jwt-util-2.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/jwt-util/target/jwt-util-2.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/web/jwt-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/jwt-util/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/web/jwt-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/jwt-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/web/jwt-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/jwt-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/web/web-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/web-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/web/web-util/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/web-util/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/web/web-util/target/classes/seek/util/web/web/util/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/web-util/target/classes/seek/util/web/web/util/config/WebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/web/web-util/target/classes/seek/util/web/web/util/file/WebFileSave.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/web/web-util/target/classes/seek/util/web/web/util/handler/GlobalRequestExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/web/web-util/target/classes/seek/util/web/web/util/interceptor/TokenInterceptor.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/util-root-parent/web/web-util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/web-util/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/web/web-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/web-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util-root-parent/web/web-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util-root-parent/web/web-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,61 +124,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="8.860069489440228E-232" />
-      <entry key="S2" value="1.725278784985651E-58" />
-      <entry key="S5" value="7.847723856500966E-24" />
-      <entry key="S10" value="2.8013865002112203E-12" />
-      <entry key="S30" value="1.4400724574732495E-4" />
-      <entry key="S60" value="0.014332465423046179" />
-      <entry key="M2" value="0.18145257600656503" />
-      <entry key="M5" value="1.1425951877092508" />
-      <entry key="M10" value="3.529345236451785" />
-      <entry key="M15" value="6.928339448281374" />
-      <entry key="M30" value="18.98534525755009" />
-      <entry key="H1" value="43.59178532443702" />
-      <entry key="H2" value="98.54110855240968" />
-      <entry key="H4" value="240.58298896286445" />
-      <entry key="D1" value="1387.4636378829518" />
-      <entry key="W1" value="2197.552741063779" />
-    </decayedCancelled>
-    <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
       <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000019826192" />
-      <entry key="S10" value="1.0000473805147483" />
-      <entry key="S30" value="1.0731897352753652" />
-      <entry key="S60" value="1.6173793874378348" />
-      <entry key="M2" value="2.9613601338132773" />
-      <entry key="M5" value="5.55806804669818" />
-      <entry key="M10" value="10.162634799519992" />
-      <entry key="M15" value="17.163495158918703" />
-      <entry key="M30" value="42.430861705774255" />
-      <entry key="H1" value="89.69237111958927" />
-      <entry key="H2" value="173.31924862184906" />
-      <entry key="H4" value="325.03227228325505" />
-      <entry key="D1" value="1293.8254915293187" />
-      <entry key="W1" value="1969.3361840663167" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0000000000000016" />
+      <entry key="M2" value="1.0000000580236907" />
+      <entry key="M5" value="1.0041927483231496" />
+      <entry key="M10" value="1.2698526128750707" />
+      <entry key="M15" value="2.200928177298622" />
+      <entry key="M30" value="7.934320903917033" />
+      <entry key="H1" value="25.699104695019173" />
+      <entry key="H2" value="71.91507091296585" />
+      <entry key="H4" value="196.8583390176268" />
+      <entry key="D1" value="1342.7370288082195" />
+      <entry key="W1" value="2225.6825899896007" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="2.522295688842835E-179" />
+      <entry key="S10" value="9.893692429780484E-90" />
+      <entry key="S30" value="5.487903283865211E-30" />
+      <entry key="S60" value="4.954511280499517E-15" />
+      <entry key="M2" value="1.5778147925561926E-7" />
+      <entry key="M5" value="0.006746037542315517" />
+      <entry key="M10" value="0.32132366476358515" />
+      <entry key="M15" value="1.3318215503571686" />
+      <entry key="M30" value="8.103080410874844" />
+      <entry key="H1" value="34.22136742233747" />
+      <entry key="H2" value="104.78619188323829" />
+      <entry key="H4" value="253.2307331734829" />
+      <entry key="D1" value="1256.2466490800905" />
+      <entry key="W1" value="2000.6891257467685" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.003773188784862677" />
-      <entry key="MS500" value="0.32759835096459083" />
-      <entry key="S2" value="0.7565461521277749" />
-      <entry key="S5" value="0.8944049025666797" />
-      <entry key="S10" value="0.9457604259161614" />
-      <entry key="S30" value="1.0487782403525552" />
-      <entry key="S60" value="1.6023819132995532" />
-      <entry key="M2" value="3.1091555033081444" />
-      <entry key="M5" value="6.670120787922229" />
-      <entry key="M10" value="13.663708356942172" />
-      <entry key="M15" value="24.06259038683409" />
-      <entry key="M30" value="61.384239891045425" />
-      <entry key="H1" value="133.25237215110727" />
-      <entry key="H2" value="271.8301854569711" />
-      <entry key="H4" value="565.5857419684902" />
-      <entry key="D1" value="2681.2671034763925" />
-      <entry key="W1" value="4166.8840420568695" />
+      <entry key="MS100" value="0.6830201283771977" />
+      <entry key="MS500" value="0.9265880618903709" />
+      <entry key="S2" value="0.9811189749983187" />
+      <entry key="S5" value="0.9924043746858185" />
+      <entry key="S10" value="0.9961949481330542" />
+      <entry key="S30" value="0.9987300372550454" />
+      <entry key="S60" value="0.9993648168987431" />
+      <entry key="M2" value="0.999682573145408" />
+      <entry key="M5" value="1.0107927306349667" />
+      <entry key="M10" value="1.5904562270974045" />
+      <entry key="M15" value="3.5304856341978197" />
+      <entry key="M30" value="16.02859529308408" />
+      <entry key="H1" value="59.90230980759345" />
+      <entry key="H2" value="176.67682837440935" />
+      <entry key="H4" value="450.0618110848272" />
+      <entry key="D1" value="2598.961427099687" />
+      <entry key="W1" value="4226.366627223675" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -297,74 +195,76 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.CommonUtil [clean].executor": "Run",
-    "Maven.ConfigObject [deploy].executor": "Run",
-    "Maven.RabbitMQUtil [clean].executor": "Run",
-    "Maven.RabbitMQUtil [deploy].executor": "Run",
-    "Maven.RedisUtil [deploy].executor": "Run",
-    "Maven.SeekUtil [clean].executor": "Run",
-    "Maven.SeekUtil [deploy].executor": "Run",
-    "Maven.ai [clean].executor": "Run",
-    "Maven.ai-bom [clean].executor": "Run",
-    "Maven.ai-bom [deploy].executor": "Run",
-    "Maven.bom [deploy].executor": "Run",
-    "Maven.cloud-bom [clean].executor": "Run",
-    "Maven.cloud-bom [deploy].executor": "Run",
-    "Maven.common [clean].executor": "Run",
-    "Maven.common-bom [clean].executor": "Run",
-    "Maven.common-bom [deploy].executor": "Run",
-    "Maven.config-object [deploy].executor": "Run",
-    "Maven.db-bom [deploy].executor": "Run",
-    "Maven.event-respond-system [clean].executor": "Run",
-    "Maven.event-respond-system [deploy].executor": "Run",
-    "Maven.langchain4j-util [deploy].executor": "Run",
-    "Maven.mq-bom [deploy].executor": "Run",
-    "Maven.rabbitmq-util [deploy].executor": "Run",
-    "Maven.redis-util [deploy].executor": "Run",
-    "Maven.rocketmq-util [deploy].executor": "Run",
-    "Maven.seek-root-parent [clean].executor": "Run",
-    "Maven.seek-root-parent [deploy].executor": "Run",
-    "Maven.seek-root-parent [org.codehaus.mojo:versions-maven-plugin:2.16.2:set].executor": "Run",
-    "Maven.seek-util [clean].executor": "Run",
-    "Maven.seek-util [deploy].executor": "Run",
-    "Maven.seek-util [org.codehaus.mojo:versions-maven-plugin:2.16.2:commit].executor": "Run",
-    "Maven.seek-util [org.codehaus.mojo:versions-maven-plugin:2.16.2:set].executor": "Run",
-    "Maven.web-bom [deploy].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/seek-util/util-root-parent/cloud/sentinel-util/src/main/java/seek/util/cloud/sentinel/util/autoconfigure",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Projects/SeekUtil/OSSUtil/src/main/java/com/seek/util/Main.java",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.CommonUtil [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ConfigObject [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.RabbitMQUtil [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.RabbitMQUtil [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.RedisUtil [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.SeekUtil [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.SeekUtil [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ai [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ai-bom [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ai-bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bean-register-util [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bean-register-util [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-bom [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common-bom [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common-bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.config-object [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.db-bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.event-respond-system [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.event-respond-system [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.langchain4j-util [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mq-bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rabbitmq-util [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.redis-util [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rocketmq-util [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.seek-root-parent [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.seek-root-parent [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.seek-root-parent [org.codehaus.mojo:versions-maven-plugin:2.16.2:set].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.seek-util [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.seek-util [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.seek-util [org.codehaus.mojo:versions-maven-plugin:2.16.2:commit].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.seek-util [org.codehaus.mojo:versions-maven-plugin:2.16.2:set].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.web-bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/seek-util/util-root-parent/common/bean-register-util/src/main/resources/META-INF&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Projects/SeekUtil/OSSUtil/src/main/java/com/seek/util/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件": [
-      "TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件&quot;: [
+      &quot;TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\seek-util\util-root-parent\common\bean-register-util\src\main\resources\META-INF" />
+      <recent name="D:\Projects\seek-util\util-root-parent\common\bean-register-util\src\main\java" />
       <recent name="D:\Projects\seek-util\util-root-parent\cloud\sentinel-util\src\main\java\seek\util\cloud\sentinel\util\autoconfigure" />
       <recent name="D:\Projects\seek-util\util-root-parent\web\jwt-util\src\main\java\seek\util\web\jwt\util" />
       <recent name="D:\Projects\seek-util\util-root-parent\mq\rocketmq-util\src\main\java\seek\util\mq\rocketmq\util" />
-      <recent name="D:\Projects\seek-util\util-root-parent\mq\rabbitmq-util\src\main\java\seek\util\mq\rabbitmq\util" />
-      <recent name="D:\Projects\seek-util\util-root-parent\mq\kafka-util\src\main\java\seek\util\mq\kafka\util" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\seek-util\seek-root-parentt" />
@@ -374,11 +274,11 @@
       <recent name="D:\Projects\seek-util\seek-bom\bom" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="seek.util.common.bean.register.util.util" />
       <recent name="seek.util.common.ali.oss.util.autoconfigure" />
       <recent name="seek.util.cloud.gateway.util.autoconfigure" />
       <recent name="seek.util.ai.spring.ai.util.config" />
       <recent name="com.seek.util.configobject.UtilObject.Function" />
-      <recent name="com.seek.util.commonutil" />
     </key>
   </component>
   <component name="RunManager">

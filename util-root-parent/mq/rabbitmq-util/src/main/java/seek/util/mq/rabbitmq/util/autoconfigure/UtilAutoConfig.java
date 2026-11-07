@@ -1,20 +1,17 @@
 package seek.util.mq.rabbitmq.util.autoconfigure;
 
-import seek.util.mq.rabbitmq.util.config.ConverterConfig;
-import seek.util.mq.rabbitmq.util.config.ErrorExchangeConfig;
-import seek.util.mq.rabbitmq.util.config.MessageReturnCallBackConfig;
-import seek.util.mq.rabbitmq.util.config.PropertiesConfig;
-import seek.util.mq.rabbitmq.util.enums.BeanName;
+import seek.util.mq.rabbitmq.util.configuration.ConverterConfig;
+import seek.util.mq.rabbitmq.util.configuration.ErrorExchangeConfig;
+import seek.util.mq.rabbitmq.util.configuration.MessageReturnCallBackConfig;
+import seek.util.mq.rabbitmq.util.configuration.PropertiesConfig;
 import seek.util.mq.rabbitmq.util.util.CorrleationUtil;
 import seek.util.mq.rabbitmq.util.util.MQUtil;
 import seek.util.mq.rabbitmq.util.util.QueueUtil;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Lazy;
-import seek.util.mq.rabbitmq.util.util.QuickRegisterUtil;
+import seek.util.mq.rabbitmq.util.util.RegisterUtil;
 
-@Configuration
+//@Configuration
 public class UtilAutoConfig {
 
     @Bean
@@ -30,8 +27,8 @@ public class UtilAutoConfig {
         return new QueueUtil();
     }
     @Bean
-    public QuickRegisterUtil quickRegisterUtil(QueueUtil queueUtil) {
-        return new QuickRegisterUtil(queueUtil);
+    public RegisterUtil quickRegisterUtil(QueueUtil queueUtil) {
+        return new RegisterUtil(queueUtil);
     }
     @Bean
     public PropertiesConfig propertiesConfig(){

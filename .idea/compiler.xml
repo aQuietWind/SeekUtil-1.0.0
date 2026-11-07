@@ -9,6 +9,7 @@
         <module name="ali-oss-util" />
         <module name="rocketmq-util" />
         <module name="common-util" />
+        <module name="bean-register-util" />
         <module name="kafka-util" />
         <module name="seek-bom" />
         <module name="spring-ai-util" />
@@ -50,6 +51,7 @@
       <module name="ai-bom" options="" />
       <module name="ai-dependencies-bom" options="-parameters" />
       <module name="ali-oss-util" options="-parameters" />
+      <module name="bean-register-util" options="-parameters" />
       <module name="caffeine-util" options="-parameters" />
       <module name="cloud" options="" />
       <module name="cloud-bom" options="" />

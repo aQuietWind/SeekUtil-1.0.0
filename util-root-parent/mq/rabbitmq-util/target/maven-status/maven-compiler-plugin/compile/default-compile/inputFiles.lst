@@ -1,3 +1,4 @@
+D:\Projects\seek-util\util-root-parent\mq\rabbitmq-util\src\main\java\seek\util\mq\rabbitmq\util\autoconfigure\AutoConfig.java
 D:\Projects\seek-util\util-root-parent\mq\rabbitmq-util\src\main\java\seek\util\mq\rabbitmq\util\autoconfigure\UtilAutoConfig.java
 D:\Projects\seek-util\util-root-parent\mq\rabbitmq-util\src\main\java\seek\util\mq\rabbitmq\util\config\ConverterConfig.java
 D:\Projects\seek-util\util-root-parent\mq\rabbitmq-util\src\main\java\seek\util\mq\rabbitmq\util\config\ErrorExchangeConfig.java
@@ -7,4 +8,5 @@ D:\Projects\seek-util\util-root-parent\mq\rabbitmq-util\src\main\java\seek\util\
 D:\Projects\seek-util\util-root-parent\mq\rabbitmq-util\src\main\java\seek\util\mq\rabbitmq\util\util\CorrleationUtil.java
 D:\Projects\seek-util\util-root-parent\mq\rabbitmq-util\src\main\java\seek\util\mq\rabbitmq\util\util\MQUtil.java
 D:\Projects\seek-util\util-root-parent\mq\rabbitmq-util\src\main\java\seek\util\mq\rabbitmq\util\util\QueueUtil.java
-D:\Projects\seek-util\util-root-parent\mq\rabbitmq-util\src\main\java\seek\util\mq\rabbitmq\util\util\QuickRegisterUtil.java
+D:\Projects\seek-util\util-root-parent\mq\rabbitmq-util\src\main\java\seek\util\mq\rabbitmq\util\util\RabbitDeclarationProvider.java
+D:\Projects\seek-util\util-root-parent\mq\rabbitmq-util\src\main\java\seek\util\mq\rabbitmq\util\util\RegisterUtil.java

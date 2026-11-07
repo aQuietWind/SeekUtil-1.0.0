@@ -6,7 +6,7 @@
     <parent>
         <groupId>seek.util</groupId>
         <artifactId>seek-util</artifactId>
-        <version>2.1-SNAPSHOT</version>
+        <version>2.1.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
