@@ -1,5 +1,6 @@
 package seek.util.ai.spring.ai.util.support;
 
+import jakarta.annotation.Nonnull;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.chat.client.ChatClientRequest;
 import org.springframework.ai.chat.client.ChatClientResponse;
@@ -12,7 +13,7 @@ public class AiLogAdvisor implements CallAdvisor {
   
   
     @Override  
-    public ChatClientResponse adviseCall( ChatClientRequest request, CallAdvisorChain chain) {
+    public ChatClientResponse adviseCall(ChatClientRequest request, @Nonnull CallAdvisorChain chain) {
         StringBuilder sb = new StringBuilder();  
         for (Message msg : request.prompt().getInstructions()) {  
             sb.append("\n[").append(msg.getMessageType()).append("] ").append(msg.getText());  

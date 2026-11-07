@@ -1,0 +1,7 @@
+seek:
+  util:
+    sentinel:
+      config:
+        al-service-api-name: allServiceApi
+        authority:
+          request-header-name: x-sentinel-authority

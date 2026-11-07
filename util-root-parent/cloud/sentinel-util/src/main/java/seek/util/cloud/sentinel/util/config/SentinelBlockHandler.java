@@ -1,4 +1,4 @@
-package seek.util.cloud.sentinel.util;
+package seek.util.cloud.sentinel.util.config;
 
 import com.alibaba.csp.sentinel.adapter.spring.webmvc.callback.BlockExceptionHandler;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
@@ -17,9 +17,6 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 
 //用于请求被Sentinel拒绝时返回可视化信息
-@Component
-// 仅普通Servlet微服务生效，WebFlux网关不会实例化这个类
-@ConditionalOnWebApplication(type = ConditionalOnWebApplication.Type.SERVLET)
 public class SentinelBlockHandler implements BlockExceptionHandler {
     private static final ObjectMapper objectMapper = new ObjectMapper();
 

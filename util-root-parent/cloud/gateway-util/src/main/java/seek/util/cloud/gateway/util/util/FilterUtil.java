@@ -1,4 +1,4 @@
-package seek.util.cloud.gateway.util;
+package seek.util.cloud.gateway.util.util;
 
 import com.google.gson.Gson;
 import seek.util.common.config.object.common.common.object.dto.Result;
