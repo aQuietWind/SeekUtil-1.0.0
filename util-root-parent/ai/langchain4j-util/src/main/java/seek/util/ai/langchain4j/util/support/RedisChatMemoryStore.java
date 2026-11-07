@@ -12,6 +12,7 @@ import dev.langchain4j.store.memory.chat.ChatMemoryStore;
 import java.util.List;
 
 //该存储方式不应该支持多模态,如图片音乐等等
+//redis记忆存储会话
 public class RedisChatMemoryStore implements ChatMemoryStore {
 
     private final RedisUtil redisUtil;
@@ -34,7 +35,7 @@ public class RedisChatMemoryStore implements ChatMemoryStore {
     public void updateMessages(Object memoryId, List<ChatMessage> messages) {
         if(memoryId==null) return;
         String json = ChatMessageSerializer.messagesToJson(messages);
-        redisUtil.trySetStringWithExpire(redisKey,memoryId, json);
+        redisUtil.justSetStringWithExpire(redisKey,memoryId, json);
     }
 
     @Override

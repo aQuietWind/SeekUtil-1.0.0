@@ -33,6 +33,7 @@
     <file url="file://$PROJECT_DIR$/db/mongodb-util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db/mybatis-plus-util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/db/redis-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gather/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mq/kafka-util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mq/rabbitmq-util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mq/rocketmq-util/src/main/java" charset="UTF-8" />

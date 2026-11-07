@@ -1,0 +1,4 @@
+seek\util\db\elasticsearch\util\config\auto\UtilAutoConfig.class
+seek\util\db\elasticsearch\util\EsUpdateUtil.class
+seek\util\db\elasticsearch\util\config\EsConfig.class
+seek\util\db\elasticsearch\util\EsSearchUtil.class

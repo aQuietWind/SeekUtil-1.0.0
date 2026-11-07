@@ -18,6 +18,7 @@
         <module name="event-respond-system" />
         <module name="rabbitmq-util" />
         <module name="elasticsearch-util" />
+        <module name="gather" />
         <module name="langchain4j-util" />
         <module name="jwt-util" />
         <module name="redis-util" />
@@ -65,6 +66,7 @@
       <module name="event-respond-system" options="-parameters" />
       <module name="feign-util" options="-parameters" />
       <module name="gateway-util" options="-parameters" />
+      <module name="gather" options="-parameters" />
       <module name="jwt-util" options="-parameters" />
       <module name="kafka-util" options="-parameters" />
       <module name="langchain4j-util" options="-parameters" />

@@ -1,0 +1,5 @@
+seek\util\ai\langchain4j\util\autoconfigure\AutoConfig.class
+seek\util\ai\langchain4j\util\util\ChatUtil.class
+seek\util\ai\langchain4j\util\config\PropertiesConfig$RedisSessionMemory.class
+seek\util\ai\langchain4j\util\config\PropertiesConfig.class
+seek\util\ai\langchain4j\util\support\RedisChatMemoryStore.class

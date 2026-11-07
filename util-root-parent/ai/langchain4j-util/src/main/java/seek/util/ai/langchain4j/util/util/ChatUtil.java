@@ -24,11 +24,7 @@ public class ChatUtil {
     }
 
     public AiMessage chatWithContent(List<ChatMessage> messages, Content ... userContents) {
-        UserMessage msg=new UserMessage();
-        //添加消息
-        for (Content content : userContents) {
-            if (content != null) msg.contents().add(content);
-        }
+        UserMessage msg=new UserMessage(userContents);
         if (messages != null) {
             messages.add(msg);
             return chatModel.chat(messages).aiMessage();
