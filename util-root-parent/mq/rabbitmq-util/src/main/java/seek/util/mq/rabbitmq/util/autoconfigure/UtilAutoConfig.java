@@ -1,13 +1,13 @@
-package seek.util.mq.rabbitmq.util.config.auto;
+package seek.util.mq.rabbitmq.util.autoconfigure;
 
-import seek.util.mq.rabbitmq.util.CorrleationUtil;
-import seek.util.mq.rabbitmq.util.MQUtil;
-import seek.util.mq.rabbitmq.util.QueueUtil;
+import seek.util.mq.rabbitmq.util.util.CorrleationUtil;
+import seek.util.mq.rabbitmq.util.util.MQUtil;
+import seek.util.mq.rabbitmq.util.util.QueueUtil;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Lazy;
-import seek.util.mq.rabbitmq.util.QuickRegisterUtil;
+import seek.util.mq.rabbitmq.util.util.QuickRegisterUtil;
 
 @Configuration
 public class UtilAutoConfig {

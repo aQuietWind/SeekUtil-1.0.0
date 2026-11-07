@@ -1,4 +1,4 @@
-package seek.util.mq.kafka.util;
+package seek.util.mq.kafka.util.util;
 
 import seek.util.common.config.object.mq.kafka.TopicData;
 import org.apache.kafka.clients.admin.NewTopic;

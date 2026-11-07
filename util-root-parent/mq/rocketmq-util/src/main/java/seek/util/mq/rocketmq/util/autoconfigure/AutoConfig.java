@@ -1,15 +1,15 @@
-package seek.util.mq.rocketmq.util.config.auto;
+package seek.util.mq.rocketmq.util.autoconfigure;
 
-import seek.util.mq.rocketmq.util.BizStore;
-import seek.util.mq.rocketmq.util.DefaultTransactionListener;
-import seek.util.mq.rocketmq.util.ProducerUtil;
+import seek.util.mq.rocketmq.util.support.BizStore;
+import seek.util.mq.rocketmq.util.support.DefaultTransactionListener;
+import seek.util.mq.rocketmq.util.util.ProducerUtil;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Lazy;
 
 @Configuration
-public class UtilAutoConfig {
+public class AutoConfig {
     @Bean
     @Lazy
     public BizStore bizStore() {

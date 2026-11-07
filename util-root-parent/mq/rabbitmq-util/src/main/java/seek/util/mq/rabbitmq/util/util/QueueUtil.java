@@ -1,4 +1,4 @@
-package seek.util.mq.rabbitmq.util;
+package seek.util.mq.rabbitmq.util.util;
 
 import seek.util.common.config.object.mq.rabbitmq.QueueData;
 import org.springframework.amqp.core.Queue;

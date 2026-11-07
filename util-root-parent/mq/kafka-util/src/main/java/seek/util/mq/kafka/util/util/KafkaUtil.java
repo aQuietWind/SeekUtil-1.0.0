@@ -1,4 +1,4 @@
-package seek.util.mq.kafka.util;
+package seek.util.mq.kafka.util.util;
 
 import seek.util.common.config.object.common.common.object.exception.BizException;
 import seek.util.common.config.object.common.common.object.function.RunWithParam;

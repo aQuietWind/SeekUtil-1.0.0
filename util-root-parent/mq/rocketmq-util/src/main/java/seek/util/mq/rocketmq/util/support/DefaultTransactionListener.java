@@ -1,4 +1,4 @@
-package seek.util.mq.rocketmq.util;
+package seek.util.mq.rocketmq.util.support;
 
 import seek.util.common.config.object.common.common.object.function.RunWithReturnFunction;
 import seek.util.common.config.object.common.common.object.function.RunWithReturnParamFunction;

@@ -1,4 +1,4 @@
-package seek.util.mq.rocketmq.util;
+package seek.util.mq.rocketmq.util.util;
 
 import seek.util.common.config.object.common.common.object.exception.BizException;
 import seek.util.common.config.object.common.common.object.function.RunWithParam;
@@ -13,6 +13,7 @@ import org.apache.rocketmq.spring.core.RocketMQTemplate;
 import org.apache.rocketmq.spring.support.RocketMQHeaders;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.support.MessageBuilder;
+import seek.util.mq.rocketmq.util.support.BizStore;
 
 import java.util.ArrayList;
 import java.util.List;

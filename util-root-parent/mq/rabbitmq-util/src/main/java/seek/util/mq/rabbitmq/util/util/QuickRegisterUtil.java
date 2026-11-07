@@ -1,4 +1,4 @@
-package seek.util.mq.rabbitmq.util;
+package seek.util.mq.rabbitmq.util.util;
 
 import jakarta.annotation.Nonnull;
 import org.springframework.amqp.core.*;
