@@ -1,6 +1,0 @@
-seek:
-  util:
-    web:
-      config:
-        interceptor:
-          request-header-token-id-name: ${common.jwt.global.request-header-token-id-name}

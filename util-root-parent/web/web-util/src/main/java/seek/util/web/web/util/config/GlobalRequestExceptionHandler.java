@@ -1,4 +1,4 @@
-package seek.util.web.web.util.handler;
+package seek.util.web.web.util.config;
 
 import seek.util.common.config.object.common.common.object.dto.Result;
 import seek.util.common.config.object.common.common.object.exception.BizException;

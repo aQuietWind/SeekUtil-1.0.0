@@ -1,6 +1,5 @@
 package seek.util.web.web.util.config;
 
-import seek.util.web.web.util.interceptor.TokenInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
 import org.springframework.context.annotation.Configuration;

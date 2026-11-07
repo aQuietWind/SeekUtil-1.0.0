@@ -1,4 +1,4 @@
-package seek.util.web.jwt.util;
+package seek.util.web.jwt.util.util;
 
 import seek.util.common.config.object.web.jwt.JWTGlobalData;
 import seek.util.common.config.object.web.jwt.JWTRoleData;

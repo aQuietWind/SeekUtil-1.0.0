@@ -1,4 +1,4 @@
-package seek.util.web.web.util.file;
+package seek.util.web.web.util.util;
 
 import seek.util.common.config.object.common.common.object.exception.BizException;
 import seek.util.common.config.object.common.common.object.exception.ErrorCodeEnum;
